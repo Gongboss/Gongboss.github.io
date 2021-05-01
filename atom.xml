@@ -42,9 +42,9 @@
     <category term="随记" scheme="http://example.com/categories/%E9%9A%8F%E8%AE%B0/"/>
     
     
-    <category term="媒体" scheme="http://example.com/tags/%E5%AA%92%E4%BD%93/"/>
-    
     <category term="诗词" scheme="http://example.com/tags/%E8%AF%97%E8%AF%8D/"/>
+    
+    <category term="媒体" scheme="http://example.com/tags/%E5%AA%92%E4%BD%93/"/>
     
     <category term="月" scheme="http://example.com/tags/%E6%9C%88/"/>
     
@@ -78,9 +78,9 @@
     <category term="天工开物" scheme="http://example.com/categories/%E5%A4%A9%E5%B7%A5%E5%BC%80%E7%89%A9/"/>
     
     
-    <category term="媒体" scheme="http://example.com/tags/%E5%AA%92%E4%BD%93/"/>
-    
     <category term="诗词" scheme="http://example.com/tags/%E8%AF%97%E8%AF%8D/"/>
+    
+    <category term="媒体" scheme="http://example.com/tags/%E5%AA%92%E4%BD%93/"/>
     
   </entry>
   
