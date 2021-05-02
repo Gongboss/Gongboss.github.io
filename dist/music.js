@@ -9,7 +9,7 @@ const ap = new APlayer({
     mini: true,
     preload: 'auto',
     mutex: true,
-    orderz: 'random'
+    orderz: 'random',
     audio: [
         {
             name: '犹记多情·变调',
