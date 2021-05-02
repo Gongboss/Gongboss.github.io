@@ -26,6 +26,46 @@
       </tags>
   </entry>
   <entry>
+    <title>双剑合璧</title>
+    <url>/2021/05/01/%E5%8F%8C%E5%89%91%E5%90%88%E7%92%A7/</url>
+    <content><![CDATA[<p>这是我去年暑假做的视频了。</p>
+<p>双剑一名“天河”，一名“菱纱”，有诗云：</p>
+<blockquote>
+<p>涛山阻绝秦帝船，</p>
+<p>汉宫彻夜捧金盘。</p>
+<p>玉肌枉然生白骨，</p>
+<p>不如剑啸易水寒。</p>
+</blockquote>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Adding HTML5 Video</title>
+  </head>
+  <body>
+    <video 
+      src="images/制剑.mp4" 
+      poster="https://i.loli.net/2021/05/01/VQOPcNWZH3fmEws.jpg"
+      width="900" 
+      height="600"
+      preload="auto"     
+      controls>
+      <p>A video of snow in WHU</p>
+    </video>
+  </body>
+</html>
+
+<p>可惜呵，当时那种“生尽欢，死无憾”的潇洒心态如今在我身上早已寻不到半点影子了。</p>
+]]></content>
+      <categories>
+        <category>天工开物</category>
+      </categories>
+      <tags>
+        <tag>诗词</tag>
+        <tag>媒体</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>屯</title>
     <url>/2021/05/02/%E5%8D%95%E7%89%87%E6%9C%BA/</url>
     <content><![CDATA[<p>想不到啊，熬过了矩阵，啃下了按键，竟然被卡在了外部中断上！</p>
@@ -41,51 +81,6 @@
       </categories>
       <tags>
         <tag>单片机</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>城</title>
-    <url>/2021/04/04/%E5%9F%8E/</url>
-    <content><![CDATA[<p><img src="https://i.loli.net/2021/04/04/ewdPqm79kr4o6hp.jpg" alt="秀容古城"></p>
-<p>年代：东汉</p>
-<p>称号：“南绛北代，忻州不赖”</p>
-<p>​            “文集九原，雅出秀容”</p>
-<p>​            “晋北锁钥，三关总要”</p>
-]]></content>
-      <categories>
-        <category>家乡</category>
-      </categories>
-      <tags>
-        <tag>家乡</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>女曰鸡鸣</title>
-    <url>/2021/05/01/%E5%A5%B3%E6%9B%B0%E9%B8%A1%E9%B8%A3/</url>
-    <content><![CDATA[<blockquote>
-<p>女曰：“鸡鸣。“</p>
-<p>士曰：“昧旦。”</p>
-<p>“子兴视夜，明星有烂。”</p>
-<p>“将翱将翔，弋凫与雁。”     </p>
-<p>“弋言加之，与子宜之。</p>
-<p>宜言饮酒，与子偕老。</p>
-<p>琴瑟在御，莫不静好。”  </p>
-<p>知子之来之，杂佩以赠之。</p>
-<p>知子之顺之，杂佩以问之。</p>
-<p>知子之好之，杂佩以报之。   </p>
-</blockquote>
-<p>这正是我向往的未来生活啊！</p>
-<p>比起闻一多先生说是新婚，我更希望是日常。</p>
-<p>人生要进取，但生活还是平淡些好。</p>
-<p>尤喜首段。</p>
-<p><img src="https://i.loli.net/2021/05/01/tTHgdf4GLncAXoF.jpg"></p>
-<p>​                                                                                                       <em>4月19日于校</em></p>
-]]></content>
-      <categories>
-        <category>随记</category>
-      </categories>
-      <tags>
-        <tag>诗词</tag>
       </tags>
   </entry>
   <entry>
@@ -154,43 +149,48 @@
       </tags>
   </entry>
   <entry>
-    <title>双剑合璧</title>
-    <url>/2021/05/01/%E5%8F%8C%E5%89%91%E5%90%88%E7%92%A7/</url>
-    <content><![CDATA[<p>这是我去年暑假做的视频了。</p>
-<p>双剑一名“天河”，一名“菱纱”，有诗云：</p>
-<blockquote>
-<p>涛山阻绝秦帝船，</p>
-<p>汉宫彻夜捧金盘。</p>
-<p>玉肌枉然生白骨，</p>
-<p>不如剑啸易水寒。</p>
-</blockquote>
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Adding HTML5 Video</title>
-  </head>
-  <body>
-    <video 
-      src="images/制剑.mp4" 
-      poster="https://i.loli.net/2021/05/01/VQOPcNWZH3fmEws.jpg"
-      width="900" 
-      height="600"
-      preload="auto"     
-      controls>
-      <p>A video of snow in WHU</p>
-    </video>
-  </body>
-</html>
-
-<p>可惜呵，当时那种“生尽欢，死无憾”的潇洒心态如今在我身上早已寻不到半点影子了。</p>
+    <title>城</title>
+    <url>/2021/04/04/%E5%9F%8E/</url>
+    <content><![CDATA[<p><img src="https://i.loli.net/2021/04/04/ewdPqm79kr4o6hp.jpg" alt="秀容古城"></p>
+<p>年代：东汉</p>
+<p>称号：“南绛北代，忻州不赖”</p>
+<p>​            “文集九原，雅出秀容”</p>
+<p>​            “晋北锁钥，三关总要”</p>
 ]]></content>
       <categories>
-        <category>天工开物</category>
+        <category>家乡</category>
+      </categories>
+      <tags>
+        <tag>家乡</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>女曰鸡鸣</title>
+    <url>/2021/05/01/%E5%A5%B3%E6%9B%B0%E9%B8%A1%E9%B8%A3/</url>
+    <content><![CDATA[<blockquote>
+<p>女曰：“鸡鸣。“</p>
+<p>士曰：“昧旦。”</p>
+<p>“子兴视夜，明星有烂。”</p>
+<p>“将翱将翔，弋凫与雁。”     </p>
+<p>“弋言加之，与子宜之。</p>
+<p>宜言饮酒，与子偕老。</p>
+<p>琴瑟在御，莫不静好。”  </p>
+<p>知子之来之，杂佩以赠之。</p>
+<p>知子之顺之，杂佩以问之。</p>
+<p>知子之好之，杂佩以报之。   </p>
+</blockquote>
+<p>这正是我向往的未来生活啊！</p>
+<p>比起闻一多先生说是新婚，我更希望是日常。</p>
+<p>人生要进取，但生活还是平淡些好。</p>
+<p>尤喜首段。</p>
+<p><img src="https://i.loli.net/2021/05/01/tTHgdf4GLncAXoF.jpg"></p>
+<p>​                                                                                                       <em>4月19日于校</em></p>
+]]></content>
+      <categories>
+        <category>随记</category>
       </categories>
       <tags>
         <tag>诗词</tag>
-        <tag>媒体</tag>
       </tags>
   </entry>
   <entry>
