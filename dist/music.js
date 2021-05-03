@@ -28,7 +28,7 @@ const ap = new APlayer({
         {
             name: '雪暖晴岚',
             artist: '骆集益&&周志华',
-            url: 'http://m10.music.126.net/20210502214134/8cd8f0b80eb072396192fe7eefd56345/ymusic/3ccf/c518/5145/e4efea5a6e46996e84c0cb6f022adc43.mp3',
+            url: 'https://sharefs.yun.kugou.com/202105031219/6aebac69db7cc6123512d1198c419615/G146/M08/06/15/0g0DAFvOsF-AUM05AB3RE3gVkqY640.mp3',
             cover: 'images/晴雪苏苏.png',
             theme: '#ebd0c2'
         },
