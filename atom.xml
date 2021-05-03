@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-05-03T04:22:50.366Z</updated>
+  <updated>2021-05-03T05:17:28.398Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>手滑妙方</title>
+    <link href="http://example.com/2021/05/03/%E5%86%99%E4%BB%A3%E7%A0%81%E6%97%B6%E6%80%BB%E6%98%AF%E6%89%8B%E6%BB%91/"/>
+    <id>http://example.com/2021/05/03/%E5%86%99%E4%BB%A3%E7%A0%81%E6%97%B6%E6%80%BB%E6%98%AF%E6%89%8B%E6%BB%91/</id>
+    <published>2021-05-03T05:15:35.828Z</published>
+    <updated>2021-05-03T05:17:28.398Z</updated>
+    
+    <content type="html"><![CDATA[<p>##写代码时总是手滑把main写成mian怎么办？</p><p>每次写代码前加入如下内容：</p><figure class="highlight vala"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#difine mian main</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#difine ture true</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#difine flase false</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#define viod void</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#define （ (</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#define ）)</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#define ， ,</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#define ； ;</span></span><br></pre></td></tr></table></figure><p>妙啊</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;##写代码时总是手滑把main写成mian怎么办？&lt;/p&gt;
+&lt;p&gt;每次写代码前加入如下内容：&lt;/p&gt;
+&lt;figure class=&quot;highlight vala&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1</summary>
+      
+    
+    
+    
+    <category term="转载" scheme="http://example.com/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+    <category term="-笑话" scheme="http://example.com/tags/%E7%AC%91%E8%AF%9D/"/>
+    
+  </entry>
   
   <entry>
     <title>不念过往，不畏将来</title>
@@ -124,9 +150,9 @@
     <category term="随记" scheme="http://example.com/categories/%E9%9A%8F%E8%AE%B0/"/>
     
     
-    <category term="媒体" scheme="http://example.com/tags/%E5%AA%92%E4%BD%93/"/>
-    
     <category term="诗词" scheme="http://example.com/tags/%E8%AF%97%E8%AF%8D/"/>
+    
+    <category term="媒体" scheme="http://example.com/tags/%E5%AA%92%E4%BD%93/"/>
     
     <category term="月" scheme="http://example.com/tags/%E6%9C%88/"/>
     
@@ -160,9 +186,9 @@
     <category term="天工开物" scheme="http://example.com/categories/%E5%A4%A9%E5%B7%A5%E5%BC%80%E7%89%A9/"/>
     
     
-    <category term="媒体" scheme="http://example.com/tags/%E5%AA%92%E4%BD%93/"/>
-    
     <category term="诗词" scheme="http://example.com/tags/%E8%AF%97%E8%AF%8D/"/>
+    
+    <category term="媒体" scheme="http://example.com/tags/%E5%AA%92%E4%BD%93/"/>
     
   </entry>
   
