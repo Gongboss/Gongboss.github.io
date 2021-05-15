@@ -286,9 +286,9 @@
     
     
     
-    <category term="家乡" scheme="http://example.com/tags/%E5%AE%B6%E4%B9%A1/"/>
-    
     <category term="诗词" scheme="http://example.com/tags/%E8%AF%97%E8%AF%8D/"/>
+    
+    <category term="家乡" scheme="http://example.com/tags/%E5%AE%B6%E4%B9%A1/"/>
     
   </entry>
   
