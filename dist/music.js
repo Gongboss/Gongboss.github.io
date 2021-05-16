@@ -19,6 +19,13 @@ const ap = new APlayer({
             theme: '#ebd0c2'
         },
         {
+            name: '瑶山遗韵',
+            artist: '骆集益',
+            url: 'http://music.163.com/song/media/outer/url?id=26344109.mp3',
+            cover: 'images/晴雪苏苏.png',
+            theme: '#ebd0c2'
+        },
+        {
             name: '犹记多情',
             artist: '骆集益&&周志华',
             url: 'https://sharefs.yun.kugou.com/202105022110/1579e6f16612fadcd9fa89db0c7c5bcd/G191/M00/0E/17/_w0DAF5T2TmAMrqWAB_L3UrCzL4511.mp3',
