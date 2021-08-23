@@ -451,9 +451,9 @@
     <category term="随记" scheme="http://example.com/categories/%E9%9A%8F%E8%AE%B0/"/>
     
     
-    <category term="古剑" scheme="http://example.com/tags/%E5%8F%A4%E5%89%91/"/>
-    
     <category term="媒体" scheme="http://example.com/tags/%E5%AA%92%E4%BD%93/"/>
+    
+    <category term="古剑" scheme="http://example.com/tags/%E5%8F%A4%E5%89%91/"/>
     
   </entry>
   
