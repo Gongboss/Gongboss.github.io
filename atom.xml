@@ -160,9 +160,9 @@
     <category term="家乡" scheme="http://example.com/categories/%E5%AE%B6%E4%B9%A1/"/>
     
     
-    <category term="家乡" scheme="http://example.com/tags/%E5%AE%B6%E4%B9%A1/"/>
-    
     <category term="艺" scheme="http://example.com/tags/%E8%89%BA/"/>
+    
+    <category term="家乡" scheme="http://example.com/tags/%E5%AE%B6%E4%B9%A1/"/>
     
     <category term="媒体" scheme="http://example.com/tags/%E5%AA%92%E4%BD%93/"/>
     
@@ -299,9 +299,9 @@
     <category term="家乡" scheme="http://example.com/categories/%E5%AE%B6%E4%B9%A1/"/>
     
     
-    <category term="家乡" scheme="http://example.com/tags/%E5%AE%B6%E4%B9%A1/"/>
-    
     <category term="艺" scheme="http://example.com/tags/%E8%89%BA/"/>
+    
+    <category term="家乡" scheme="http://example.com/tags/%E5%AE%B6%E4%B9%A1/"/>
     
     <category term="媒体" scheme="http://example.com/tags/%E5%AA%92%E4%BD%93/"/>
     
