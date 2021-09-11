@@ -291,13 +291,6 @@
 
   
   <url>
-    <loc>http://example.com/tags/%E8%89%BA/</loc>
-    <lastmod>2021-09-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://example.com/tags/%E8%AF%97%E8%AF%8D/</loc>
     <lastmod>2021-09-11</lastmod>
     <changefreq>daily</changefreq>
@@ -306,6 +299,13 @@
   
   <url>
     <loc>http://example.com/tags/%E5%AE%B6%E4%B9%A1/</loc>
+    <lastmod>2021-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/%E8%89%BA/</loc>
     <lastmod>2021-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -361,6 +361,13 @@
   </url>
   
   <url>
+    <loc>http://example.com/tags/%E5%9B%9E%E5%BF%86/</loc>
+    <lastmod>2021-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://example.com/tags/%E7%AC%91%E8%AF%9D/</loc>
     <lastmod>2021-09-11</lastmod>
     <changefreq>daily</changefreq>
@@ -369,13 +376,6 @@
   
   <url>
     <loc>http://example.com/tags/%E9%9D%9E%E5%B7%B1/</loc>
-    <lastmod>2021-09-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/%E5%9B%9E%E5%BF%86/</loc>
     <lastmod>2021-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -410,6 +410,13 @@
   </url>
   
   <url>
+    <loc>http://example.com/tags/%E5%9B%9E%E5%BF%86-%E6%B0%B4%E4%B9%A1/</loc>
+    <lastmod>2021-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://example.com/tags/%E5%A4%87%E5%BF%98/</loc>
     <lastmod>2021-09-11</lastmod>
     <changefreq>daily</changefreq>
@@ -418,13 +425,6 @@
   
   <url>
     <loc>http://example.com/tags/%E7%96%BE%E7%97%85/</loc>
-    <lastmod>2021-09-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/%E5%9B%9E%E5%BF%86-%E6%B0%B4%E4%B9%A1/</loc>
     <lastmod>2021-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
