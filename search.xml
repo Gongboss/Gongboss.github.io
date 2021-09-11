@@ -1,17 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>BORED</title>
-    <url>/2021/07/13/Boring/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>无聊</p>
-<p>I want to be on fire!!!</p>
-<p><img src="https://tse1-mm.cn.bing.net/th/id/R-C.cf232713df0dd7a7a2e593c567cc6a3b?rik=Yb6QGgoJqPqIFA&amp;riu=http%3a%2f%2fimg3.cache.netease.com%2fphoto%2f0003%2f2012-06-30%2f858UKJ0M51HP0003.jpg&amp;ehk=thlyiR1mHLOdY%2f%2fXcAH0fKr0BDxqRRR8QoHhR%2b9Y6w4%3d&amp;risl=&amp;pid=ImgRaw" alt=""></p>
-]]></content>
-      <categories>
-        <category>随记</category>
-      </categories>
-  </entry>
-  <entry>
     <title>5月日志</title>
     <url>/2021/06/05/5%E6%9C%88%E6%97%A5%E5%BF%97/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1>5月日志</h1>
@@ -158,47 +147,6 @@
       </categories>
   </entry>
   <entry>
-    <title>元诗</title>
-    <url>/2021/04/03/%E5%85%83%E8%AF%97/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1>元诗</h1>
-<p>​                                                         林断山明峰头现，径淡泉涌滹沱升。<br>
-​                                                         微风暖来新苗翼，薄雾散云朝辉生。<br>
-​                                                         且看教员年二八，苍茫大地谁浮沉。<br>
-​                                                         问君哪得狂如许？原平后生忻中人！</p>
-<p><img src="https://i.loli.net/2021/04/03/Zc4oR5SGpdtAO7Q.jpg" alt=""></p>
-
-
-    
-        <meta charset="UTF-8">
-        <title>words</title>
-    
-    
-   	 	<audio src="music/犹记多情.mp3" autoplay="autoplay" loop="loop">
-        </audio>
-    
-
-]]></content>
-      <tags>
-        <tag>诗词</tag>
-        <tag>家乡</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>手滑妙方</title>
-    <url>/2021/05/03/%E5%86%99%E4%BB%A3%E7%A0%81%E6%97%B6%E6%80%BB%E6%98%AF%E6%89%8B%E6%BB%91/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>##写代码时总是手滑把main写成mian怎么办？</p>
-<p>每次写代码前加入如下内容：</p>
-<figure class="highlight vala"><table><tbody><tr><td class="code"><pre><span class="line"><span class="meta">#difine mian main</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#difine ture true</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#difine flase false</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#define viod void</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#define （ (</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#define ）)</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#define ， ,</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#define ； ;</span></span><br></pre></td></tr></tbody></table></figure>
-<p>妙啊</p>
-]]></content>
-      <categories>
-        <category>转载</category>
-      </categories>
-      <tags>
-        <tag>-笑话</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>又失一趣</title>
     <url>/2021/06/19/%E4%B9%A6%E6%B3%95/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><a href="https://imgtu.com/i/RC5l2q"><img src="https://z3.ax1x.com/2021/06/19/RC5l2q.jpg" alt=""></a><br>
@@ -212,6 +160,17 @@
       <tags>
         <tag>艺</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>BORED</title>
+    <url>/2021/07/13/Boring/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>无聊</p>
+<p>I want to be on fire!!!</p>
+<p><img src="https://tse1-mm.cn.bing.net/th/id/R-C.cf232713df0dd7a7a2e593c567cc6a3b?rik=Yb6QGgoJqPqIFA&amp;riu=http%3a%2f%2fimg3.cache.netease.com%2fphoto%2f0003%2f2012-06-30%2f858UKJ0M51HP0003.jpg&amp;ehk=thlyiR1mHLOdY%2f%2fXcAH0fKr0BDxqRRR8QoHhR%2b9Y6w4%3d&amp;risl=&amp;pid=ImgRaw" alt=""></p>
+]]></content>
+      <categories>
+        <category>随记</category>
+      </categories>
   </entry>
   <entry>
     <title>忆梦</title>
@@ -246,20 +205,29 @@
       </categories>
   </entry>
   <entry>
-    <title>屯</title>
-    <url>/2021/05/02/%E5%8D%95%E7%89%87%E6%9C%BA/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>想不到啊，熬过了矩阵，啃下了按键，竟然被卡在了外部中断上！</p>
-<p><img src="https://i.loli.net/2021/05/02/853UcxfLHYCkvFp.jpg" alt="上一次打开这个盒子是在两个月前"></p>
-<p>为什么外部中断的代码要多出来一个函数体呢？</p>
-<figure class="highlight markdown"><table><tbody><tr><td class="code"><pre><span class="line">/<span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">**</span></span><br><span class="line"><span class="strong">实验现象：下载程序后，D1小灯循环点亮1秒，熄灭1秒。使用单片机内部定时器可以实现准确延时</span></span><br><span class="line"><span class="strong">		  </span></span><br><span class="line"><span class="strong">接线说明： (具体接线图可见开发攻略对应实验的“实验现象”章节)</span></span><br><span class="line"><span class="strong">		   单片机--&gt;LED&amp;交通灯模块</span></span><br><span class="line"><span class="strong">		   		P20--&gt;D1</span></span><br><span class="line"><span class="strong"></span></span><br><span class="line"><span class="strong">**</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="emphasis">*/</span></span><br><span class="line"><span class="emphasis"></span></span><br><span class="line"><span class="emphasis">#include "reg52.h"			 //此文件中定义了单片机的一些特殊功能寄存器</span></span><br><span class="line"><span class="emphasis"></span></span><br><span class="line"><span class="emphasis">typedef unsigned int u16;	  //对数据类型进行声明定义</span></span><br><span class="line"><span class="emphasis">typedef unsigned char u8;</span></span><br><span class="line"><span class="emphasis"></span></span><br><span class="line"><span class="emphasis">sbit led=P2^0;	 //定义P20口是led</span></span><br><span class="line"><span class="emphasis"></span></span><br><span class="line"><span class="emphasis"></span></span><br><span class="line"><span class="emphasis">/<span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">**<span class="emphasis">*</span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis">*</span> 函 数 名         : Timer0Init</span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis">* 函数功能		   : 定时器0初始化</span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis">*</span> 输    入         : 无</span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis">* 输    出         : 无</span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">**<span class="emphasis">*/</span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">void Timer0Init()</span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">{</span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">	TMOD|=0X01;//选择为定时器0模式，工作方式1，仅用TR0打开启动。</span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">	TH0=0XFF;	//给定时器赋初值，定时1ms</span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">	TL0=0X18;	</span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">	ET0=1;//打开定时器0中断允许</span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">	EA=1;//打开总中断</span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">	TR0=1;//打开定时器			</span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">}</span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">/<span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">**<span class="emphasis">*</span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">*</span> 函 数 名       : main</span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">* 函数功能		 : 主函数</span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">*</span> 输    入       : 无</span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">* 输    出    	 : 无</span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">**<span class="emphasis">*/</span></span></span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">void main()</span></span></span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">{	</span></span></span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">	Timer0Init();  //定时器0初始化</span></span></span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">	while(1);		</span></span></span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">}</span></span></span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"></span></span></span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">/<span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">**<span class="emphasis">*</span></span></span></span></span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">*</span> 函 数 名         : void Timer0() interrupt 1</span></span></span></span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">* 函数功能		   : 定时器0中断函数</span></span></span></span></span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">*</span> 输    入         : 无</span></span></span></span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">* 输    出         : 无</span></span></span></span></span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">**<span class="emphasis">*/</span></span></span></span></span></span></span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">void Timer0() interrupt 1</span></span></span></span></span></span></span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">{</span></span></span></span></span></span></span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">	static u16 i;</span></span></span></span></span></span></span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">	TH0=0XFF;	//给定时器赋初值，定时1ms</span></span></span></span></span></span></span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">	TL0=0X18;</span></span></span></span></span></span></span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">	i++;</span></span></span></span></span></span></span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">	if(i==1000)</span></span></span></span></span></span></span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">	{</span></span></span></span></span></span></span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">		i=0;</span></span></span></span></span></span></span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">		led=~led;	</span></span></span></span></span></span></span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">	}	</span></span></span></span></span></span></span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">}</span></span></span></span></span></span></span></span></span></span></span></span></span></span><br></pre></td></tr></tbody></table></figure>
-<p>最后12行着实理解不了啊……</p>
-<p>打篮球打篮球-------------------------------------------------------------------</p>
+    <title>元诗</title>
+    <url>/2021/04/03/%E5%85%83%E8%AF%97/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1>元诗</h1>
+<p>​                                                         林断山明峰头现，径淡泉涌滹沱升。<br>
+​                                                         微风暖来新苗翼，薄雾散云朝辉生。<br>
+​                                                         且看教员年二八，苍茫大地谁浮沉。<br>
+​                                                         问君哪得狂如许？原平后生忻中人！</p>
+<p><img src="https://i.loli.net/2021/04/03/Zc4oR5SGpdtAO7Q.jpg" alt=""></p>
+
+
+    
+        <meta charset="UTF-8">
+        <title>words</title>
+    
+    
+   	 	<audio src="music/犹记多情.mp3" autoplay="autoplay" loop="loop">
+        </audio>
+    
+
 ]]></content>
-      <categories>
-        <category>随记</category>
-      </categories>
       <tags>
-        <tag>单片机</tag>
+        <tag>诗词</tag>
+        <tag>家乡</tag>
       </tags>
   </entry>
   <entry>
@@ -294,6 +262,38 @@
       <tags>
         <tag>媒体</tag>
         <tag>诗词 - 视频</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>手滑妙方</title>
+    <url>/2021/05/03/%E5%86%99%E4%BB%A3%E7%A0%81%E6%97%B6%E6%80%BB%E6%98%AF%E6%89%8B%E6%BB%91/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>##写代码时总是手滑把main写成mian怎么办？</p>
+<p>每次写代码前加入如下内容：</p>
+<figure class="highlight vala"><table><tbody><tr><td class="code"><pre><span class="line"><span class="meta">#difine mian main</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#difine ture true</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#difine flase false</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#define viod void</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#define （ (</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#define ）)</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#define ， ,</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#define ； ;</span></span><br></pre></td></tr></tbody></table></figure>
+<p>妙啊</p>
+]]></content>
+      <categories>
+        <category>转载</category>
+      </categories>
+      <tags>
+        <tag>-笑话</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>屯</title>
+    <url>/2021/05/02/%E5%8D%95%E7%89%87%E6%9C%BA/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>想不到啊，熬过了矩阵，啃下了按键，竟然被卡在了外部中断上！</p>
+<p><img src="https://i.loli.net/2021/05/02/853UcxfLHYCkvFp.jpg" alt="上一次打开这个盒子是在两个月前"></p>
+<p>为什么外部中断的代码要多出来一个函数体呢？</p>
+<figure class="highlight markdown"><table><tbody><tr><td class="code"><pre><span class="line">/<span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">**</span></span><br><span class="line"><span class="strong">实验现象：下载程序后，D1小灯循环点亮1秒，熄灭1秒。使用单片机内部定时器可以实现准确延时</span></span><br><span class="line"><span class="strong">		  </span></span><br><span class="line"><span class="strong">接线说明： (具体接线图可见开发攻略对应实验的“实验现象”章节)</span></span><br><span class="line"><span class="strong">		   单片机--&gt;LED&amp;交通灯模块</span></span><br><span class="line"><span class="strong">		   		P20--&gt;D1</span></span><br><span class="line"><span class="strong"></span></span><br><span class="line"><span class="strong">**</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="emphasis">*/</span></span><br><span class="line"><span class="emphasis"></span></span><br><span class="line"><span class="emphasis">#include "reg52.h"			 //此文件中定义了单片机的一些特殊功能寄存器</span></span><br><span class="line"><span class="emphasis"></span></span><br><span class="line"><span class="emphasis">typedef unsigned int u16;	  //对数据类型进行声明定义</span></span><br><span class="line"><span class="emphasis">typedef unsigned char u8;</span></span><br><span class="line"><span class="emphasis"></span></span><br><span class="line"><span class="emphasis">sbit led=P2^0;	 //定义P20口是led</span></span><br><span class="line"><span class="emphasis"></span></span><br><span class="line"><span class="emphasis"></span></span><br><span class="line"><span class="emphasis">/<span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">**<span class="emphasis">*</span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis">*</span> 函 数 名         : Timer0Init</span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis">* 函数功能		   : 定时器0初始化</span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis">*</span> 输    入         : 无</span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis">* 输    出         : 无</span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">**<span class="emphasis">*/</span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">void Timer0Init()</span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">{</span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">	TMOD|=0X01;//选择为定时器0模式，工作方式1，仅用TR0打开启动。</span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">	TH0=0XFF;	//给定时器赋初值，定时1ms</span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">	TL0=0X18;	</span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">	ET0=1;//打开定时器0中断允许</span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">	EA=1;//打开总中断</span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">	TR0=1;//打开定时器			</span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">}</span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">/<span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">**<span class="emphasis">*</span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">*</span> 函 数 名       : main</span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">* 函数功能		 : 主函数</span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">*</span> 输    入       : 无</span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">* 输    出    	 : 无</span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">**<span class="emphasis">*/</span></span></span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">void main()</span></span></span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">{	</span></span></span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">	Timer0Init();  //定时器0初始化</span></span></span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">	while(1);		</span></span></span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">}</span></span></span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"></span></span></span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">/<span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">**<span class="emphasis">*</span></span></span></span></span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">*</span> 函 数 名         : void Timer0() interrupt 1</span></span></span></span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">* 函数功能		   : 定时器0中断函数</span></span></span></span></span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">*</span> 输    入         : 无</span></span></span></span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">* 输    出         : 无</span></span></span></span></span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">****</span><span class="strong">**<span class="emphasis">*/</span></span></span></span></span></span></span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">void Timer0() interrupt 1</span></span></span></span></span></span></span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">{</span></span></span></span></span></span></span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">	static u16 i;</span></span></span></span></span></span></span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">	TH0=0XFF;	//给定时器赋初值，定时1ms</span></span></span></span></span></span></span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">	TL0=0X18;</span></span></span></span></span></span></span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">	i++;</span></span></span></span></span></span></span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">	if(i==1000)</span></span></span></span></span></span></span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">	{</span></span></span></span></span></span></span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">		i=0;</span></span></span></span></span></span></span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">		led=~led;	</span></span></span></span></span></span></span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">	}	</span></span></span></span></span></span></span></span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">}</span></span></span></span></span></span></span></span></span></span></span></span></span></span><br></pre></td></tr></tbody></table></figure>
+<p>最后12行着实理解不了啊……</p>
+<p>打篮球打篮球-------------------------------------------------------------------</p>
+]]></content>
+      <categories>
+        <category>随记</category>
+      </categories>
+      <tags>
+        <tag>单片机</tag>
       </tags>
   </entry>
   <entry>
@@ -448,28 +448,6 @@
       </tags>
   </entry>
   <entry>
-    <title>小城街角</title>
-    <url>/2021/06/21/%E5%B0%8F%E5%9F%8E%E8%A1%97%E8%A7%92/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><a href="https://imgtu.com/i/RkRt0S"><img src="https://z3.ax1x.com/2021/06/21/RkRt0S.jpg" alt="RkRt0S.jpg"></a></p>
-<p>小城街角——这是个视频。</p>
-<p>APLAYER标签的使用还是不太熟练，坑太大，只好再放链接。</p>
-<p><a href="https://v.youku.com/v_show/id_XNTE3MTc5NTA1Ng==.html">小城街角——原平-旅游-高清完整正版视频在线观看-优酷 (youku.com)</a></p>
-<p>或者油管</p>
-<p><a href="https://www.youtube.com/watch?v=KPDaogWnmWk&amp;list=PL--rccqF0WMXhyxIFKYZqnZuZoXkLLukY&amp;index=3">https://www.youtube.com/watch?v=KPDaogWnmWk&amp;list=PL--rccqF0WMXhyxIFKYZqnZuZoXkLLukY&amp;index=3</a></p>
-<p>Thanks to Brandon Li from YouTuBe.</p>
-<p>这个视频成功验证了我的项目式学习法，以后再说吧。</p>
-]]></content>
-      <categories>
-        <category>家乡</category>
-      </categories>
-      <tags>
-        <tag>家乡</tag>
-        <tag>艺</tag>
-        <tag>媒体</tag>
-        <tag>回忆</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>一些有趣的密码</title>
     <url>/2021/06/20/%E5%AF%86%E7%A0%81%E5%A4%A7%E5%85%A8/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>密码：ppnn13%dkstFeb.1st，<br>
@@ -511,28 +489,26 @@
       </tags>
   </entry>
   <entry>
-    <title>To Do and to See</title>
-    <url>/2021/06/28/%E6%89%93%E5%8D%A1/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><ul>
-<li>
-<p>《飞雪玉花》</p>
-</li>
-<li>
-<p>《多宝塔碑》</p>
-</li>
-<li>
-<p>运镜</p>
-</li>
-<li>
-<p>肌</p>
-</li>
-</ul>
-<ol>
-<li>学习为主</li>
-<li>“先做自己应该做的事，再做自己喜欢做的事”</li>
-<li>贪多嚼不烂</li>
-</ol>
+    <title>小城街角</title>
+    <url>/2021/06/21/%E5%B0%8F%E5%9F%8E%E8%A1%97%E8%A7%92/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><a href="https://imgtu.com/i/RkRt0S"><img src="https://z3.ax1x.com/2021/06/21/RkRt0S.jpg" alt="RkRt0S.jpg"></a></p>
+<p>小城街角——这是个视频。</p>
+<p>APLAYER标签的使用还是不太熟练，坑太大，只好再放链接。</p>
+<p><a href="https://v.youku.com/v_show/id_XNTE3MTc5NTA1Ng==.html">小城街角——原平-旅游-高清完整正版视频在线观看-优酷 (youku.com)</a></p>
+<p>或者油管</p>
+<p><a href="https://www.youtube.com/watch?v=KPDaogWnmWk&amp;list=PL--rccqF0WMXhyxIFKYZqnZuZoXkLLukY&amp;index=3">https://www.youtube.com/watch?v=KPDaogWnmWk&amp;list=PL--rccqF0WMXhyxIFKYZqnZuZoXkLLukY&amp;index=3</a></p>
+<p>Thanks to Brandon Li from YouTuBe.</p>
+<p>这个视频成功验证了我的项目式学习法，以后再说吧。</p>
 ]]></content>
+      <categories>
+        <category>家乡</category>
+      </categories>
+      <tags>
+        <tag>艺</tag>
+        <tag>家乡</tag>
+        <tag>媒体</tag>
+        <tag>回忆</tag>
+      </tags>
   </entry>
   <entry>
     <title>非正古诗词</title>
@@ -591,6 +567,30 @@
         <tag>艺</tag>
         <tag>单片机</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>To Do and to See</title>
+    <url>/2021/06/28/%E6%89%93%E5%8D%A1/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><ul>
+<li>
+<p>《飞雪玉花》</p>
+</li>
+<li>
+<p>《多宝塔碑》</p>
+</li>
+<li>
+<p>运镜</p>
+</li>
+<li>
+<p>肌</p>
+</li>
+</ul>
+<ol>
+<li>学习为主</li>
+<li>“先做自己应该做的事，再做自己喜欢做的事”</li>
+<li>贪多嚼不烂</li>
+</ol>
+]]></content>
   </entry>
   <entry>
     <title>无聊</title>
@@ -680,22 +680,17 @@
       </tags>
   </entry>
   <entry>
-    <title>小城街角升级版</title>
-    <url>/2021/07/18/%E7%B1%BB%E6%97%85%E6%8B%8D%E8%A7%86%E9%A2%91/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><a href="https://v.youku.com/v_show/id_XNTE4MzExMTQxMg==.html?spm=a2hcb.profile.app.5~5!2~5~5!3~5!2~5~5~A!2">类旅拍视频——原平-旅游-高清完整正版视频在线观看-优酷 (youku.com)</a></p>
-<p>好吧，这又是一个视频。</p>
-<p>自从被美术老师安利了《神探夏洛克》，我便彻底地沉入了。所以，这个视频的后期剪辑很多借鉴了其手法。</p>
-<p>当然，也充斥着Brandon Li风格（仅是模仿，未得精髓）。</p>
-<p>总之，心满意足哦，打发了无聊时间。😁😁😁</p>
+    <title>江南水乡</title>
+    <url>/2021/07/13/%E6%B0%B4%E4%B9%A1/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>爱了爱了❤️<br>
+<a href="https://www.bilibili.com/video/BV1tT4y1j7a9/?spm_id_from=333.788.videocard.2">https://www.bilibili.com/video/BV1tT4y1j7a9/?spm_id_from=333.788.videocard.2</a></p>
 ]]></content>
       <categories>
-        <category>家乡</category>
+        <category>转载</category>
       </categories>
       <tags>
-        <tag>家乡</tag>
-        <tag>艺</tag>
-        <tag>媒体</tag>
-        <tag>回忆</tag>
+        <tag>非己</tag>
+        <tag>水乡</tag>
       </tags>
   </entry>
   <entry>
@@ -745,20 +740,6 @@
       </tags>
   </entry>
   <entry>
-    <title>江南水乡</title>
-    <url>/2021/07/13/%E6%B0%B4%E4%B9%A1/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>爱了爱了❤️<br>
-<a href="https://www.bilibili.com/video/BV1tT4y1j7a9/?spm_id_from=333.788.videocard.2">https://www.bilibili.com/video/BV1tT4y1j7a9/?spm_id_from=333.788.videocard.2</a></p>
-]]></content>
-      <categories>
-        <category>转载</category>
-      </categories>
-      <tags>
-        <tag>非己</tag>
-        <tag>水乡</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>王兄之作</title>
     <url>/2021/04/04/%E7%8E%8B%E5%85%84%E4%B9%8B%E4%BD%9C/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><img src="https://i.loli.net/2021/04/04/4AWdZ2btEHXhzuj.jpg" alt=""></p>
@@ -772,6 +753,41 @@
       </categories>
       <tags>
         <tag>非己</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>相册</title>
+    <url>/2021/06/07/%E7%9B%B8%E5%86%8C/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>重新鼓捣了相册，主要还是图床的后顾之忧。</p>
+<p><a href="http://xn--sm-fu4d268m.ms">感谢sm.ms</a>！感谢路过！</p>
+<p>多亏了这段代码。</p>
+<figure class="highlight django"><table><tbody><tr><td class="code"><pre><span class="line"><span class="template-tag">{% <span class="name">gp</span> i-j %}</span><span class="template-tag">{% <span class="name">endgp</span> %}</span></span><br></pre></td></tr></tbody></table></figure>
+]]></content>
+      <categories>
+        <category>随记</category>
+      </categories>
+      <tags>
+        <tag>媒体</tag>
+        <tag>古剑</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>小城街角升级版</title>
+    <url>/2021/07/18/%E7%B1%BB%E6%97%85%E6%8B%8D%E8%A7%86%E9%A2%91/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><a href="https://v.youku.com/v_show/id_XNTE4MzExMTQxMg==.html?spm=a2hcb.profile.app.5~5!2~5~5!3~5!2~5~5~A!2">类旅拍视频——原平-旅游-高清完整正版视频在线观看-优酷 (youku.com)</a></p>
+<p>好吧，这又是一个视频。</p>
+<p>自从被美术老师安利了《神探夏洛克》，我便彻底地沉入了。所以，这个视频的后期剪辑很多借鉴了其手法。</p>
+<p>当然，也充斥着Brandon Li风格（仅是模仿，未得精髓）。</p>
+<p>总之，心满意足哦，打发了无聊时间。😁😁😁</p>
+]]></content>
+      <categories>
+        <category>家乡</category>
+      </categories>
+      <tags>
+        <tag>艺</tag>
+        <tag>家乡</tag>
+        <tag>媒体</tag>
+        <tag>回忆</tag>
       </tags>
   </entry>
   <entry>
@@ -811,22 +827,6 @@
       </categories>
       <tags>
         <tag>回忆</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>相册</title>
-    <url>/2021/06/07/%E7%9B%B8%E5%86%8C/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>重新鼓捣了相册，主要还是图床的后顾之忧。</p>
-<p><a href="http://xn--sm-fu4d268m.ms">感谢sm.ms</a>！感谢路过！</p>
-<p>多亏了这段代码。</p>
-<figure class="highlight django"><table><tbody><tr><td class="code"><pre><span class="line"><span class="template-tag">{% <span class="name">gp</span> i-j %}</span><span class="template-tag">{% <span class="name">endgp</span> %}</span></span><br></pre></td></tr></tbody></table></figure>
-]]></content>
-      <categories>
-        <category>随记</category>
-      </categories>
-      <tags>
-        <tag>媒体</tag>
-        <tag>古剑</tag>
       </tags>
   </entry>
   <entry>
@@ -960,38 +960,6 @@
       </tags>
   </entry>
   <entry>
-    <title>备忘</title>
-    <url>/2021/05/15/%E8%BF%87%E6%95%8F%E6%80%A7%E7%BB%93%E8%86%9C%E7%82%8E/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>记录：每年5月的前两个星期要结膜炎过敏。</p>
-]]></content>
-      <categories>
-        <category>备忘录</category>
-      </categories>
-      <tags>
-        <tag>备忘</tag>
-        <tag>疾病</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>重游古剑</title>
-    <url>/2021/06/06/%E9%87%8D%E6%B8%B8%E5%8F%A4%E5%89%91/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><img src="https://th.bing.com/th/id/R3a666766da5b4ceb8d58051955037d0a?rik=z2NYtgOfOm026g&amp;riu=http%3a%2f%2fi0.gbimg.cn%2f2010%2f04%2f06%2f20100406163409877.jpg&amp;ehk=BFWM%2bIxVDw96mF356y4ozCUxVCEYRhT0olxmy8idqvM%3d&amp;risl=&amp;pid=ImgRaw" alt=""></p>
-<p>熟悉的乌蒙灵谷，温柔而又静谧，我又回来了！</p>
-<p>重游古剑，序章业已结束。对于我来说，在这浊气遍地的繁杂之世中，古剑就是那株纯种的红高粱，那只通体雪白的白鹿精灵，以及那个裹着毯子坐摩托的前妻。</p>
-<audio controls="true">
-        <source src="http://music.163.com/song/media/outer/url?id=26344015.mp3">
-       您的浏览器不支持 video 标签！
-</audio>
-鹤唳嘹鸣，极天而振奋人心；踏歌长行，向海而翻山越岭。一曲《凤鸣榣山》，开启征程，又勾起了我对古剑的一份回忆：疫情之前假期里的某个下午，片尾动画结束后，我流尽眼泪，又为晴雪的”道“而释然……罢了罢了。继续百里寨。
-]]></content>
-      <categories>
-        <category>随记</category>
-      </categories>
-      <tags>
-        <tag>古剑</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>音乐情怀</title>
     <url>/2021/05/16/%E9%9F%B3%E4%B9%90/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>在我的生命中，每一段人生阶段总是与音乐相挂钩。每当我回忆起过去时，脑海中循环播放的，总是这些伴随萦绕的音乐。</p>
@@ -1041,6 +1009,38 @@
       </categories>
       <tags>
         <tag>回忆 - 水乡</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>备忘</title>
+    <url>/2021/05/15/%E8%BF%87%E6%95%8F%E6%80%A7%E7%BB%93%E8%86%9C%E7%82%8E/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>记录：每年5月的前两个星期要结膜炎过敏。</p>
+]]></content>
+      <categories>
+        <category>备忘录</category>
+      </categories>
+      <tags>
+        <tag>备忘</tag>
+        <tag>疾病</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>重游古剑</title>
+    <url>/2021/06/06/%E9%87%8D%E6%B8%B8%E5%8F%A4%E5%89%91/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><img src="https://th.bing.com/th/id/R3a666766da5b4ceb8d58051955037d0a?rik=z2NYtgOfOm026g&amp;riu=http%3a%2f%2fi0.gbimg.cn%2f2010%2f04%2f06%2f20100406163409877.jpg&amp;ehk=BFWM%2bIxVDw96mF356y4ozCUxVCEYRhT0olxmy8idqvM%3d&amp;risl=&amp;pid=ImgRaw" alt=""></p>
+<p>熟悉的乌蒙灵谷，温柔而又静谧，我又回来了！</p>
+<p>重游古剑，序章业已结束。对于我来说，在这浊气遍地的繁杂之世中，古剑就是那株纯种的红高粱，那只通体雪白的白鹿精灵，以及那个裹着毯子坐摩托的前妻。</p>
+<audio controls="true">
+        <source src="http://music.163.com/song/media/outer/url?id=26344015.mp3">
+       您的浏览器不支持 video 标签！
+</audio>
+鹤唳嘹鸣，极天而振奋人心；踏歌长行，向海而翻山越岭。一曲《凤鸣榣山》，开启征程，又勾起了我对古剑的一份回忆：疫情之前假期里的某个下午，片尾动画结束后，我流尽眼泪，又为晴雪的”道“而释然……罢了罢了。继续百里寨。
+]]></content>
+      <categories>
+        <category>随记</category>
+      </categories>
+      <tags>
+        <tag>古剑</tag>
       </tags>
   </entry>
   <entry>
