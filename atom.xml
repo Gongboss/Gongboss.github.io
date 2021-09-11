@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-09-11T13:05:17.154Z</updated>
+  <updated>2021-09-11T13:12:04.352Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,15 +21,18 @@
     <link href="http://example.com/2021/09/11/%E9%97%AA%E7%83%81%EF%BC%9ANE555%E4%B8%8ECD4017%E5%A4%A7%E8%81%94%E5%8A%A8/"/>
     <id>http://example.com/2021/09/11/%E9%97%AA%E7%83%81%EF%BC%9ANE555%E4%B8%8ECD4017%E5%A4%A7%E8%81%94%E5%8A%A8/</id>
     <published>2021-09-11T09:35:58.407Z</published>
-    <updated>2021-09-11T13:05:17.154Z</updated>
+    <updated>2021-09-11T13:12:04.352Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>材料：NE555一块</p><p>CD4017一块</p><p>10电阻8个</p><p>1μ电容一只</p><p>0.1μ电容一枚</p><p>47k（黄紫橙）、2.2k（三红）电阻各一个</p><p>洞洞板布线设计图：<a href="https://imgtu.com/i/hzzRYj"><img src="https://z3.ax1x.com/2021/09/11/hzzRYj.png" alt=""></a><br>电路图：<a href="https://imgtu.com/i/hzzWfs"><img src="https://z3.ax1x.com/2021/09/11/hzzWfs.png" alt=""></a><br>实物图：<a href="https://imgtu.com/i/hzz2kQ"><img src="https://z3.ax1x.com/2021/09/11/hzz2kQ.jpg" alt=""></a></p><p>太激动了！从初二到上一秒，多少次因元件短缺和经验不够，只能对这幅电路图望而生畏。如今终于做成功了，算是实现了一个梦想😭</p><p>之所以称之为“凌乱的跑马灯”，有两点：</p><ol><li>没想到CD4017有这么反人类的引脚顺序，未上拉导线，以致不能实现流水灯。</li><li>对LED分压电阻的计算不熟，以致无法安装其他颜色的灯，不能达到绚丽的效果。</li></ol><p>哈呼😮‍💨静待明日开学。</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>材料：NE555一块</p><p>CD4017一块</p><p>10电阻8个</p><p>1μ电容一只</p><p>0.1μ电容一枚</p><p>47k（黄紫橙）、2.2k（三红）电阻各一个</p><p>洞洞板布线设计图：</p><span id="more"></span><p><a href="https://imgtu.com/i/hzzRYj"><img src="https://z3.ax1x.com/2021/09/11/hzzRYj.png" alt=""></a><br>电路图：<a href="https://imgtu.com/i/hzzWfs"><img src="https://z3.ax1x.com/2021/09/11/hzzWfs.png" alt=""></a><br>实物图：<a href="https://imgtu.com/i/hzz2kQ"><img src="https://z3.ax1x.com/2021/09/11/hzz2kQ.jpg" alt=""></a></p><p>太激动了！从初二到上一秒，多少次因元件短缺和经验不够，只能对这幅电路图望而生畏。如今终于做成功了，算是实现了一个梦想😭</p><p>之所以称之为“凌乱的跑马灯”，有两点：</p><ol><li>没想到CD4017有这么反人类的引脚顺序，加上我未上拉导线，以致不能实现流水灯。</li><li>对LED分压电阻的计算不熟，以致无法安装其他颜色的灯，不能达到绚丽的效果。</li></ol><p>哈呼😮‍💨静待明日开学。</p>]]></content>
     
     
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
-      
+    <summary type="html">&lt;p&gt;材料：NE555一块&lt;/p&gt;
+&lt;p&gt;CD4017一块&lt;/p&gt;
+&lt;p&gt;10电阻8个&lt;/p&gt;
+&lt;p&gt;1μ电容一只&lt;/p&gt;
+&lt;p&gt;0.1μ电容一枚&lt;/p&gt;
+&lt;p&gt;47k（黄紫橙）、2.2k（三红）电阻各一个&lt;/p&gt;
+&lt;p&gt;洞洞板布线设计图：&lt;/p&gt;</summary>
     
     
     
@@ -47,15 +50,18 @@
     <link href="http://example.com/2021/09/11/%E5%A3%B0%E6%8E%A7%E7%81%AF/"/>
     <id>http://example.com/2021/09/11/%E5%A3%B0%E6%8E%A7%E7%81%AF/</id>
     <published>2021-09-11T08:18:32.671Z</published>
-    <updated>2021-09-11T08:43:12.721Z</updated>
+    <updated>2021-09-11T13:13:20.485Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>材料：</p><p>电阻R1=4.7k（黄紫红）、R2=1M（棕黑绿）、R3=10k（棕黑橙）</p><p>电容C=1μ</p><p>s9014两个</p><p>LED一个</p><p>mic一个</p><p>电路图：<img src="https://www.dgzj.com/uploads/allimg/180602/153A34222-0.jpg" alt=""></p><p>实物图：</p><p><a href="https://imgtu.com/i/hz8EHU"><img src="https://z3.ax1x.com/2021/09/11/hz8EHU.jpg" alt=""></a></p><p>新增概念：耦合</p><p>耦合在本电路中，就是把咪头的不稳定电信号（可看作交流电）向下一级10k为负载的电路传输，相当于二者叠加，从而使三极管的饱和与截止受咪头信号支配。VT1算是权力机关，VT2算是行政机关。</p><p>这个电路的关键在VT1的控制与电容耦合的巧妙结合，咪头的电信号正是在电容的作用下被耦合，加之以电流，卸之以直流，妙哉！</p><p>奇怪的知识又增加了呢🤪</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>材料：</p><p>电阻R1=4.7k（黄紫红）、R2=1M（棕黑绿）、R3=10k（棕黑橙）</p><p>电容C=1μ</p><p>s9014两个</p><p>LED一个</p><p>mic一个</p><p>电路图：<img src="https://www.dgzj.com/uploads/allimg/180602/153A34222-0.jpg" alt=""></p><span id="more"></span><p>实物图：</p><p><a href="https://imgtu.com/i/hz8EHU"><img src="https://z3.ax1x.com/2021/09/11/hz8EHU.jpg" alt=""></a></p><p>新增概念：耦合</p><p>耦合在本电路中，就是把咪头的不稳定电信号（可看作交流电）向下一级10k为负载的电路传输，相当于二者叠加，从而使三极管的饱和与截止受咪头信号支配。VT1算是权力机关，VT2算是行政机关。</p><p>这个电路的关键在VT1的控制与电容耦合的巧妙结合，咪头的电信号正是在电容的作用下被耦合，加之以电流，卸之以直流，妙哉！</p><p>奇怪的知识又增加了呢🤪</p>]]></content>
     
     
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
-      
+    <summary type="html">&lt;p&gt;材料：&lt;/p&gt;
+&lt;p&gt;电阻R1=4.7k（黄紫红）、R2=1M（棕黑绿）、R3=10k（棕黑橙）&lt;/p&gt;
+&lt;p&gt;电容C=1μ&lt;/p&gt;
+&lt;p&gt;s9014两个&lt;/p&gt;
+&lt;p&gt;LED一个&lt;/p&gt;
+&lt;p&gt;mic一个&lt;/p&gt;
+&lt;p&gt;电路图：&lt;img src=&quot;https://www.dgzj.com/uploads/allimg/180602/153A34222-0.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;</summary>
     
     
     
@@ -73,15 +79,17 @@
     <link href="http://example.com/2021/09/11/%E6%9E%95%E8%BE%B9%E6%96%B9%E4%BE%BF%E7%81%AF/"/>
     <id>http://example.com/2021/09/11/%E6%9E%95%E8%BE%B9%E6%96%B9%E4%BE%BF%E7%81%AF/</id>
     <published>2021-09-11T01:41:13.735Z</published>
-    <updated>2021-09-11T05:33:54.866Z</updated>
+    <updated>2021-09-11T13:12:48.234Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>材料:</p><p>电阻：56k（绿蓝橙）一个，10k（棕黑橙）一个，330（橙橙棕）一个</p><p>三极管：9014一个、9012一个</p><p>开关：一个</p><p>LED：一个</p><p>电路图：<img src="http://img.mp.itc.cn/upload/20160816/2225c9cd42234f6cae0f394581da0a12_th.jpeg" alt=""></p><p>实物图：<a href="https://imgtu.com/i/hxTPVP"><img src="https://z3.ax1x.com/2021/09/11/hxTPVP.jpg" alt=""></a></p><p>实际上，由于元件不足，Q1的偏置电阻我用的100k。电容原来用的470μ，因为测试延时时间太长，有点耗电，便用了47μ。</p><p>VCC为3V，那么电容电荷量Q=1.47*10^(-6)C.</p><p>放电时，有Q=I·t……</p><p>等等，放电时C的电压一直在变。既然R1不变，那么I不可能不变。如此一来，就无法用这个公式算时间。</p><p>而电容放电时间公式我还没学……</p><p>好吧，只好实测t≈32s。有点长，但足够在宿舍使用了，而且体积小…🤐</p><p>另外，焊接的时候才明白，要想把挂在烙铁头上的锡焊上去，关键必须使被焊部分达到与烙铁头相同的温度才行。</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>材料:</p><p>电阻：56k（绿蓝橙）一个，10k（棕黑橙）一个，330（橙橙棕）一个</p><p>三极管：9014一个、9012一个</p><p>开关：一个</p><p>LED：一个</p><p>电路图：<img src="http://img.mp.itc.cn/upload/20160816/2225c9cd42234f6cae0f394581da0a12_th.jpeg" alt=""></p><span id="more"></span><p>实物图：<a href="https://imgtu.com/i/hxTPVP"><img src="https://z3.ax1x.com/2021/09/11/hxTPVP.jpg" alt=""></a></p><p>实际上，由于元件不足，Q1的偏置电阻我用的100k。电容原来用的470μ，因为测试延时时间太长，有点耗电，便用了47μ。</p><p>VCC为3V，那么电容电荷量Q=1.47*10^(-6)C.</p><p>放电时，有Q=I·t……</p><p>等等，放电时C的电压一直在变。既然R1不变，那么I不可能不变。如此一来，就无法用这个公式算时间。</p><p>而电容放电时间公式我还没学……</p><p>好吧，只好实测t≈32s。有点长，但足够在宿舍使用了，而且体积小…🤐</p><p>另外，焊接的时候才明白，要想把挂在烙铁头上的锡焊上去，关键必须使被焊部分达到与烙铁头相同的温度才行。</p>]]></content>
     
     
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
-      
+    <summary type="html">&lt;p&gt;材料:&lt;/p&gt;
+&lt;p&gt;电阻：56k（绿蓝橙）一个，10k（棕黑橙）一个，330（橙橙棕）一个&lt;/p&gt;
+&lt;p&gt;三极管：9014一个、9012一个&lt;/p&gt;
+&lt;p&gt;开关：一个&lt;/p&gt;
+&lt;p&gt;LED：一个&lt;/p&gt;
+&lt;p&gt;电路图：&lt;img src=&quot;http://img.mp.itc.cn/upload/20160816/2225c9cd42234f6cae0f394581da0a12_th.jpeg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;</summary>
     
     
     
