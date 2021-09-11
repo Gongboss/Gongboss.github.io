@@ -158,38 +158,6 @@
       </categories>
   </entry>
   <entry>
-    <title>忆梦</title>
-    <url>/2021/07/22/%E4%BA%BA%E7%94%9F%E6%81%8D%E5%A6%82%E6%A2%A6/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>有时候，看着镜子里的人，常常会想，自己老了是什么样子？</p>
-<p>银灰色的乱发似乎不愿承认衰老的事实，蜘蛛网悄悄地爬上鼻孔，千沟万壑的皮肤间恍如布满青苔。</p>
-<p>“恍如”……哦，人生恍如梦。</p>
-<p>躺在病床上，身上插满大大小小蛇一样的管子。向上看是白色，周围站了一圈认识的和不认识的人——他们挡住了阳光。</p>
-<p>我知道自己命不久矣，回忆像默片一样开始播放。</p>
-<span id="more"></span>
-<p>17岁，我幡然悔悟，开始认真学习，埋头读书。</p>
-<p>18岁，高考。我考上一个普普通通的二本学校。在选专业时，我和家人产生分歧。“金融、计算机、会计，这才是最吃香的。” 我喜欢当医生，但我最终选择了金融。</p>
-<p>22岁，大学毕业。我回到自己出生的那个小县城，在一家公司工作。</p>
-<p>27岁，家里人开始着急地催婚。我相了许多次亲，总觉得她不如初恋。</p>
-<p>30岁，我累了。有一天，等公交时，我遇到她。我问她年龄，她说二十九。相亲结束后，我又问她：“你觉得可以吗？”她没有任何表情，只是点了点头。</p>
-<p>31岁，我结婚了，没有想象中的爱情，也没有想象中的激情。我们不吵架，平平淡淡。</p>
-<p>32岁，她怀孕了，辞职在家。我每天很早去上班，中午回家做饭，晚上出去兼职。她提一些要求，我也不敢说什么，只是一直努力为孩子赚奶粉钱。孩子生下来了。我妈来帮我们照顾孩子。因为婆媳矛盾，我们第一次吵架。</p>
-<p>38岁，孩子上小学。我因为学区房的事和媳妇吵架。</p>
-<p>50岁，孩子高考。他比我强，考上了一本，但选了一个冷门专业。我为此和他大吵一架。他说：“我自己的人生，凭什么让你来决定！”后来，我拍着他的肩膀，对他说，选什么专业都无所谓，只是以后不要留下遗憾就好。”他最终还是选择了那个冷门专业。</p>
-<p>61岁，父亲走了。</p>
-<p>63岁，母亲走了。</p>
-<p>77岁，我躺在病床上，身上插满大大小小蛇一样的管子。向上看是白色，周围站了一圈认识的和不认识的人——他们挡住了阳光。</p>
-<p>我想起小学的时候，我和好朋友一起爬树，一起踩井盖，一起骑车穿过许多小巷。</p>
-<p>我又想起中学的时候，我和同学们一起踏春，一起参加唱歌比赛，一起打水战。</p>
-<p>我想起我的初恋，想必她也已是白发苍苍。</p>
-<p>七十年了，记忆里的楼房、课桌和一花一草，早已无存。</p>
-<p>原来，我一生中最快乐的时候，竟是我想睡、想吃、想看天上的白云的少年时代。我也叫它……黄金时代。</p>
-<p><img src="https://pic3.zhimg.com/v2-aa95804c811a7c3536ba84baf3c7fc67_r.jpg?source=1940ef5c" alt=""></p>
-]]></content>
-      <categories>
-        <category>随笔</category>
-      </categories>
-  </entry>
-  <entry>
     <title>又失一趣</title>
     <url>/2021/06/19/%E4%B9%A6%E6%B3%95/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><a href="https://imgtu.com/i/RC5l2q"><img src="https://z3.ax1x.com/2021/06/19/RC5l2q.jpg" alt=""></a><br>
@@ -248,19 +216,36 @@
       </tags>
   </entry>
   <entry>
-    <title>手滑妙方</title>
-    <url>/2021/05/03/%E5%86%99%E4%BB%A3%E7%A0%81%E6%97%B6%E6%80%BB%E6%98%AF%E6%89%8B%E6%BB%91/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>##写代码时总是手滑把main写成mian怎么办？</p>
-<p>每次写代码前加入如下内容：</p>
-<figure class="highlight vala"><table><tbody><tr><td class="code"><pre><span class="line"><span class="meta">#difine mian main</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#difine ture true</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#difine flase false</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#define viod void</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#define （ (</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#define ）)</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#define ， ,</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#define ； ;</span></span><br></pre></td></tr></tbody></table></figure>
-<p>妙啊</p>
+    <title>忆梦</title>
+    <url>/2021/07/22/%E4%BA%BA%E7%94%9F%E6%81%8D%E5%A6%82%E6%A2%A6/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>有时候，看着镜子里的人，常常会想，自己老了是什么样子？</p>
+<p>银灰色的乱发似乎不愿承认衰老的事实，蜘蛛网悄悄地爬上鼻孔，千沟万壑的皮肤间恍如布满青苔。</p>
+<p>“恍如”……哦，人生恍如梦。</p>
+<p>躺在病床上，身上插满大大小小蛇一样的管子。向上看是白色，周围站了一圈认识的和不认识的人——他们挡住了阳光。</p>
+<p>我知道自己命不久矣，回忆像默片一样开始播放。</p>
+<span id="more"></span>
+<p>17岁，我幡然悔悟，开始认真学习，埋头读书。</p>
+<p>18岁，高考。我考上一个普普通通的二本学校。在选专业时，我和家人产生分歧。“金融、计算机、会计，这才是最吃香的。” 我喜欢当医生，但我最终选择了金融。</p>
+<p>22岁，大学毕业。我回到自己出生的那个小县城，在一家公司工作。</p>
+<p>27岁，家里人开始着急地催婚。我相了许多次亲，总觉得她不如初恋。</p>
+<p>30岁，我累了。有一天，等公交时，我遇到她。我问她年龄，她说二十九。相亲结束后，我又问她：“你觉得可以吗？”她没有任何表情，只是点了点头。</p>
+<p>31岁，我结婚了，没有想象中的爱情，也没有想象中的激情。我们不吵架，平平淡淡。</p>
+<p>32岁，她怀孕了，辞职在家。我每天很早去上班，中午回家做饭，晚上出去兼职。她提一些要求，我也不敢说什么，只是一直努力为孩子赚奶粉钱。孩子生下来了。我妈来帮我们照顾孩子。因为婆媳矛盾，我们第一次吵架。</p>
+<p>38岁，孩子上小学。我因为学区房的事和媳妇吵架。</p>
+<p>50岁，孩子高考。他比我强，考上了一本，但选了一个冷门专业。我为此和他大吵一架。他说：“我自己的人生，凭什么让你来决定！”后来，我拍着他的肩膀，对他说，选什么专业都无所谓，只是以后不要留下遗憾就好。”他最终还是选择了那个冷门专业。</p>
+<p>61岁，父亲走了。</p>
+<p>63岁，母亲走了。</p>
+<p>77岁，我躺在病床上，身上插满大大小小蛇一样的管子。向上看是白色，周围站了一圈认识的和不认识的人——他们挡住了阳光。</p>
+<p>我想起小学的时候，我和好朋友一起爬树，一起踩井盖，一起骑车穿过许多小巷。</p>
+<p>我又想起中学的时候，我和同学们一起踏春，一起参加唱歌比赛，一起打水战。</p>
+<p>我想起我的初恋，想必她也已是白发苍苍。</p>
+<p>七十年了，记忆里的楼房、课桌和一花一草，早已无存。</p>
+<p>原来，我一生中最快乐的时候，竟是我想睡、想吃、想看天上的白云的少年时代。我也叫它……黄金时代。</p>
+<p><img src="https://pic3.zhimg.com/v2-aa95804c811a7c3536ba84baf3c7fc67_r.jpg?source=1940ef5c" alt=""></p>
 ]]></content>
       <categories>
-        <category>转载</category>
+        <category>随笔</category>
       </categories>
-      <tags>
-        <tag>-笑话</tag>
-      </tags>
   </entry>
   <entry>
     <title>双剑合璧</title>
@@ -294,6 +279,21 @@
       <tags>
         <tag>媒体</tag>
         <tag>诗词 - 视频</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>手滑妙方</title>
+    <url>/2021/05/03/%E5%86%99%E4%BB%A3%E7%A0%81%E6%97%B6%E6%80%BB%E6%98%AF%E6%89%8B%E6%BB%91/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>##写代码时总是手滑把main写成mian怎么办？</p>
+<p>每次写代码前加入如下内容：</p>
+<figure class="highlight vala"><table><tbody><tr><td class="code"><pre><span class="line"><span class="meta">#difine mian main</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#difine ture true</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#difine flase false</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#define viod void</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#define （ (</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#define ）)</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#define ， ,</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#define ； ;</span></span><br></pre></td></tr></tbody></table></figure>
+<p>妙啊</p>
+]]></content>
+      <categories>
+        <category>转载</category>
+      </categories>
+      <tags>
+        <tag>-笑话</tag>
       </tags>
   </entry>
   <entry>
@@ -393,36 +393,6 @@
       </tags>
   </entry>
   <entry>
-    <title>女曰鸡鸣</title>
-    <url>/2021/05/01/%E5%A5%B3%E6%9B%B0%E9%B8%A1%E9%B8%A3/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
-<p>女曰：“鸡鸣。“</p>
-<p>士曰：“昧旦。”</p>
-<p>“子兴视夜，明星有烂。”</p>
-<p>“将翱将翔，弋凫与雁。”</p>
-<p>“弋言加之，与子宜之。</p>
-<p>宜言饮酒，与子偕老。</p>
-<p>琴瑟在御，莫不静好。”</p>
-<p>知子之来之，杂佩以赠之。</p>
-<p>知子之顺之，杂佩以问之。</p>
-<p>知子之好之，杂佩以报之。</p>
-</blockquote>
-<p>这正是我向往的未来生活啊！</p>
-<p>比起闻一多先生说是新婚，我更希望是日常。</p>
-<p>人生要进取，但生活还是平淡些好。</p>
-<p>尤喜首段。</p>
-<p><img src="https://i.loli.net/2021/05/01/tTHgdf4GLncAXoF.jpg" alt=""></p>
-<p>​                                                                                                       <em>4月19日于校</em></p>
-]]></content>
-      <categories>
-        <category>随记</category>
-      </categories>
-      <tags>
-        <tag>诗词</tag>
-        <tag>古剑</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>非正古诗词</title>
     <url>/2021/04/04/%E6%81%A2%E5%8F%A5/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
@@ -453,6 +423,36 @@
       <tags>
         <tag>诗词</tag>
         <tag>笑话</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>女曰鸡鸣</title>
+    <url>/2021/05/01/%E5%A5%B3%E6%9B%B0%E9%B8%A1%E9%B8%A3/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
+<p>女曰：“鸡鸣。“</p>
+<p>士曰：“昧旦。”</p>
+<p>“子兴视夜，明星有烂。”</p>
+<p>“将翱将翔，弋凫与雁。”</p>
+<p>“弋言加之，与子宜之。</p>
+<p>宜言饮酒，与子偕老。</p>
+<p>琴瑟在御，莫不静好。”</p>
+<p>知子之来之，杂佩以赠之。</p>
+<p>知子之顺之，杂佩以问之。</p>
+<p>知子之好之，杂佩以报之。</p>
+</blockquote>
+<p>这正是我向往的未来生活啊！</p>
+<p>比起闻一多先生说是新婚，我更希望是日常。</p>
+<p>人生要进取，但生活还是平淡些好。</p>
+<p>尤喜首段。</p>
+<p><img src="https://i.loli.net/2021/05/01/tTHgdf4GLncAXoF.jpg" alt=""></p>
+<p>​                                                                                                       <em>4月19日于校</em></p>
+]]></content>
+      <categories>
+        <category>随记</category>
+      </categories>
+      <tags>
+        <tag>诗词</tag>
+        <tag>古剑</tag>
       </tags>
   </entry>
   <entry>
@@ -519,6 +519,31 @@
       </tags>
   </entry>
   <entry>
+    <title>无叶风扇</title>
+    <url>/2021/07/30/%E6%97%A0%E5%8F%B6%E9%A3%8E%E6%89%87/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><a href="https://imgtu.com/i/WXwoAH"><img src="https://z3.ax1x.com/2021/07/30/WXwoAH.jpg" alt=""></a></p>
+<p>这是一个无叶风扇，之前偶然从科学松鼠会上看到，便花时间做了出来。</p>
+<p>按流体动力学大神的解释，由于出风口的缩小，其风速至少会达到原来的十五倍。我做的这个虽然没这种感觉，不过凑近去还挺清凉。</p>
+<p>我原想将整个装置独立出来，但不会做谐振电路，怕糟蹋了这么棒的马达，便连在了单片机的直流电机模块上。</p>
+<figure class="highlight c"><table><tbody><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>{	</span><br><span class="line">	u8 i;</span><br><span class="line">	moto = <span class="number">0</span>;			<span class="comment">//关闭电机</span></span><br><span class="line">	<span class="keyword">for</span>(i = <span class="number">0</span>; i &lt; <span class="number">100</span>; i ++)	  <span class="comment">//循环100次，也就是大约5S</span></span><br><span class="line">	{</span><br><span class="line">		moto = <span class="number">1</span>;			 <span class="comment">//开启电机</span></span><br><span class="line">		delay(<span class="number">5000</span>);	<span class="comment">//大约延时50ms</span></span><br><span class="line">	}</span><br><span class="line">	moto = <span class="number">0</span>;			<span class="comment">//关闭电机</span></span><br><span class="line"></span><br><span class="line">	<span class="keyword">while</span>(<span class="number">1</span>)</span><br><span class="line">	{	</span><br><span class="line">						</span><br><span class="line">	}</span><br><span class="line"></span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+<p>这起码可以保证电机的寿命。</p>
+<span id="more"></span>
+<p>无叶风扇奇就奇在无叶上，这是它的原理图，我从网上搜的。</p>
+<p><img src="https://www.dgzj.com/uploads/allimg/150617/0G02555R-2.jpg" alt="">)</p>
+<p>制作时，圆环与圆柱连接部分的计算有些超纲。不过想到了这是圆的一部分在圆柱侧面上的射影，一束平行光就能解决。但最后还是用手比划，凭感觉剪裁。（其实是懒得算😜）</p>
+<p>假期快过半了，一种紧迫感时不时袭击全身。</p>
+<p>❤️‍🩹👇</p>
+<p><img src="https://tse1-mm.cn.bing.net/th/id/R-C.eb140ef5cca7ba6d63b1b19df619e18b?rik=rf9um4cBBfiS4w&amp;riu=http%3a%2f%2f5b0988e595225.cdn.sohucs.com%2fimages%2f20190626%2f118b6ccaf7d44a1fac2d1f40a0829580.jpeg&amp;ehk=iC5GDrljr6IV84w7fBSMphSAO3kr%2bwTLJaUftFdSqO4%3d&amp;risl=&amp;pid=ImgRaw" alt=""></p>
+]]></content>
+      <categories>
+        <category>天工开物</category>
+      </categories>
+      <tags>
+        <tag>艺</tag>
+        <tag>单片机</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>To Do and to See</title>
     <url>/2021/06/28/%E6%89%93%E5%8D%A1/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><ul>
@@ -553,6 +578,32 @@
       <categories>
         <category>随记</category>
       </categories>
+  </entry>
+  <entry>
+    <title>枕边方便灯</title>
+    <url>/2021/09/11/%E6%9E%95%E8%BE%B9%E6%96%B9%E4%BE%BF%E7%81%AF/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>材料:</p>
+<p>电阻：56k（绿蓝橙）一个，10k（棕黑橙）一个，330（橙橙棕）一个</p>
+<p>三极管：9014一个、9012一个</p>
+<p>开关：一个</p>
+<p>LED：一个</p>
+<p>电路图：<img src="http://img.mp.itc.cn/upload/20160816/2225c9cd42234f6cae0f394581da0a12_th.jpeg" alt=""></p>
+<p>实物图：<a href="https://imgtu.com/i/hxTPVP"><img src="https://z3.ax1x.com/2021/09/11/hxTPVP.jpg" alt=""></a></p>
+<p>实际上，由于元件不足，Q1的偏置电阻我用的100k。电容原来用的470μ，因为测试延时时间太长，有点耗电，便用了47μ。</p>
+<p>VCC为3V，那么电容电荷量	Q=1.47*10^(-6)C.</p>
+<p>放电时，有Q=I·t……</p>
+<p>等等，放电时C的电压一直在变。既然R1不变，那么I不可能不变。如此一来，就无法用这个公式算时间。</p>
+<p>而电容放电时间公式我还没学……</p>
+<p>好吧，只好实测t≈32s。有点长，但足够在宿舍使用了，而且体积小…🤐</p>
+<p>另外，焊接的时候才明白，要想把挂在烙铁头上的锡焊上去，关键必须使被焊部分达到与烙铁头相同的温度才行。</p>
+]]></content>
+      <categories>
+        <category>天工开物</category>
+      </categories>
+      <tags>
+        <tag>艺</tag>
+        <tag>电子制作</tag>
+      </tags>
   </entry>
   <entry>
     <title>有感于抖音扭曲的价值观</title>
@@ -630,31 +681,6 @@
       </tags>
   </entry>
   <entry>
-    <title>无叶风扇</title>
-    <url>/2021/07/30/%E6%97%A0%E5%8F%B6%E9%A3%8E%E6%89%87/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><a href="https://imgtu.com/i/WXwoAH"><img src="https://z3.ax1x.com/2021/07/30/WXwoAH.jpg" alt=""></a></p>
-<p>这是一个无叶风扇，之前偶然从科学松鼠会上看到，便花时间做了出来。</p>
-<p>按流体动力学大神的解释，由于出风口的缩小，其风速至少会达到原来的十五倍。我做的这个虽然没这种感觉，不过凑近去还挺清凉。</p>
-<p>我原想将整个装置独立出来，但不会做谐振电路，怕糟蹋了这么棒的马达，便连在了单片机的直流电机模块上。</p>
-<figure class="highlight c"><table><tbody><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>{	</span><br><span class="line">	u8 i;</span><br><span class="line">	moto = <span class="number">0</span>;			<span class="comment">//关闭电机</span></span><br><span class="line">	<span class="keyword">for</span>(i = <span class="number">0</span>; i &lt; <span class="number">100</span>; i ++)	  <span class="comment">//循环100次，也就是大约5S</span></span><br><span class="line">	{</span><br><span class="line">		moto = <span class="number">1</span>;			 <span class="comment">//开启电机</span></span><br><span class="line">		delay(<span class="number">5000</span>);	<span class="comment">//大约延时50ms</span></span><br><span class="line">	}</span><br><span class="line">	moto = <span class="number">0</span>;			<span class="comment">//关闭电机</span></span><br><span class="line"></span><br><span class="line">	<span class="keyword">while</span>(<span class="number">1</span>)</span><br><span class="line">	{	</span><br><span class="line">						</span><br><span class="line">	}</span><br><span class="line"></span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
-<p>这起码可以保证电机的寿命。</p>
-<span id="more"></span>
-<p>无叶风扇奇就奇在无叶上，这是它的原理图，我从网上搜的。</p>
-<p><img src="https://www.dgzj.com/uploads/allimg/150617/0G02555R-2.jpg" alt="">)</p>
-<p>制作时，圆环与圆柱连接部分的计算有些超纲。不过想到了这是圆的一部分在圆柱侧面上的射影，一束平行光就能解决。但最后还是用手比划，凭感觉剪裁。（其实是懒得算😜）</p>
-<p>假期快过半了，一种紧迫感时不时袭击全身。</p>
-<p>❤️‍🩹👇</p>
-<p><img src="https://tse1-mm.cn.bing.net/th/id/R-C.eb140ef5cca7ba6d63b1b19df619e18b?rik=rf9um4cBBfiS4w&amp;riu=http%3a%2f%2f5b0988e595225.cdn.sohucs.com%2fimages%2f20190626%2f118b6ccaf7d44a1fac2d1f40a0829580.jpeg&amp;ehk=iC5GDrljr6IV84w7fBSMphSAO3kr%2bwTLJaUftFdSqO4%3d&amp;risl=&amp;pid=ImgRaw" alt=""></p>
-]]></content>
-      <categories>
-        <category>天工开物</category>
-      </categories>
-      <tags>
-        <tag>艺</tag>
-        <tag>单片机</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>相册</title>
     <url>/2021/06/07/%E7%9B%B8%E5%86%8C/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>重新鼓捣了相册，主要还是图床的后顾之忧。</p>
@@ -668,20 +694,6 @@
       <tags>
         <tag>媒体</tag>
         <tag>古剑</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>江南水乡</title>
-    <url>/2021/07/13/%E6%B0%B4%E4%B9%A1/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>爱了爱了❤️<br>
-<a href="https://www.bilibili.com/video/BV1tT4y1j7a9/?spm_id_from=333.788.videocard.2">https://www.bilibili.com/video/BV1tT4y1j7a9/?spm_id_from=333.788.videocard.2</a></p>
-]]></content>
-      <categories>
-        <category>转载</category>
-      </categories>
-      <tags>
-        <tag>非己</tag>
-        <tag>水乡</tag>
       </tags>
   </entry>
   <entry>
@@ -705,19 +717,17 @@
       </tags>
   </entry>
   <entry>
-    <title>王兄之作</title>
-    <url>/2021/04/04/%E7%8E%8B%E5%85%84%E4%B9%8B%E4%BD%9C/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><img src="https://i.loli.net/2021/04/04/4AWdZ2btEHXhzuj.jpg" alt=""></p>
-<p><img src="https://i.loli.net/2021/04/04/HsrkMajSI9Jh5YR.jpg" alt=""></p>
-<p><img src="https://i.loli.net/2021/04/04/eAMCSKbEw8rd4RV.jpg" alt=""></p>
-<img src="https://i.loli.net/2021/04/04/AUZuSQhoKe3BF6b.jpg">
-<img src="https://i.loli.net/2021/04/04/AUZuSQhoKe3BF6b.jpg" style="zoom:67%;">
+    <title>江南水乡</title>
+    <url>/2021/07/13/%E6%B0%B4%E4%B9%A1/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>爱了爱了❤️<br>
+<a href="https://www.bilibili.com/video/BV1tT4y1j7a9/?spm_id_from=333.788.videocard.2">https://www.bilibili.com/video/BV1tT4y1j7a9/?spm_id_from=333.788.videocard.2</a></p>
 ]]></content>
       <categories>
         <category>转载</category>
       </categories>
       <tags>
         <tag>非己</tag>
+        <tag>水乡</tag>
       </tags>
   </entry>
   <entry>
@@ -740,6 +750,35 @@
       </tags>
   </entry>
   <entry>
+    <title>王兄之作</title>
+    <url>/2021/04/04/%E7%8E%8B%E5%85%84%E4%B9%8B%E4%BD%9C/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><img src="https://i.loli.net/2021/04/04/4AWdZ2btEHXhzuj.jpg" alt=""></p>
+<p><img src="https://i.loli.net/2021/04/04/HsrkMajSI9Jh5YR.jpg" alt=""></p>
+<p><img src="https://i.loli.net/2021/04/04/eAMCSKbEw8rd4RV.jpg" alt=""></p>
+<img src="https://i.loli.net/2021/04/04/AUZuSQhoKe3BF6b.jpg">
+<img src="https://i.loli.net/2021/04/04/AUZuSQhoKe3BF6b.jpg" style="zoom:67%;">
+]]></content>
+      <categories>
+        <category>转载</category>
+      </categories>
+      <tags>
+        <tag>非己</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>老友记</title>
+    <url>/2021/06/20/%E8%80%81%E5%8F%8B%E8%AE%B0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><a href="https://imgtu.com/i/RFIk8J"><img src="https://z3.ax1x.com/2021/06/20/RFIk8J.jpg" alt="RFIk8J.jpg"></a><br>
+旧友重逢:happy:</p>
+]]></content>
+      <categories>
+        <category>随记</category>
+      </categories>
+      <tags>
+        <tag>回忆</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>终于找到了Bug</title>
     <url>/2021/06/08/%E7%BB%88%E4%BA%8E%E6%89%BE%E5%88%B0%E4%BA%86bug/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><figure class="highlight vim"><table><tbody><tr><td class="code"><pre><span class="line">{</span><br><span class="line">         name: <span class="string">'劫尽吟·变调'</span>,</span><br><span class="line">         artis<span class="variable">t:</span> <span class="string">'骆集益'</span>,</span><br><span class="line">         ur<span class="variable">l:</span> <span class="string">'http://music.163.com/song/media/outer/url?id=26344044.mp3'</span>，</span><br><span class="line">         cover: <span class="string">'images/晴雪苏苏.png'</span>,</span><br><span class="line">         theme: <span class="string">'#ebd0c2'</span></span><br><span class="line">     },</span><br><span class="line">     {</span><br><span class="line">         name: <span class="string">'凤鸣榣山'</span>，</span><br><span class="line">         ur<span class="variable">l:</span> <span class="string">'http://music.163.com/song/media/outer/url?id=26344015.mp3'</span>，</span><br><span class="line">         artis<span class="variable">t:</span> <span class="string">'骆集益'</span>,</span><br><span class="line">         cover: <span class="string">'images/晴雪苏苏.png'</span>,</span><br><span class="line">         theme: <span class="string">'#ebd0c2'</span></span><br><span class="line">     }</span><br></pre></td></tr></tbody></table></figure>
@@ -757,19 +796,6 @@
     <url>/2021/07/25/%E8%80%81%E5%8F%8B%E8%AE%B0%20-%20%E5%89%AF%E6%9C%AC/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><a href="https://imgtu.com/i/W2DSPI"><img src="https://z3.ax1x.com/2021/07/25/W2DSPI.jpg" alt=""></a></p>
 <p>旧友重逢:happy:</p>
-]]></content>
-      <categories>
-        <category>随记</category>
-      </categories>
-      <tags>
-        <tag>回忆</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>老友记</title>
-    <url>/2021/06/20/%E8%80%81%E5%8F%8B%E8%AE%B0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><a href="https://imgtu.com/i/RFIk8J"><img src="https://z3.ax1x.com/2021/06/20/RFIk8J.jpg" alt="RFIk8J.jpg"></a><br>
-旧友重逢:happy:</p>
 ]]></content>
       <categories>
         <category>随记</category>
@@ -922,25 +948,6 @@
       </tags>
   </entry>
   <entry>
-    <title>重游古剑</title>
-    <url>/2021/06/06/%E9%87%8D%E6%B8%B8%E5%8F%A4%E5%89%91/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><img src="https://th.bing.com/th/id/R3a666766da5b4ceb8d58051955037d0a?rik=z2NYtgOfOm026g&amp;riu=http%3a%2f%2fi0.gbimg.cn%2f2010%2f04%2f06%2f20100406163409877.jpg&amp;ehk=BFWM%2bIxVDw96mF356y4ozCUxVCEYRhT0olxmy8idqvM%3d&amp;risl=&amp;pid=ImgRaw" alt=""></p>
-<p>熟悉的乌蒙灵谷，温柔而又静谧，我又回来了！</p>
-<p>重游古剑，序章业已结束。对于我来说，在这浊气遍地的繁杂之世中，古剑就是那株纯种的红高粱，那只通体雪白的白鹿精灵，以及那个裹着毯子坐摩托的前妻。</p>
-<audio controls="true">
-        <source src="http://music.163.com/song/media/outer/url?id=26344015.mp3">
-       您的浏览器不支持 video 标签！
-</audio>
-鹤唳嘹鸣，极天而振奋人心；踏歌长行，向海而翻山越岭。一曲《凤鸣榣山》，开启征程，又勾起了我对古剑的一份回忆：疫情之前假期里的某个下午，片尾动画结束后，我流尽眼泪，又为晴雪的”道“而释然……罢了罢了。继续百里寨。
-]]></content>
-      <categories>
-        <category>随记</category>
-      </categories>
-      <tags>
-        <tag>古剑</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>音乐情怀</title>
     <url>/2021/05/16/%E9%9F%B3%E4%B9%90/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>在我的生命中，每一段人生阶段总是与音乐相挂钩。每当我回忆起过去时，脑海中循环播放的，总是这些伴随萦绕的音乐。</p>
@@ -990,6 +997,25 @@
       </categories>
       <tags>
         <tag>回忆 - 水乡</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>重游古剑</title>
+    <url>/2021/06/06/%E9%87%8D%E6%B8%B8%E5%8F%A4%E5%89%91/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><img src="https://th.bing.com/th/id/R3a666766da5b4ceb8d58051955037d0a?rik=z2NYtgOfOm026g&amp;riu=http%3a%2f%2fi0.gbimg.cn%2f2010%2f04%2f06%2f20100406163409877.jpg&amp;ehk=BFWM%2bIxVDw96mF356y4ozCUxVCEYRhT0olxmy8idqvM%3d&amp;risl=&amp;pid=ImgRaw" alt=""></p>
+<p>熟悉的乌蒙灵谷，温柔而又静谧，我又回来了！</p>
+<p>重游古剑，序章业已结束。对于我来说，在这浊气遍地的繁杂之世中，古剑就是那株纯种的红高粱，那只通体雪白的白鹿精灵，以及那个裹着毯子坐摩托的前妻。</p>
+<audio controls="true">
+        <source src="http://music.163.com/song/media/outer/url?id=26344015.mp3">
+       您的浏览器不支持 video 标签！
+</audio>
+鹤唳嘹鸣，极天而振奋人心；踏歌长行，向海而翻山越岭。一曲《凤鸣榣山》，开启征程，又勾起了我对古剑的一份回忆：疫情之前假期里的某个下午，片尾动画结束后，我流尽眼泪，又为晴雪的”道“而释然……罢了罢了。继续百里寨。
+]]></content>
+      <categories>
+        <category>随记</category>
+      </categories>
+      <tags>
+        <tag>古剑</tag>
       </tags>
   </entry>
   <entry>

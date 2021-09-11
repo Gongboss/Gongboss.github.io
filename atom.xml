@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-08-23T11:34:40.104Z</updated>
+  <updated>2021-09-11T05:32:18.706Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>枕边方便灯</title>
+    <link href="http://example.com/2021/09/11/%E6%9E%95%E8%BE%B9%E6%96%B9%E4%BE%BF%E7%81%AF/"/>
+    <id>http://example.com/2021/09/11/%E6%9E%95%E8%BE%B9%E6%96%B9%E4%BE%BF%E7%81%AF/</id>
+    <published>2021-09-11T01:41:13.735Z</published>
+    <updated>2021-09-11T05:32:18.706Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>材料:</p><p>电阻：56k（绿蓝橙）一个，10k（棕黑橙）一个，330（橙橙棕）一个</p><p>三极管：9014一个、9012一个</p><p>开关：一个</p><p>LED：一个</p><p>电路图：<img src="http://img.mp.itc.cn/upload/20160816/2225c9cd42234f6cae0f394581da0a12_th.jpeg" alt=""></p><p>实物图：<a href="https://imgtu.com/i/hxTPVP"><img src="https://z3.ax1x.com/2021/09/11/hxTPVP.jpg" alt=""></a></p><p>实际上，由于元件不足，Q1的偏置电阻我用的100k。电容原来用的470μ，因为测试延时时间太长，有点耗电，便用了47μ。</p><p>VCC为3V，那么电容电荷量Q=1.47*10^(-6)C.</p><p>放电时，有Q=I·t……</p><p>等等，放电时C的电压一直在变。既然R1不变，那么I不可能不变。如此一来，就无法用这个公式算时间。</p><p>而电容放电时间公式我还没学……</p><p>好吧，只好实测t≈32s。有点长，但足够在宿舍使用了，而且体积小…🤐</p><p>另外，焊接的时候才明白，要想把挂在烙铁头上的锡焊上去，关键必须使被焊部分达到与烙铁头相同的温度才行。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="天工开物" scheme="http://example.com/categories/%E5%A4%A9%E5%B7%A5%E5%BC%80%E7%89%A9/"/>
+    
+    
+    <category term="艺" scheme="http://example.com/tags/%E8%89%BA/"/>
+    
+    <category term="电子制作" scheme="http://example.com/tags/%E7%94%B5%E5%AD%90%E5%88%B6%E4%BD%9C/"/>
+    
+  </entry>
   
   <entry>
     <title>有感于抖音扭曲的价值观</title>
@@ -512,44 +538,6 @@
     
     
     <category term="古剑" scheme="http://example.com/tags/%E5%8F%A4%E5%89%91/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>5月日志</title>
-    <link href="http://example.com/2021/06/05/5%E6%9C%88%E6%97%A5%E5%BF%97/"/>
-    <id>http://example.com/2021/06/05/5%E6%9C%88%E6%97%A5%E5%BF%97/</id>
-    <published>2021-06-05T14:12:54.747Z</published>
-    <updated>2021-08-23T11:35:37.579Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1>5月日志</h1><h4 id="6-5"><a class="header-anchor" href="#6-5">¶</a>6.5</h4><p>终于回家了！有必要把这段时间的奇思妙想及日志整理一下。</p><h4 id="5-17"><a class="header-anchor" href="#5-17">¶</a>5.17</h4><p>在化学实验室做两个实验：粗盐提纯与碘水萃取——均未成功。粗盐提纯时，由于温度过高发生暴沸，粗盐浊液溅落满桌。碘萃取由于分液漏斗检漏失败而无法进行。</p><p>但无意中发明一种“试管排箫”：取四支大小相同的试管（也只剩四支），分别装入五分之一、五分之二、五分之三、五分之四的水，依序并在一起，以吹排箫法吹奏。于是合于桑林之舞，乃中经首之会。</p><h6 id="刘-弓粗盐提纯法"><a class="header-anchor" href="#刘-弓粗盐提纯法">¶</a>刘-弓粗盐提纯法</h6><p>在一个干净的实验桌上，用酒精灯灼烧蒸发皿，同时用玻璃棒不停搅拌皿中的粗盐溶液。伺其沸腾时，实验人员须到至少300m以外的地方躲避，以防溅落液滴烫伤。未几，进入实验室，灭掉酒精灯，收集实验桌上的白色颗粒。</p><p>原理：从蒸发皿中溅出去的时NaCl，杂质由于太重而留在皿内。</p><p>成功关键因素：<strong>不放沸石！！！</strong></p><p>实验十分成功！（手动滑稽&amp;&amp;狗头保命 🐶 ）</p><h4 id="5-21"><a class="header-anchor" href="#5-21">¶</a>5.21</h4><h5 id="一、蛋白质盐析"><a class="header-anchor" href="#一、蛋白质盐析">¶</a>一、蛋白质盐析</h5><p>鸡蛋清加食盐 💨提纯 💨溶解 💨煮 💨吃</p><h5 id="二、鸡蛋壳与醋"><a class="header-anchor" href="#二、鸡蛋壳与醋">¶</a>二、鸡蛋壳与醋</h5><p><img src="http://p0.qhimg.com/t01d1805c4e8de4d2f2.jpg" alt=""></p><blockquote><p>“黎叔剥的可是生鸡蛋。”</p></blockquote><p>白醋浸鸡蛋</p><span id="more"></span><h5 id="复原电击电路"><a class="header-anchor" href="#复原电击电路">¶</a>复原电击电路</h5><p>初三上学期做过一个仿电蚊拍电路，用以电人，由于莫名原因电压逐渐变小以致无感。</p><p>基本原理：直流1.5V逆变得交流，变压器升压至高压，再十一倍压整流，后分流输出，Out可至10000V 。</p><p><img src="http://a4.qpic.cn/psb?/V10Dwhbe0OXNTJ/..8CiW7Lf6lcIsUOfhN74TUnU*WA5VRsJv9dMbmc2tk!/c/dBMBAAAAAAAA&amp;ek=1&amp;kp=1&amp;pt=0&amp;bo=HAtABhwLQAYRIBc!&amp;t=5&amp;tl=3&amp;vuin=1754724686&amp;tm=1622901600&amp;sce=60-2-2&amp;rf=0-0" alt="残照"></p><p>两臂“嗵”的一种感受：</p><ul><li>有持续性</li><li>麻木💨爽💨疼💨无法主观松手</li></ul><h5 id="四、低温诱导蒜苗"><a class="header-anchor" href="#四、低温诱导蒜苗">¶</a>四、低温诱导蒜苗</h5><p>生物书上都有，由于时间跨度只能留置暑假。</p><h4 id="5-22"><a class="header-anchor" href="#5-22">¶</a>5.22</h4><p>中午尚沉浸在银子的世界里，迷失在热力学二零一，下午便得悉袁隆平辞世。</p><p>天空好暗…才四点。</p><p><img src="https://th.bing.com/th/id/Rbc5f72dfb9167bd62a67a157c06b314d?rik=cONAe1iVPI%2b5DA&amp;riu=http%3a%2f%2f5b0988e595225.cdn.sohucs.com%2fimages%2f20190706%2f8c99991be7cf48a780289c079c14576c.jpeg&amp;ehk=PSO51ZYqQpXWP53FeE%2f6wuiIFtdAijNfzzT0ZBJLiIs%3d&amp;risl=&amp;pid=ImgRaw" alt=""></p><h4 id="5-23"><a class="header-anchor" href="#5-23">¶</a>5.23</h4><p>未来的世界是银子的。</p><p>铝热反应{镁，铝热剂， 氯酸钾，沙子，盆，纸，水，铝箔}——趁热打铁</p><h4 id="5-23（这段时间日期混乱）"><a class="header-anchor" href="#5-23（这段时间日期混乱）">¶</a>5.23（这段时间日期混乱）</h4><p>前两天还念到“聊逍遥兮容与”，不想今日即有此感。这才不到一年，这样的日子要熬三年，一年比一年苦。初一的时候尚且未有此焦虑，怎么高中就……</p><p><strong>夏天真是一个浮躁的季节。</strong></p><p>目前要紧之事：</p><ol><li>物理、生物抓紧复习、改题</li><li>语文把那几张卷再写一遍</li><li>找个人骂自己一顿</li><li>数学改错、化学作业</li></ol><p>国家政策急功近利；</p><p>基层形式主义遍地成风</p><p>上面永远不了解下面，下面像看雕像一样仰望上面。</p><p>”《人民日报》只能算是二流报纸“——教员说的真对。</p><p>媒体政治化——失去了”报道“新闻的能力，反而成了控制精神文艺风向标的魔棒</p><p>白银时代即将到来——</p><p>1984也不远了。</p><blockquote><p>战争即和平。</p><p>自由即奴隶</p><p>无知即力量</p></blockquote><p><strong>不免有些片面~</strong></p><p>如何才能全方位地跳脱信息茧房获取信息？</p><p>《中国国家地理》·《图案》</p><h4 id="5-24"><a class="header-anchor" href="#5-24">¶</a>5.24</h4><p>奇门遁甲之术</p><p>爱情观</p><h4 id="5-25"><a class="header-anchor" href="#5-25">¶</a>5.25</h4><p>怼广告——”富含多种氨基酸“</p><p>​可笑！</p><p>​笑死，根本笑不死！</p><h4 id="5-26"><a class="header-anchor" href="#5-26">¶</a>5.26</h4><p>一直劝自己静心，可压抑不住浮躁。</p><h4 id="5-27"><a class="header-anchor" href="#5-27">¶</a>5.27</h4><p>铝热实验 👉木棍铁芯 👉特效 🤘</p><p>好久没用AE了。</p><h5 id="音色与声音强度关系的探究实验"><a class="header-anchor" href="#音色与声音强度关系的探究实验">¶</a>音色与声音强度关系的探究实验</h5><p>灵感：上操时，放同一首歌。教学楼里听时，人声琴声声强平分秋色，而在楼北侧，不闻人声，只闻琴声。</p><p>应用：汽车鸣笛控制，只能让前面两辆车听到鸣笛声，以治理声污染。</p><p>​即鸣笛声根据不同音色制定起始分贝，根据空气中声速来定向传声，实时monitor。</p><p>技术原理：</p><ul><li>咪头与单片机结合</li><li>定点移动</li><li>变量可为笛膜材料、乐器种类、距离</li><li>python处理数据</li></ul><p>《神秘巨星》观后感</p><ol><li>对于女主的变化与成长</li><li>主要矛盾：女主追梦与阻碍之矛盾</li><li>美好与不好：正喜爱不好，才喜爱美好。💨真实</li><li>电影拯救了一个又一个追梦年轻人的心，殊不知有多少人挣扎在追梦的路上，但最终随了大流。我们曾怀着一腔热血以为自己能改变世界，最后发现自己竟被锤得像头挨了锤的牛。这也是《黄金时代》里所述的。</li><li>对于追梦的方式，我不敢苟同。</li><li>（此时仅看前半段）她在赌博，未留后路。而我更喜欢中庸。</li></ol><h4 id="5-28"><a class="header-anchor" href="#5-28">¶</a>5.28</h4><p>单片机遥控小车</p><p>主要问题是转向，考虑电磁铁。</p><p>英文歌。</p><p>韩歌《Gohome》</p><ul><li>写一个python程序，每日推送一条标题党微信文章给堂。</li></ul><p>哀《半月琴》。</p><h4 id="5-29"><a class="header-anchor" href="#5-29">¶</a>5.29</h4><p>带伞的太阳帽加风扇</p><p>孙继泉《季节深处》——《百年中国经典散文》</p><p>《天工开物》</p><p>橡碗</p><blockquote><p>琴瑟尚宫，钟尚羽，石尚角。</p></blockquote><p>新html页面——五音</p><p>良宽禅师的诗</p><h4 id="5-30"><a class="header-anchor" href="#5-30">¶</a>5.30</h4><p>唱歌</p><p>围棋</p><h4 id="5-31"><a class="header-anchor" href="#5-31">¶</a>5.31</h4><p>《七月》——”七月流火，九月受衣“</p><p>《五月》——”五月拉练……“</p><p>扇子</p><h4 id="6-2"><a class="header-anchor" href="#6-2">¶</a>6.2</h4><p><em>Minecraft</em>中的亘世孤独感</p><p>”有些人笑着笑着就哭了“，如今才明白这句话。</p><p>物理课上一直憋着不许哭，但眼眶还是湿了。</p><p>我们生活在白银时代，我在学校的教室里学习，有时候我在真正地学习，但更多时候我是在过着某种生活。我们坐在教室里，不是在学习，而是在过学习生活。想要真正地学，就必须到生活之外。</p><p>有关围棋：</p><p>一在学校下的三篇来看，打入甚弱，侵消、防御还好。主要是打入无思路。</p><p><img src="https://i.postimg.cc/vBz4xDTJ/image.jpg" alt="image.jpg"></p><h4 id="6-4"><a class="header-anchor" href="#6-4">¶</a>6.4</h4><p>《半月琴》</p><p>《回梦游仙》</p><p>《我的世界》工业MOD</p><h4 id="6-5-v2"><a class="header-anchor" href="#6-5-v2">¶</a>6.5</h4><p>突破双心理防线之天平原理。</p><hr><p>已是6.6 0:16,终于整理完毕。</p>]]></content>
-    
-    
-    <summary type="html">&lt;h1&gt;5月日志&lt;/h1&gt;
-&lt;h4 id=&quot;6-5&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#6-5&quot;&gt;¶&lt;/a&gt;6.5&lt;/h4&gt;
-&lt;p&gt;终于回家了！有必要把这段时间的奇思妙想及日志整理一下。&lt;/p&gt;
-&lt;h4 id=&quot;5-17&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#5-17&quot;&gt;¶&lt;/a&gt;5.17&lt;/h4&gt;
-&lt;p&gt;在化学实验室做两个实验：粗盐提纯与碘水萃取——均未成功。粗盐提纯时，由于温度过高发生暴沸，粗盐浊液溅落满桌。碘萃取由于分液漏斗检漏失败而无法进行。&lt;/p&gt;
-&lt;p&gt;但无意中发明一种“试管排箫”：取四支大小相同的试管（也只剩四支），分别装入五分之一、五分之二、五分之三、五分之四的水，依序并在一起，以吹排箫法吹奏。于是合于桑林之舞，乃中经首之会。&lt;/p&gt;
-&lt;h6 id=&quot;刘-弓粗盐提纯法&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#刘-弓粗盐提纯法&quot;&gt;¶&lt;/a&gt;刘-弓粗盐提纯法&lt;/h6&gt;
-&lt;p&gt;在一个干净的实验桌上，用酒精灯灼烧蒸发皿，同时用玻璃棒不停搅拌皿中的粗盐溶液。伺其沸腾时，实验人员须到至少300m以外的地方躲避，以防溅落液滴烫伤。未几，进入实验室，灭掉酒精灯，收集实验桌上的白色颗粒。&lt;/p&gt;
-&lt;p&gt;原理：从蒸发皿中溅出去的时NaCl，杂质由于太重而留在皿内。&lt;/p&gt;
-&lt;p&gt;成功关键因素：&lt;strong&gt;不放沸石！！！&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;实验十分成功！（手动滑稽&amp;amp;&amp;amp;狗头保命 🐶 ）&lt;/p&gt;
-&lt;h4 id=&quot;5-21&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#5-21&quot;&gt;¶&lt;/a&gt;5.21&lt;/h4&gt;
-&lt;h5 id=&quot;一、蛋白质盐析&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#一、蛋白质盐析&quot;&gt;¶&lt;/a&gt;一、蛋白质盐析&lt;/h5&gt;
-&lt;p&gt;鸡蛋清加食盐 💨提纯 💨溶解 💨煮 💨吃&lt;/p&gt;
-&lt;h5 id=&quot;二、鸡蛋壳与醋&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#二、鸡蛋壳与醋&quot;&gt;¶&lt;/a&gt;二、鸡蛋壳与醋&lt;/h5&gt;
-&lt;p&gt;&lt;img src=&quot;http://p0.qhimg.com/t01d1805c4e8de4d2f2.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;“黎叔剥的可是生鸡蛋。”&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;白醋浸鸡蛋&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="随记" scheme="http://example.com/categories/%E9%9A%8F%E8%AE%B0/"/>
-    
     
   </entry>
   
