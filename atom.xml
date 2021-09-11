@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-09-11T13:04:21.234Z</updated>
+  <updated>2021-09-11T13:05:17.154Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://example.com/2021/09/11/%E9%97%AA%E7%83%81%EF%BC%9ANE555%E4%B8%8ECD4017%E5%A4%A7%E8%81%94%E5%8A%A8/"/>
     <id>http://example.com/2021/09/11/%E9%97%AA%E7%83%81%EF%BC%9ANE555%E4%B8%8ECD4017%E5%A4%A7%E8%81%94%E5%8A%A8/</id>
     <published>2021-09-11T09:35:58.407Z</published>
-    <updated>2021-09-11T13:04:21.234Z</updated>
+    <updated>2021-09-11T13:05:17.154Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>材料：NE555一块</p><p>CD4017一块</p><p>10电阻8个</p><p>1μ电容一只</p><p>0.1μ电容一枚</p><p>47k（黄紫橙）、2.2k（三红）电阻各一个</p><p>洞洞板布线设计图：<a href="https://imgtu.com/i/hzzRYj"><img src="https://z3.ax1x.com/2021/09/11/hzzRYj.png" alt=""></a><br>电路图：<a href="https://imgtu.com/i/hzzWfs"><img src="https://z3.ax1x.com/2021/09/11/hzzWfs.png" alt=""></a><br>实物图：<a href="https://imgtu.com/i/hzz2kQ"><img src="https://z3.ax1x.com/2021/09/11/hzz2kQ.jpg" alt=""></a></p><p>太激动了！从初二到上一秒，多少次因元件短缺和经验不够，只能对这幅电路图望而生畏。如今终于做成功了，算是实现了一个梦想😭</p><p>之所以称之为“凌乱的跑马灯”，有两点：</p><ol><li>没想到CD4017有这么反人类的引脚顺序，未上拉导线，以致不能实现流水灯。</li><li>对LED分压电阻的计算不熟，以致无法安装其他颜色的灯，不能达到绚丽的效果。</li></ol><p>哈呼😮‍💨静待明日开学。</p>]]></content>
     
@@ -189,9 +189,9 @@
     <category term="天工开物" scheme="http://example.com/categories/%E5%A4%A9%E5%B7%A5%E5%BC%80%E7%89%A9/"/>
     
     
-    <category term="单片机" scheme="http://example.com/tags/%E5%8D%95%E7%89%87%E6%9C%BA/"/>
-    
     <category term="艺" scheme="http://example.com/tags/%E8%89%BA/"/>
+    
+    <category term="单片机" scheme="http://example.com/tags/%E5%8D%95%E7%89%87%E6%9C%BA/"/>
     
   </entry>
   
@@ -262,9 +262,9 @@
     <category term="家乡" scheme="http://example.com/categories/%E5%AE%B6%E4%B9%A1/"/>
     
     
-    <category term="家乡" scheme="http://example.com/tags/%E5%AE%B6%E4%B9%A1/"/>
-    
     <category term="艺" scheme="http://example.com/tags/%E8%89%BA/"/>
+    
+    <category term="家乡" scheme="http://example.com/tags/%E5%AE%B6%E4%B9%A1/"/>
     
     <category term="媒体" scheme="http://example.com/tags/%E5%AA%92%E4%BD%93/"/>
     
@@ -401,9 +401,9 @@
     <category term="家乡" scheme="http://example.com/categories/%E5%AE%B6%E4%B9%A1/"/>
     
     
-    <category term="家乡" scheme="http://example.com/tags/%E5%AE%B6%E4%B9%A1/"/>
-    
     <category term="艺" scheme="http://example.com/tags/%E8%89%BA/"/>
+    
+    <category term="家乡" scheme="http://example.com/tags/%E5%AE%B6%E4%B9%A1/"/>
     
     <category term="媒体" scheme="http://example.com/tags/%E5%AA%92%E4%BD%93/"/>
     
