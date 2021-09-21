@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-09-11T13:40:35.701Z</updated>
+  <updated>2021-09-21T13:55:36.854Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>中秋Vlog</title>
+    <link href="http://example.com/2021/09/21/%E7%94%B5%E5%AD%90%E5%88%B6%E4%BD%9C%E5%A4%A7%E8%B5%8F/"/>
+    <id>http://example.com/2021/09/21/%E7%94%B5%E5%AD%90%E5%88%B6%E4%BD%9C%E5%A4%A7%E8%B5%8F/</id>
+    <published>2021-09-21T01:02:44.806Z</published>
+    <updated>2021-09-21T13:55:36.854Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>昨日回家，在火车站等车时，用上次做的声控灯聆听地面的声音，实验现象如下：</p><p>在火车未来时，灯闪得频率低、无规律。</p><p>在火车进站到停车时，灯开始有规律地闪，并且频率越来越高。</p><p>在火车上时，无论是加速出站还是正常行驶，灯都无规律地以相对中等的频率闪。</p><p>这是我昨天下午做的一大堆东西……算是个vlog吧。</p><p><a href="https://v.youku.com/v_show/id_XNTgwNzkxNDM0OA==.html">理科生的中秋假期vlog-生活-高清完整正版视频在线观看-优酷 (youku.com)</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="天工开物" scheme="http://example.com/categories/%E5%A4%A9%E5%B7%A5%E5%BC%80%E7%89%A9/"/>
+    
+    
+    <category term="艺" scheme="http://example.com/tags/%E8%89%BA/"/>
+    
+    <category term="电子制作" scheme="http://example.com/tags/%E7%94%B5%E5%AD%90%E5%88%B6%E4%BD%9C/"/>
+    
+  </entry>
   
   <entry>
     <title>闪烁：NE555与CD4017大联动</title>
@@ -516,40 +542,6 @@
     
     
     <category term="笑话" scheme="http://example.com/tags/%E7%AC%91%E8%AF%9D/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>奇门遁甲学习笔记</title>
-    <link href="http://example.com/2021/06/07/%E5%A5%87%E9%97%A8%E9%81%81%E7%94%B2%E5%AD%A6%E8%AE%B0%E7%AC%94%E8%AE%B0/"/>
-    <id>http://example.com/2021/06/07/%E5%A5%87%E9%97%A8%E9%81%81%E7%94%B2%E5%AD%A6%E8%AE%B0%E7%AC%94%E8%AE%B0/</id>
-    <published>2021-06-07T10:14:31.763Z</published>
-    <updated>2021-08-23T11:38:28.826Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1>奇门遁甲学记笔记</h1><h3 id="一、基础概念"><a class="header-anchor" href="#一、基础概念">¶</a>一、基础概念</h3><p>炁：道的影响因素</p><p>时间与空间：xy坐标轴</p><h3 id="二、基本原理"><a class="header-anchor" href="#二、基本原理">¶</a>二、基本原理</h3><p>天人合一：炁的普遍性</p><p><strong>四炁纵横</strong>：</p><ol><li>天体之炁：一种永远不会休止，一直在运动，无声无息发挥作用，不断影响一切人事潜在特征的一种炁。</li><li>地势之炁：稳定不动，恒而弥久的一种炁。</li><li>人为之炁：由人际而产生。</li><li><strong>神秘之炁</strong>：类比暗物质</li></ol><h3 id="三、符号概述"><a class="header-anchor" href="#三、符号概述">¶</a>三、符号概述</h3><span id="more"></span><p><strong>第一套：阴阳</strong></p><p><strong>第二套：五行</strong></p><p><strong>第三套：九宫八卦</strong></p><p><strong>第四套：天干</strong></p><p><strong>第五套：地支</strong></p><p><strong>第六套：门</strong></p><p><strong>第七套：星</strong></p><p><strong>第八套：神</strong></p><h4 id="阴阳"><a class="header-anchor" href="#阴阳">¶</a>阴阳</h4><p>1.万事万物皆有阴阳（普遍性）</p><p>2.阴阳是运动变化，互相转换的（同一性）</p><p>3.阴中有阳，阳中有阴（同一性）</p><p>4.阴阳不论吉凶，只论相对。（相对性）</p><h4 id="五行"><a class="header-anchor" href="#五行">¶</a>五行</h4><ol><li>五行的普遍性——万物。</li><li>五行的特殊性：木是一种生发向上的炁，水是一种四散向下的炁。火是一种光热膨胀向外的炁。金是一种冷却收缩向内的炁。而土是一种稳定不变的炁。凡此五者，皆以描述炁的运动方向。</li><li>五行的万物类象（一种射影的思维模式）。</li><li>五行相生：木生火，火生土，土生金，金生水，水生木。这是炁的力量变化，相生是一种意愿，主生着主动意愿，被生者安然接受。</li><li>五行相克：木克土，土克水，水克火，火克金，金克木。其余可类比于相生。</li><li>五行*阴阳=十种形态</li><li>五行相生相克的主要方面是旺衰。</li></ol><h4 id="八卦"><a class="header-anchor" href="#八卦">¶</a>八卦</h4><p><strong>乾为天、坤为地、离为火、坎为水、兑为泽、巽为风、震为雷、艮为止</strong></p><p>其余已有储备不列。</p><h4 id="神"><a class="header-anchor" href="#神">¶</a>神</h4><p>**腾蛇、太阴、六合、白虎、玄武、九地、九天。**此外还有两个朱雀和勾陈，藏于白虎和玄武</p><h4 id="门"><a class="header-anchor" href="#门">¶</a>门</h4><p><strong>休、生、伤、杜、景、死、惊、开</strong></p><h3 id="星"><a class="header-anchor" href="#星">¶</a>星</h3><p><strong>蓬、任、冲、辅、英、芮、柱、心、禽</strong></p><h3 id="起盘"><a class="header-anchor" href="#起盘">¶</a>起盘</h3><ol><li><p>根据日干支找出符头，定出上、中、下元，结合二十四节气，确定问事所应用局数。</p></li><li><p>根据用局数（阳遁1－9局或阴遁1－9局），按阳顺、阴逆将三奇、六仪布于九宫。<!--以戊起头，将戊、已、庚、辛、壬、癸、丁、丙、乙的顺序排列于九宫--></p></li><li><p>找出时辰干支的旬首，看属于哪一甲。</p></li><li><p>根据旬首所在宫位，找出值符（即九星）和值使（即八门）</p></li><li><p>根据值符随时干，值使随时宫的原则，确定值符、值使的位置</p></li></ol><p>大部分不懂，有待理解消化，<strong>这是个漫长的过程</strong>。</p><p>参考文章：</p><p><a href="https://zhuanlan.zhihu.com/p/108280861">奇门遁甲好学吗？新手如何入门奇门遁甲？超长版 - 知乎 (zhihu.com)</a></p><p><a href="https://zhuanlan.zhihu.com/p/362800412">奇门遁甲排盘具体步骤（零基础排盘） - 知乎 (zhihu.com)</a></p>]]></content>
-    
-    
-    <summary type="html">&lt;h1&gt;奇门遁甲学记笔记&lt;/h1&gt;
-&lt;h3 id=&quot;一、基础概念&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#一、基础概念&quot;&gt;¶&lt;/a&gt;一、基础概念&lt;/h3&gt;
-&lt;p&gt;炁：道的影响因素&lt;/p&gt;
-&lt;p&gt;时间与空间：xy坐标轴&lt;/p&gt;
-&lt;h3 id=&quot;二、基本原理&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#二、基本原理&quot;&gt;¶&lt;/a&gt;二、基本原理&lt;/h3&gt;
-&lt;p&gt;天人合一：炁的普遍性&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;四炁纵横&lt;/strong&gt;：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;天体之炁：一种永远不会休止，一直在运动，无声无息发挥作用，不断影响一切人事潜在特征的一种炁。&lt;/li&gt;
-&lt;li&gt;地势之炁：稳定不动，恒而弥久的一种炁。&lt;/li&gt;
-&lt;li&gt;人为之炁：由人际而产生。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;神秘之炁&lt;/strong&gt;：类比暗物质&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&quot;三、符号概述&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#三、符号概述&quot;&gt;¶&lt;/a&gt;三、符号概述&lt;/h3&gt;</summary>
-    
-    
-    
-    <category term="学习" scheme="http://example.com/categories/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="奇门" scheme="http://example.com/tags/%E5%A5%87%E9%97%A8/"/>
     
   </entry>
   
