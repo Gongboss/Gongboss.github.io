@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-10-03T04:59:15.747Z</updated>
+  <updated>2021-12-25T01:39:58.950Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://example.com/2021/10/02/%E5%81%9A%E4%B8%80%E4%B8%AA%E5%B7%A5%E4%BD%9C%E7%9B%92/"/>
     <id>http://example.com/2021/10/02/%E5%81%9A%E4%B8%80%E4%B8%AA%E5%B7%A5%E4%BD%9C%E7%9B%92/</id>
     <published>2021-10-02T15:47:28.880Z</published>
-    <updated>2021-10-03T04:59:15.747Z</updated>
+    <updated>2021-12-25T01:39:58.950Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>做一个工作盒：</p><p>首先是原材料：有效长39.50cm,宽28.42cm的大盒子，外深度9.75cm</p><p>嗖！做好啦：</p><p><a href="https://imgtu.com/i/4q4YqI"><img src="https://z3.ax1x.com/2021/10/03/4q4YqI.jpg" alt=""></a><br><a href="https://imgtu.com/i/4q4JsA"><img src="https://z3.ax1x.com/2021/10/03/4q4JsA.jpg" alt=""></a></p><p>一个好的工作台总是能给人以足够的安全感。</p><p>做的时候使用了些许三角稳定结构，用以支撑隔板.</p>]]></content>
     
@@ -45,7 +45,7 @@
     <link href="http://example.com/2021/10/01/%E7%94%B5%E6%BA%90%E7%94%B5%E8%B7%AF/"/>
     <id>http://example.com/2021/10/01/%E7%94%B5%E6%BA%90%E7%94%B5%E8%B7%AF/</id>
     <published>2021-09-30T23:04:52.151Z</published>
-    <updated>2021-10-03T12:37:09.569Z</updated>
+    <updated>2021-12-25T01:39:58.950Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1>日志</h1><p>设计一个稳压电源：</p><h3 id="降压"><a class="header-anchor" href="#降压">¶</a>降压</h3><p>找了找，手头现有一个小功率变压器，输入200V/50Hz,输出18V/300mA,肯定不行。</p><p>还有一个很重的变压器，但不知参数。</p><p>又找到一个红白变压器，接到家用电源上，输出电压7.61V<sub>7.65V，频率49.94Hz</sub>49.96Hz。</p><p>就选它了！</p><p>好险！没处理裸露铜导线直接按按钮，直接跳闸，蹦出好大一火花！</p><p>下次一定要先做好绝缘措施！</p><h3 id="整流"><a class="header-anchor" href="#整流">¶</a>整流</h3><p>采用全波桥式整流。</p><p>整流后电压变为6.61V~6.66V。</p><h3 id="滤波"><a class="header-anchor" href="#滤波">¶</a>滤波</h3><p>条件有限，用了一个470μF的电容滤，暂未加电阻。</p><p>电压达到了9.2V左右。</p><h3 id="稳压"><a class="header-anchor" href="#稳压">¶</a>稳压</h3><p>用了一个稳压二极管（5V3），一个9013外加电阻、电容稳压，电压稳到了4.83V左右。</p><p>但是连了一个LED与1k电阻后，输出骤降为2V左右。</p><p>于是乎各位点重测：</p><p>输入：49.95Hz,0.340V（奇怪）</p><p>变压器输出：0.353V</p><p>桥式整流输出：8.25V</p><p>测到这里，有万用表损坏可能。</p><p>于是重测：</p><p>输入电压：220~224V</p><p>变压器输出：7.31V</p><p>桥式整流输出：8.45V，四个二极管电压均为3.6~3.7V</p><p>三极管BC间电阻电压：8.49V</p><p>稳压二极管：5.21V</p><p>三极管EC间电压：6.88V</p><p>输出：2.226V</p><p>有点迷……</p><p>看来是三极管的问题，现在来研究一下9013：</p><h4 id="S9013-H-331"><a class="header-anchor" href="#S9013-H-331">¶</a>S9013 H 331</h4><p>电源电压：4.5V,实测4.73V</p><p>发射结反偏、集电结反偏时：</p><p>各电流均为0。</p><p>发射结正偏，偏置电阻4.7Ω，集电结反偏：</p><p>偏置电阻电流68mA，电阻发烫。</p>]]></content>
     
