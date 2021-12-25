@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/sun.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="/lib/pace/pace-theme-minimal.min.css">
+  <script src="/lib/pace/pace.min.js"></script>
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":true,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"manual","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="title: 奇门遁甲学习笔记 categories: 学习 tags:  奇门 abbrlink: 31359 comments: true   奇门遁甲学记笔记 ¶一、基础概念 炁：道的影响因素 时间与空间：xy坐标轴 ¶二、基本原理 天人合一：炁的普遍性 四炁纵横：  天体之炁：一种永远不会休止，一直在运动，无声无息发挥作用，不断影响一切人事潜在特征的一种炁。 地势之炁：稳定不动，恒而弥久">
+<meta property="og:type" content="article">
+<meta property="og:title" content="奇门遁甲学记笔记">
+<meta property="og:url" content="http://example.com/2021/12/25/notes/%E5%A5%87%E9%97%A8%E9%81%81%E7%94%B2%E5%AD%A6%E8%AE%B0%E7%AC%94%E8%AE%B0/index.html">
+<meta property="og:site_name" content="落秋阁">
+<meta property="og:description" content="title: 奇门遁甲学习笔记 categories: 学习 tags:  奇门 abbrlink: 31359 comments: true   奇门遁甲学记笔记 ¶一、基础概念 炁：道的影响因素 时间与空间：xy坐标轴 ¶二、基本原理 天人合一：炁的普遍性 四炁纵横：  天体之炁：一种永远不会休止，一直在运动，无声无息发挥作用，不断影响一切人事潜在特征的一种炁。 地势之炁：稳定不动，恒而弥久">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2021-12-25T02:26:10.355Z">
+<meta property="article:modified_time" content="2021-12-25T02:26:10.355Z">
+<meta property="article:author" content="弓之剑者">
+<meta property="article:tag" content="Import-d3bd">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://example.com/2021/12/25/notes/%E5%A5%87%E9%97%A8%E9%81%81%E7%94%B2%E5%AD%A6%E8%AE%B0%E7%AC%94%E8%AE%B0/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>奇门遁甲学记笔记 | 落秋阁</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+  <script src="https://cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.js"></script> 
+
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="落秋阁" type="application/atom+xml">
+</head>
+
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">落秋阁</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">落霞与孤鹜齐飞，秋水共长天一色</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>无聊集</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+        <li class="menu-item menu-item-commonweal">
+
+    <a href="/404/" rel="section"><i class="fa fa-thermometer-full fa-fw"></i>公益 404</a>
+
+  </li>
+        <li class="menu-item menu-item-photos">
+
+    <a href="/photos/" rel="section"><i class="fa fa-snowflake-o fa-fw"></i>寒来暑往（失效）</a>
+
+  </li>
+        <li class="menu-item menu-item-comments">
+
+    <a href="/comments/" rel="section"><i class="fa fa-comments fa-fw"></i>评论之墙（空）</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+  <a role="button" class="book-mark-link book-mark-link-fixed"></a>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/12/25/notes/%E5%A5%87%E9%97%A8%E9%81%81%E7%94%B2%E5%AD%A6%E8%AE%B0%E7%AC%94%E8%AE%B0/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="弓之剑者">
+      <meta itemprop="description" content="心之所向，无惧无悔，愿求仁得仁，复无怨怼。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="落秋阁">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          奇门遁甲学记笔记
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2021-12-25 10:26:10" itemprop="dateCreated datePublished" datetime="2021-12-25T10:26:10+08:00">2021-12-25</time>
+            </span>
+
+          
+            <span id="/2021/12/25/notes/%E5%A5%87%E9%97%A8%E9%81%81%E7%94%B2%E5%AD%A6%E8%AE%B0%E7%AC%94%E8%AE%B0/" class="post-meta-item leancloud_visitors" data-flag-title="奇门遁甲学记笔记" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2021/12/25/notes/%E5%A5%87%E9%97%A8%E9%81%81%E7%94%B2%E5%AD%A6%E8%AE%B0%E7%AC%94%E8%AE%B0/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2021/12/25/notes/%E5%A5%87%E9%97%A8%E9%81%81%E7%94%B2%E5%AD%A6%E8%AE%B0%E7%AC%94%E8%AE%B0/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>931</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>1 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <hr>
+<p>title: 奇门遁甲学习笔记<br>
+categories: 学习<br>
+tags:</p>
+<ul>
+<li>奇门<br>
+abbrlink: 31359<br>
+comments: true</li>
+</ul>
+<hr>
+<h1>奇门遁甲学记笔记</h1>
+<h3 id="一、基础概念"><a class="header-anchor" href="#一、基础概念">¶</a>一、基础概念</h3>
+<p>炁：道的影响因素</p>
+<p>时间与空间：xy坐标轴</p>
+<h3 id="二、基本原理"><a class="header-anchor" href="#二、基本原理">¶</a>二、基本原理</h3>
+<p>天人合一：炁的普遍性</p>
+<p><strong>四炁纵横</strong>：</p>
+<ol>
+<li>天体之炁：一种永远不会休止，一直在运动，无声无息发挥作用，不断影响一切人事潜在特征的一种炁。</li>
+<li>地势之炁：稳定不动，恒而弥久的一种炁。</li>
+<li>人为之炁：由人际而产生。</li>
+<li><strong>神秘之炁</strong>：类比暗物质</li>
+</ol>
+<h3 id="三、符号概述"><a class="header-anchor" href="#三、符号概述">¶</a>三、符号概述</h3>
+<span id="more"></span>
+<p><strong>第一套：阴阳</strong></p>
+<p><strong>第二套：五行</strong></p>
+<p><strong>第三套：九宫八卦</strong></p>
+<p><strong>第四套：天干</strong></p>
+<p><strong>第五套：地支</strong></p>
+<p><strong>第六套：门</strong></p>
+<p><strong>第七套：星</strong></p>
+<p><strong>第八套：神</strong></p>
+<h4 id="阴阳"><a class="header-anchor" href="#阴阳">¶</a>阴阳</h4>
+<p>1.万事万物皆有阴阳（普遍性）</p>
+<p>2.阴阳是运动变化，互相转换的（同一性）</p>
+<p>3.阴中有阳，阳中有阴（同一性）</p>
+<p>4.阴阳不论吉凶，只论相对。（相对性）</p>
+<h4 id="五行"><a class="header-anchor" href="#五行">¶</a>五行</h4>
+<ol>
+<li>五行的普遍性——万物。</li>
+<li>五行的特殊性：木是一种生发向上的炁，水是一种四散向下的炁。火是一种光热膨胀向外的炁。金是一种冷却收缩向内的炁。而土是一种稳定不变的炁。凡此五者，皆以描述炁的运动方向。</li>
+<li>五行的万物类象（一种射影的思维模式）。</li>
+<li>五行相生：木生火，火生土，土生金，金生水，水生木。这是炁的力量变化，相生是一种意愿，主生着主动意愿，被生者安然接受。</li>
+<li>五行相克：木克土，土克水，水克火，火克金，金克木。其余可类比于相生。</li>
+<li>五行*阴阳=十种形态</li>
+<li>五行相生相克的主要方面是旺衰。</li>
+</ol>
+<h4 id="八卦"><a class="header-anchor" href="#八卦">¶</a>八卦</h4>
+<p><strong>乾为天、坤为地、离为火、坎为水、兑为泽、巽为风、震为雷、艮为止</strong></p>
+<p>其余已有储备不列。</p>
+<h4 id="神"><a class="header-anchor" href="#神">¶</a>神</h4>
+<p>**腾蛇、太阴、六合、白虎、玄武、九地、九天。**此外还有两个朱雀和勾陈，藏于白虎和玄武</p>
+<h4 id="门"><a class="header-anchor" href="#门">¶</a>门</h4>
+<p><strong>休、生、伤、杜、景、死、惊、开</strong></p>
+<h3 id="星"><a class="header-anchor" href="#星">¶</a>星</h3>
+<p><strong>蓬、任、冲、辅、英、芮、柱、心、禽</strong></p>
+<h3 id="起盘"><a class="header-anchor" href="#起盘">¶</a>起盘</h3>
+<ol>
+<li>
+<p>根据日干支找出符头，定出上、中、下元，结合二十四节气，确定问事所应用局数。</p>
+</li>
+<li>
+<p>根据用局数（阳遁1－9局或阴遁1－9局），按阳顺、阴逆将三奇、六仪布于九宫。<!--以戊起头，将戊、已、庚、辛、壬、癸、丁、丙、乙的顺序排列于九宫--></p>
+</li>
+<li>
+<p>找出时辰干支的旬首，看属于哪一甲。</p>
+</li>
+<li>
+<p>根据旬首所在宫位，找出值符（即九星）和值使（即八门）</p>
+</li>
+<li>
+<p>根据值符随时干，值使随时宫的原则，确定值符、值使的位置</p>
+</li>
+</ol>
+<p>大部分不懂，有待理解消化，<strong>这是个漫长的过程</strong>。</p>
+<p>参考文章：</p>
+<p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/108280861">奇门遁甲好学吗？新手如何入门奇门遁甲？超长版 - 知乎 (zhihu.com)</a></p>
+<p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/362800412">奇门遁甲排盘具体步骤（零基础排盘） - 知乎 (zhihu.com)</a></p>
+
+    </div>
+
+    
+    
+    
+        
+
+  <div class="followme">
+    <p>欢迎关注我的其它发布渠道</p>
+
+    <div class="social-list">
+
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="https://twitter.com/username">
+            <span class="icon">
+              <i class="fab fa-twitter"></i>
+            </span>
+
+            <span class="label">Twitter</span>
+          </a>
+        </div>
+
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="https://t.me/channel_name">
+            <span class="icon">
+              <i class="fab fa-telegram"></i>
+            </span>
+
+            <span class="label">Telegram</span>
+          </a>
+        </div>
+
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="/images/wechat_channel.jpg">
+            <span class="icon">
+              <i class="fab fa-weixin"></i>
+            </span>
+
+            <span class="label">WeChat</span>
+          </a>
+        </div>
+
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="/atom.xml">
+            <span class="icon">
+              <i class="fa fa-rss"></i>
+            </span>
+
+            <span class="label">RSS</span>
+          </a>
+        </div>
+    </div>
+  </div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/Import-d3bd/" rel="tag"># Import-d3bd</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2021/12/25/notes/%E5%A5%B3%E6%9B%B0%E9%B8%A1%E9%B8%A3/" rel="prev" title="女曰鸡鸣">
+      <i class="fa fa-chevron-left"></i> 女曰鸡鸣
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2021/12/25/notes/%E8%AF%B7%E5%88%B0%E5%A4%A9%E6%B6%AF%E7%9F%B3%E9%BC%93%E6%9D%A5/" rel="next" title="请到天涯石鼓来">
+      请到天涯石鼓来 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+    <div class="comments" id="valine-comments"></div>
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章之目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点之概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">1.</span> <span class="nav-text">奇门遁甲学记笔记</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%80%E3%80%81%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5"><span class="nav-number">1.0.1.</span> <span class="nav-text">一、基础概念</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BA%8C%E3%80%81%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86"><span class="nav-number">1.0.2.</span> <span class="nav-text">二、基本原理</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%89%E3%80%81%E7%AC%A6%E5%8F%B7%E6%A6%82%E8%BF%B0"><span class="nav-number">1.0.3.</span> <span class="nav-text">三、符号概述</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%98%B4%E9%98%B3"><span class="nav-number">1.0.3.1.</span> <span class="nav-text">阴阳</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BA%94%E8%A1%8C"><span class="nav-number">1.0.3.2.</span> <span class="nav-text">五行</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%85%AB%E5%8D%A6"><span class="nav-number">1.0.3.3.</span> <span class="nav-text">八卦</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%A5%9E"><span class="nav-number">1.0.3.4.</span> <span class="nav-text">神</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%97%A8"><span class="nav-number">1.0.3.5.</span> <span class="nav-text">门</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%98%9F"><span class="nav-number">1.0.4.</span> <span class="nav-text">星</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%B5%B7%E7%9B%98"><span class="nav-number">1.0.5.</span> <span class="nav-text">起盘</span></a></li></ol></li></ol></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="弓之剑者"
+      src="/images/avatar.png">
+  <p class="site-author-name" itemprop="name">弓之剑者</p>
+  <div class="site-description" itemprop="description">心之所向，无惧无悔，愿求仁得仁，复无怨怼。</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">78</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">7</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">21</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/gongboss" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;gongboss" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="/1754724686@qq.com" title="E-Mail → 1754724686@qq.com"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+  </div>
+
+
+  <div class="links-of-blogroll motion-element">
+    <div class="links-of-blogroll-title"><i class="fa fa-link fa-fw"></i>
+      Links
+    </div>
+    <ul class="links-of-blogroll-list">
+        <li class="links-of-blogroll-item">
+          <a href="http://gongboss.top/" title="http:&#x2F;&#x2F;gongboss.top" rel="noopener" target="_blank">Title</a>
+        </li>
+    </ul>
+  </div>
+
+      </div>
+<link rel="stylesheet" href="/dist/APlayer.min.css">
+<div id="aplayer"></div>
+<script type="text/javascript" src="/dist/APlayer.min.js"></script>
+<script type="text/javascript" src="/dist/music.js"></script>
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">弓之剑者</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-area"></i>
+    </span>
+      <span class="post-meta-item-text">站点总字数：</span>
+    <span title="站点总字数">268k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+      <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
+    <span title="站点阅读时长">4:03</span>
+</div>
+
+<!--
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+-->
+<div class="powered-by">
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <i class="fa fa-user-md"></i>
+    <span id="busuanzi_container_site_uv">
+        本站访客数:<span id="busuanzi_value_site_uv"></span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span id="busuanzi_container_site_pv">
+        本站访问量<span id="busuanzi_value_site_pv"></span>
+    </span>
+</div>
+
+     <!-- 网站运行时间的设置 -->
+    <span id="timeDate">载入天数...</span>
+    <span id="times">载入时分秒...</span> 
+    <script>
+        var now = new Date();
+        function createtime() {
+            var grt= new Date("04/03/2021 10:00:00");//此处修改你的建站时间或者网站上线时间
+            now.setTime(now.getTime()+250);
+            days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
+            hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);
+            if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
+            mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;}
+            seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+            snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;}
+            document.getElementById("timeDate").innerHTML = " | 本站已安全运行 "+dnum+" 天 ";
+            document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
+    }
+    setInterval("createtime()",250);
+    </script>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/pjax/pjax.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+<script src="/js/bookmark.js"></script>
+
+  <script>
+var pjax = new Pjax({
+  selectors: [
+    'head title',
+    '#page-configurations',
+    '.content-wrap',
+    '.post-toc-wrap',
+    '.languages',
+    '#pjax'
+  ],
+  switches: {
+    '.post-toc-wrap': Pjax.switches.innerHTML
+  },
+  analytics: false,
+  cacheBust: false,
+  scrollTo : !CONFIG.bookmark.enable
+});
+
+window.addEventListener('pjax:success', () => {
+  document.querySelectorAll('script[data-pjax], script#page-configurations, #pjax script').forEach(element => {
+    var code = element.text || element.textContent || element.innerHTML || '';
+    var parent = element.parentNode;
+    parent.removeChild(element);
+    var script = document.createElement('script');
+    if (element.id) {
+      script.id = element.id;
+    }
+    if (element.className) {
+      script.className = element.className;
+    }
+    if (element.type) {
+      script.type = element.type;
+    }
+    if (element.src) {
+      script.src = element.src;
+      // Force synchronous loading of peripheral JS.
+      script.async = false;
+    }
+    if (element.dataset.pjax !== undefined) {
+      script.dataset.pjax = '';
+    }
+    if (code !== '') {
+      script.appendChild(document.createTextNode(code));
+    }
+    parent.appendChild(script);
+  });
+  NexT.boot.refresh();
+  // Define Motion Sequence & Bootstrap Motion.
+  if (CONFIG.motion.enable) {
+    NexT.motion.integrator
+      .init()
+      .add(NexT.motion.middleWares.subMenu)
+      .add(NexT.motion.middleWares.postList)
+      .bootstrap();
+  }
+  NexT.utils.updateSidebarPosition();
+});
+</script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="pjax">
+  
+
+  
+
+
+<script>
+NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
+  NexT.utils.getScript('https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js', () => {
+    var GUEST = ['nick', 'mail', 'link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item => {
+      return GUEST.includes(item);
+    });
+    new Valine({
+      el         : '#valine-comments',
+      verify     : false,
+      notify     : false,
+      appId      : 'G3I3XX60y8j8OqzmDpuxEUAm-gzGzoHsz',
+      appKey     : 'Nv43bbSupLjytGTUiq3GoBbP',
+      placeholder: "畅所欲言",
+      avatar     : 'retro',
+      meta       : guest,
+      pageSize   : '10' || 10,
+      visitor    : true,
+      lang       : '' || 'zh-cn',
+      path       : location.pathname,
+      recordIP   : false,
+      serverURLs : ''
+    });
+  }, window.Valine);
+});
+</script>
+
+
+
+
+
+    </div>
+
+
+
+</body>
+</html>
+
