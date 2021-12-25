@@ -23,17 +23,21 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":true,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"manual","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="心之所向，无惧无悔，愿求仁得仁，复无怨怼。">
-<meta property="og:type" content="website">
-<meta property="og:title" content="落秋阁">
-<meta property="og:url" content="http://example.com/tags/%E5%8F%A4%E5%89%91/index.html">
+  <meta name="description" content="日志 设计一个稳压电源： ¶降压 找了找，手头现有一个小功率变压器，输入200V&#x2F;50Hz,输出18V&#x2F;300mA,肯定不行。 还有一个很重的变压器，但不知参数。 又找到一个红白变压器，接到家用电源上，输出电压7.61V7.65V，频率49.94Hz49.96Hz。 就选它了！ 好险！没处理裸露铜导线直接按按钮，直接跳闸，蹦出好大一火花！ 下次一定要先做好绝缘措施！ ¶整流 采用全波桥式整流。 整">
+<meta property="og:type" content="article">
+<meta property="og:title" content="电源电路">
+<meta property="og:url" content="http://example.com/2021/10/01/%E7%94%B5%E6%BA%90%E7%94%B5%E8%B7%AF/index.html">
 <meta property="og:site_name" content="落秋阁">
-<meta property="og:description" content="心之所向，无惧无悔，愿求仁得仁，复无怨怼。">
+<meta property="og:description" content="日志 设计一个稳压电源： ¶降压 找了找，手头现有一个小功率变压器，输入200V&#x2F;50Hz,输出18V&#x2F;300mA,肯定不行。 还有一个很重的变压器，但不知参数。 又找到一个红白变压器，接到家用电源上，输出电压7.61V7.65V，频率49.94Hz49.96Hz。 就选它了！ 好险！没处理裸露铜导线直接按按钮，直接跳闸，蹦出好大一火花！ 下次一定要先做好绝缘措施！ ¶整流 采用全波桥式整流。 整">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2021-09-30T23:04:52.151Z">
+<meta property="article:modified_time" content="2021-10-03T12:37:09.569Z">
 <meta property="article:author" content="弓之剑者">
+<meta property="article:tag" content="艺">
+<meta property="article:tag" content="电子制作">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://example.com/tags/%E5%8F%A4%E5%89%91/">
+<link rel="canonical" href="http://example.com/2021/10/01/%E7%94%B5%E6%BA%90%E7%94%B5%E8%B7%AF/">
 
 
 <script id="page-configurations">
@@ -41,12 +45,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>标签: 古剑 | 落秋阁</title>
+  <title>电源电路 | 落秋阁</title>
   
 
 
@@ -210,97 +214,228 @@
         <div class="content-wrap">
           
 
-          <div class="content tag">
+          <div class="content post posts-expand">
             
 
+    
   
   
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/10/01/%E7%94%B5%E6%BA%90%E7%94%B5%E8%B7%AF/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="弓之剑者">
+      <meta itemprop="description" content="心之所向，无惧无悔，愿求仁得仁，复无怨怼。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="落秋阁">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          电源电路
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2021-10-01 07:04:52" itemprop="dateCreated datePublished" datetime="2021-10-01T07:04:52+08:00">2021-10-01</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-10-03 20:37:09" itemprop="dateModified" datetime="2021-10-03T20:37:09+08:00">2021-10-03</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%A4%A9%E5%B7%A5%E5%BC%80%E7%89%A9/" itemprop="url" rel="index"><span itemprop="name">天工开物</span></a>
+                </span>
+            </span>
+
+          
+            <span id="/2021/10/01/%E7%94%B5%E6%BA%90%E7%94%B5%E8%B7%AF/" class="post-meta-item leancloud_visitors" data-flag-title="电源电路" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
   
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        <h2 class="collection-header">古剑
-          <small>标签</small>
-        </h2>
-      </div>
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2021/10/01/%E7%94%B5%E6%BA%90%E7%94%B5%E8%B7%AF/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2021/10/01/%E7%94%B5%E6%BA%90%E7%94%B5%E8%B7%AF/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>608</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>1 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    <div class="collection-year">
-      <span class="collection-header">2021</span>
+        <h1>日志</h1>
+<p>设计一个稳压电源：</p>
+<h3 id="降压"><a class="header-anchor" href="#降压">¶</a>降压</h3>
+<p>找了找，手头现有一个小功率变压器，输入200V/50Hz,输出18V/300mA,肯定不行。</p>
+<p>还有一个很重的变压器，但不知参数。</p>
+<p>又找到一个红白变压器，接到家用电源上，输出电压7.61V<sub>7.65V，频率49.94Hz</sub>49.96Hz。</p>
+<p>就选它了！</p>
+<p>好险！没处理裸露铜导线直接按按钮，直接跳闸，蹦出好大一火花！</p>
+<p>下次一定要先做好绝缘措施！</p>
+<h3 id="整流"><a class="header-anchor" href="#整流">¶</a>整流</h3>
+<p>采用全波桥式整流。</p>
+<p>整流后电压变为6.61V~6.66V。</p>
+<h3 id="滤波"><a class="header-anchor" href="#滤波">¶</a>滤波</h3>
+<p>条件有限，用了一个470μF的电容滤，暂未加电阻。</p>
+<p>电压达到了9.2V左右。</p>
+<h3 id="稳压"><a class="header-anchor" href="#稳压">¶</a>稳压</h3>
+<p>用了一个稳压二极管（5V3），一个9013外加电阻、电容稳压，电压稳到了4.83V左右。</p>
+<p>但是连了一个LED与1k电阻后，输出骤降为2V左右。</p>
+<p>于是乎各位点重测：</p>
+<p>输入：49.95Hz,0.340V（奇怪）</p>
+<p>变压器输出：0.353V</p>
+<p>桥式整流输出：8.25V</p>
+<p>测到这里，有万用表损坏可能。</p>
+<p>于是重测：</p>
+<p>输入电压：220~224V</p>
+<p>变压器输出：7.31V</p>
+<p>桥式整流输出：8.45V，四个二极管电压均为3.6~3.7V</p>
+<p>三极管BC间电阻电压：8.49V</p>
+<p>稳压二极管：5.21V</p>
+<p>三极管EC间电压：6.88V</p>
+<p>输出：2.226V</p>
+<p>有点迷……</p>
+<p>看来是三极管的问题，现在来研究一下9013：</p>
+<h4 id="S9013-H-331"><a class="header-anchor" href="#S9013-H-331">¶</a>S9013 H 331</h4>
+<p>电源电压：4.5V,实测4.73V</p>
+<p>发射结反偏、集电结反偏时：</p>
+<p>各电流均为0。</p>
+<p>发射结正偏，偏置电阻4.7Ω，集电结反偏：</p>
+<p>偏置电阻电流68mA，电阻发烫。</p>
+
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+    
+    
+    
+        
 
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2021-06-07T16:26:23+08:00"
-              content="2021-06-07">
-          06-07
-        </time>
-      </div>
+  <div class="followme">
+    <p>欢迎关注我的其它发布渠道</p>
 
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/06/07/%E7%9B%B8%E5%86%8C/" itemprop="url">
-            <span itemprop="name">相册</span>
+    <div class="social-list">
+
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="https://twitter.com/username">
+            <span class="icon">
+              <i class="fab fa-twitter"></i>
+            </span>
+
+            <span class="label">Twitter</span>
           </a>
-      </div>
+        </div>
 
-    </header>
-  </article>
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="https://t.me/channel_name">
+            <span class="icon">
+              <i class="fab fa-telegram"></i>
+            </span>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2021-06-06T19:12:43+08:00"
-              content="2021-06-06">
-          06-06
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/06/06/%E9%87%8D%E6%B8%B8%E5%8F%A4%E5%89%91/" itemprop="url">
-            <span itemprop="name">重游古剑</span>
+            <span class="label">Telegram</span>
           </a>
-      </div>
+        </div>
 
-    </header>
-  </article>
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="/images/wechat_channel.jpg">
+            <span class="icon">
+              <i class="fab fa-weixin"></i>
+            </span>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2021-05-01T20:24:11+08:00"
-              content="2021-05-01">
-          05-01
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/05/01/%E5%A5%B3%E6%9B%B0%E9%B8%A1%E9%B8%A3/" itemprop="url">
-            <span itemprop="name">女曰鸡鸣</span>
+            <span class="label">WeChat</span>
           </a>
-      </div>
+        </div>
 
-    </header>
-  </article>
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="/atom.xml">
+            <span class="icon">
+              <i class="fa fa-rss"></i>
+            </span>
 
+            <span class="label">RSS</span>
+          </a>
+        </div>
     </div>
   </div>
-  
-  
-  
 
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E8%89%BA/" rel="tag"># 艺</a>
+              <a href="/tags/%E7%94%B5%E5%AD%90%E5%88%B6%E4%BD%9C/" rel="tag"># 电子制作</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2021/09/21/%E7%94%B5%E5%AD%90%E5%88%B6%E4%BD%9C%E5%A4%A7%E8%B5%8F/" rel="prev" title="中秋Vlog">
+      <i class="fa fa-chevron-left"></i> 中秋Vlog
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2021/10/02/%E5%81%9A%E4%B8%80%E4%B8%AA%E5%B7%A5%E4%BD%9C%E7%9B%92/" rel="next" title="工作盒">
+      工作盒 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
   
 
 
 
           </div>
           
+    <div class="comments" id="valine-comments"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -347,6 +482,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">1.</span> <span class="nav-text">日志</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%99%8D%E5%8E%8B"><span class="nav-number">1.0.1.</span> <span class="nav-text">降压</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%95%B4%E6%B5%81"><span class="nav-number">1.0.2.</span> <span class="nav-text">整流</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%BB%A4%E6%B3%A2"><span class="nav-number">1.0.3.</span> <span class="nav-text">滤波</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%A8%B3%E5%8E%8B"><span class="nav-number">1.0.4.</span> <span class="nav-text">稳压</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#S9013-H-331"><span class="nav-number">1.0.4.1.</span> <span class="nav-text">S9013 H 331</span></a></li></ol></li></ol></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
