@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-12-25T02:28:04.358Z</updated>
+  <updated>2022-01-01T01:00:18.138Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -18,8 +18,30 @@
   
   <entry>
     <title>OPENSSH密钥</title>
-    <link href="http://example.com/2021/12/25/openshh/"/>
-    <id>http://example.com/2021/12/25/openshh/</id>
+    <link href="http://example.com/2022/01/01/notes/OPENSSH%E5%AF%86%E9%92%A5/"/>
+    <id>http://example.com/2022/01/01/notes/OPENSSH%E5%AF%86%E9%92%A5/</id>
+    <published>2022-01-01T01:00:18.138Z</published>
+    <updated>2022-01-01T01:00:18.138Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><hr><h2 id="title-OPENSSH密钥categories-随记abbrlink-30719"><a class="header-anchor" href="#title-OPENSSH密钥categories-随记abbrlink-30719">¶</a>title: OPENSSH密钥<br>categories: 随记<br>abbrlink: 30719</h2><h1>OPENSSH密钥</h1><p>好不容易放一次假，被这个SSH密钥折磨得好苦，干脆把代码都放这里，以后直接复制粘贴即可，一劳永逸！</p><figure class="highlight gherkin"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -C <span class="string">"gongboss239@github.com"</span></span><br><span class="line">Generating public/private rsa key pair.</span><br><span class="line">Enter file in which to save the key (/c/Users/弓/.ssh/id_rsa):</span><br><span class="line">/c/Users/弓/.ssh/id_rsa already exists.</span><br><span class="line">Overwrite (y/n)? y</span><br><span class="line">Enter passphrase (empty for no passphrase):</span><br><span class="line">Enter same passphrase again:</span><br><span class="line">Your identification has been saved in /c/Users/弓/.ssh/id_rsa</span><br><span class="line">Your public key has been saved in /c/Users/弓/.ssh/id_rsa.pub</span><br><span class="line">The key fingerprint is:</span><br><span class="line">SHA256:WQbC9ZRD8frUTRjBka1RYx0i6VPaB9p0DuKwiMSPitg gongboss239<span class="meta">@github.com</span></span><br><span class="line">The key's randomart image is:</span><br><span class="line">+---[RSA 3072]----+</span><br><span class="line">|<span class="string">    ....o.++.o+X+</span>|</span><br><span class="line">|<span class="string">     o.. =o+.=*++</span>|</span><br><span class="line">|<span class="string">    . + . O.X *o.</span>|</span><br><span class="line">|<span class="string">     o o = B +.= </span>|</span><br><span class="line">|<span class="string">... .   S . o o .</span>|</span><br><span class="line">|<span class="string">..E.       o     </span>|</span><br><span class="line">|<span class="string">            .    </span>|</span><br><span class="line">|<span class="string">                 </span>|</span><br><span class="line">|<span class="string">                 </span>|</span><br><span class="line">+----[SHA256]-----+</span><br></pre></td></tr></tbody></table></figure><p>现在是2022年1月1日上午8：56，我终于找到了问题所在：_config.yml里的deploy配置账号出现错误，是一坨奇怪的字符加账号名，已修改为ssh格式。时隔3月，网站终于能正常上传内容了！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    
+    <category term="Import-4a15" scheme="http://example.com/tags/Import-4a15/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>OPENSSH密钥</title>
+    <link href="http://example.com/2021/12/25/openssh/"/>
+    <id>http://example.com/2021/12/25/openssh/</id>
     <published>2021-12-25T02:25:35.009Z</published>
     <updated>2021-12-25T02:28:04.358Z</updated>
     
@@ -514,30 +536,6 @@
     <category term="家乡" scheme="http://example.com/tags/%E5%AE%B6%E4%B9%A1/"/>
     
     <category term="媒体" scheme="http://example.com/tags/%E5%AA%92%E4%BD%93/"/>
-    
-    <category term="回忆" scheme="http://example.com/tags/%E5%9B%9E%E5%BF%86/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>老友记</title>
-    <link href="http://example.com/2021/06/20/%E8%80%81%E5%8F%8B%E8%AE%B0/"/>
-    <id>http://example.com/2021/06/20/%E8%80%81%E5%8F%8B%E8%AE%B0/</id>
-    <published>2021-06-20T11:33:11.718Z</published>
-    <updated>2021-06-27T14:40:55.358Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><a href="https://imgtu.com/i/RFIk8J"><img src="https://z3.ax1x.com/2021/06/20/RFIk8J.jpg" alt="RFIk8J.jpg"></a><br>旧友重逢:happy:</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
-    <category term="随记" scheme="http://example.com/categories/%E9%9A%8F%E8%AE%B0/"/>
-    
     
     <category term="回忆" scheme="http://example.com/tags/%E5%9B%9E%E5%BF%86/"/>
     
