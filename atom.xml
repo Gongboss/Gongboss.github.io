@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-01-01T01:01:05.642Z</updated>
+  <updated>2022-01-02T04:51:07.461Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,9 +17,35 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>声控CD4017跑马灯</title>
+    <link href="http://example.com/2022/01/02/%E5%A3%B0%E6%8E%A7CD4017%E8%B7%91%E9%A9%AC%E7%81%AF/"/>
+    <id>http://example.com/2022/01/02/%E5%A3%B0%E6%8E%A7CD4017%E8%B7%91%E9%A9%AC%E7%81%AF/</id>
+    <published>2022-01-02T04:51:20.515Z</published>
+    <updated>2022-01-02T04:51:07.461Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="声控CD4017跑马灯"><a class="header-anchor" href="#声控CD4017跑马灯">¶</a>声控CD4017跑马灯</h3><p>前日联欢，表演光剑。剑借同桌，不慎损坏。友人无然，我心甚愧。遂成此物，薄言谢之。<br>电路图与实物图：</p><table>    <tbody><tr>        <td><center><img src="https://s4.ax1x.com/2022/01/02/ToILUs.png"></center></td>        <td><center><img src="https://s4.ax1x.com/2022/01/02/ToIO5n.jpg"></center></td>    </tr></tbody></table>还有一个小时出发，茫茫然无所事事……⌚]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="天工开物" scheme="http://example.com/categories/%E5%A4%A9%E5%B7%A5%E5%BC%80%E7%89%A9/"/>
+    
+    
+    <category term="艺" scheme="http://example.com/tags/%E8%89%BA/"/>
+    
+    <category term="电子制作" scheme="http://example.com/tags/%E7%94%B5%E5%AD%90%E5%88%B6%E4%BD%9C/"/>
+    
+  </entry>
+  
+  <entry>
     <title>OPENSSH密钥</title>
-    <link href="http://example.com/2022/01/01/notes/OPENSSH%E5%AF%86%E9%92%A5/"/>
-    <id>http://example.com/2022/01/01/notes/OPENSSH%E5%AF%86%E9%92%A5/</id>
+    <link href="http://example.com/2022/01/01/OPENSSH%E5%AF%86%E9%92%A5/"/>
+    <id>http://example.com/2022/01/01/OPENSSH%E5%AF%86%E9%92%A5/</id>
     <published>2022-01-01T01:00:18.138Z</published>
     <updated>2022-01-01T01:01:05.642Z</updated>
     
@@ -35,28 +61,6 @@
     
     
     <category term="Import-4a15" scheme="http://example.com/tags/Import-4a15/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>OPENSSH密钥</title>
-    <link href="http://example.com/2021/12/25/openssh/"/>
-    <id>http://example.com/2021/12/25/openssh/</id>
-    <published>2021-12-25T02:25:35.009Z</published>
-    <updated>2021-12-25T02:28:04.358Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1>OPENSSH密钥</h1><p>好不容易放一次假，被这个SSH密钥折磨得好苦，干脆把代码都放这里，以后直接复制粘贴即可，一劳永逸！</p><figure class="highlight gherkin"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -C <span class="string">"gongboss239@github.com"</span></span><br><span class="line">Generating public/private rsa key pair.</span><br><span class="line">Enter file in which to save the key (/c/Users/弓/.ssh/id_rsa):</span><br><span class="line">/c/Users/弓/.ssh/id_rsa already exists.</span><br><span class="line">Overwrite (y/n)? y</span><br><span class="line">Enter passphrase (empty for no passphrase):</span><br><span class="line">Enter same passphrase again:</span><br><span class="line">Your identification has been saved in /c/Users/弓/.ssh/id_rsa</span><br><span class="line">Your public key has been saved in /c/Users/弓/.ssh/id_rsa.pub</span><br><span class="line">The key fingerprint is:</span><br><span class="line">SHA256:WQbC9ZRD8frUTRjBka1RYx0i6VPaB9p0DuKwiMSPitg gongboss239<span class="meta">@github.com</span></span><br><span class="line">The key's randomart image is:</span><br><span class="line">+---[RSA 3072]----+</span><br><span class="line">|<span class="string">    ....o.++.o+X+</span>|</span><br><span class="line">|<span class="string">     o.. =o+.=*++</span>|</span><br><span class="line">|<span class="string">    . + . O.X *o.</span>|</span><br><span class="line">|<span class="string">     o o = B +.= </span>|</span><br><span class="line">|<span class="string">... .   S . o o .</span>|</span><br><span class="line">|<span class="string">..E.       o     </span>|</span><br><span class="line">|<span class="string">            .    </span>|</span><br><span class="line">|<span class="string">                 </span>|</span><br><span class="line">|<span class="string">                 </span>|</span><br><span class="line">+----[SHA256]-----+</span><br></pre></td></tr></tbody></table></figure>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
-    <category term="随记" scheme="http://example.com/categories/%E9%9A%8F%E8%AE%B0/"/>
-    
     
   </entry>
   
