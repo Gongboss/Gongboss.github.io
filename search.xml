@@ -160,18 +160,14 @@
   <entry>
     <title>OPENSSH密钥</title>
     <url>/2022/01/01/OPENSSH%E5%AF%86%E9%92%A5/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><hr>
-<h2 id="title-OPENSSH密钥categories-随记abbrlink-30719"><a class="header-anchor" href="#title-OPENSSH密钥categories-随记abbrlink-30719">¶</a>title: OPENSSH密钥<br>
-categories: 随记<br>
-abbrlink: 30719</h2>
-<h1>OPENSSH密钥</h1>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1>OPENSSH密钥</h1>
 <p>好不容易放一次假，被这个SSH密钥折磨得好苦，干脆把代码都放这里，以后直接复制粘贴即可，一劳永逸！</p>
 <figure class="highlight gherkin"><table><tbody><tr><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -C <span class="string">"gongboss239@github.com"</span></span><br><span class="line">Generating public/private rsa key pair.</span><br><span class="line">Enter file in which to save the key (/c/Users/弓/.ssh/id_rsa):</span><br><span class="line">/c/Users/弓/.ssh/id_rsa already exists.</span><br><span class="line">Overwrite (y/n)? y</span><br><span class="line">Enter passphrase (empty for no passphrase):</span><br><span class="line">Enter same passphrase again:</span><br><span class="line">Your identification has been saved in /c/Users/弓/.ssh/id_rsa</span><br><span class="line">Your public key has been saved in /c/Users/弓/.ssh/id_rsa.pub</span><br><span class="line">The key fingerprint is:</span><br><span class="line">SHA256:WQbC9ZRD8frUTRjBka1RYx0i6VPaB9p0DuKwiMSPitg gongboss239<span class="meta">@github.com</span></span><br><span class="line">The key's randomart image is:</span><br><span class="line">+---[RSA 3072]----+</span><br><span class="line">|<span class="string">    ....o.++.o+X+</span>|</span><br><span class="line">|<span class="string">     o.. =o+.=*++</span>|</span><br><span class="line">|<span class="string">    . + . O.X *o.</span>|</span><br><span class="line">|<span class="string">     o o = B +.= </span>|</span><br><span class="line">|<span class="string">... .   S . o o .</span>|</span><br><span class="line">|<span class="string">..E.       o     </span>|</span><br><span class="line">|<span class="string">            .    </span>|</span><br><span class="line">|<span class="string">                 </span>|</span><br><span class="line">|<span class="string">                 </span>|</span><br><span class="line">+----[SHA256]-----+</span><br></pre></td></tr></tbody></table></figure>
 <p>现在是2022年1月1日上午8：56，我终于找到了问题所在：_config.yml里的deploy配置账号出现错误，是一坨奇怪的字符加账号名，已修改为ssh格式。时隔3月，网站终于能正常上传内容了！</p>
 ]]></content>
-      <tags>
-        <tag>Import-4a15</tag>
-      </tags>
+      <categories>
+        <category>随记</category>
+      </categories>
   </entry>
   <entry>
     <title>又失一趣</title>
@@ -187,38 +183,6 @@ abbrlink: 30719</h2>
       <tags>
         <tag>艺</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>忆梦</title>
-    <url>/2021/07/22/%E4%BA%BA%E7%94%9F%E6%81%8D%E5%A6%82%E6%A2%A6/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>有时候，看着镜子里的人，常常会想，自己老了是什么样子？</p>
-<p>银灰色的乱发似乎不愿承认衰老的事实，蜘蛛网悄悄地爬上鼻孔，千沟万壑的皮肤间恍如布满青苔。</p>
-<p>“恍如”……哦，人生恍如梦。</p>
-<p>躺在病床上，身上插满大大小小蛇一样的管子。向上看是白色，周围站了一圈认识的和不认识的人——他们挡住了阳光。</p>
-<p>我知道自己命不久矣，回忆像默片一样开始播放。</p>
-<span id="more"></span>
-<p>17岁，我幡然悔悟，开始认真学习，埋头读书。</p>
-<p>18岁，高考。我考上一个普普通通的二本学校。在选专业时，我和家人产生分歧。“金融、计算机、会计，这才是最吃香的。” 我喜欢当医生，但我最终选择了金融。</p>
-<p>22岁，大学毕业。我回到自己出生的那个小县城，在一家公司工作。</p>
-<p>27岁，家里人开始着急地催婚。我相了许多次亲，总觉得她不如初恋。</p>
-<p>30岁，我累了。有一天，等公交时，我遇到她。我问她年龄，她说二十九。相亲结束后，我又问她：“你觉得可以吗？”她没有任何表情，只是点了点头。</p>
-<p>31岁，我结婚了，没有想象中的爱情，也没有想象中的激情。我们不吵架，平平淡淡。</p>
-<p>32岁，她怀孕了，辞职在家。我每天很早去上班，中午回家做饭，晚上出去兼职。她提一些要求，我也不敢说什么，只是一直努力为孩子赚奶粉钱。孩子生下来了。我妈来帮我们照顾孩子。因为婆媳矛盾，我们第一次吵架。</p>
-<p>38岁，孩子上小学。我因为学区房的事和媳妇吵架。</p>
-<p>50岁，孩子高考。他比我强，考上了一本，但选了一个冷门专业。我为此和他大吵一架。他说：“我自己的人生，凭什么让你来决定！”后来，我拍着他的肩膀，对他说，选什么专业都无所谓，只是以后不要留下遗憾就好。”他最终还是选择了那个冷门专业。</p>
-<p>61岁，父亲走了。</p>
-<p>63岁，母亲走了。</p>
-<p>77岁，我躺在病床上，身上插满大大小小蛇一样的管子。向上看是白色，周围站了一圈认识的和不认识的人——他们挡住了阳光。</p>
-<p>我想起小学的时候，我和好朋友一起爬树，一起踩井盖，一起骑车穿过许多小巷。</p>
-<p>我又想起中学的时候，我和同学们一起踏春，一起参加唱歌比赛，一起打水战。</p>
-<p>我想起我的初恋，想必她也已是白发苍苍。</p>
-<p>七十年了，记忆里的楼房、课桌和一花一草，早已无存。</p>
-<p>原来，我一生中最快乐的时候，竟是我想睡、想吃、想看天上的白云的少年时代。我也叫它……黄金时代。</p>
-<p><img src="https://pic3.zhimg.com/v2-aa95804c811a7c3536ba84baf3c7fc67_r.jpg?source=1940ef5c" alt=""></p>
-]]></content>
-      <categories>
-        <category>随笔</category>
-      </categories>
   </entry>
   <entry>
     <title>元诗</title>
@@ -265,20 +229,36 @@ abbrlink: 30719</h2>
       </tags>
   </entry>
   <entry>
-    <title>城</title>
-    <url>/2021/04/04/%E5%9F%8E/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><img src="https://i.loli.net/2021/04/04/ewdPqm79kr4o6hp.jpg" alt="秀容古城"></p>
-<p>年代：东汉</p>
-<p>称号：“南绛北代，忻州不赖”</p>
-<p>​		    “文集九原，雅出秀容”</p>
-<p>​            “晋北锁钥，三关总要”</p>
+    <title>忆梦</title>
+    <url>/2021/07/22/%E4%BA%BA%E7%94%9F%E6%81%8D%E5%A6%82%E6%A2%A6/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>有时候，看着镜子里的人，常常会想，自己老了是什么样子？</p>
+<p>银灰色的乱发似乎不愿承认衰老的事实，蜘蛛网悄悄地爬上鼻孔，千沟万壑的皮肤间恍如布满青苔。</p>
+<p>“恍如”……哦，人生恍如梦。</p>
+<p>躺在病床上，身上插满大大小小蛇一样的管子。向上看是白色，周围站了一圈认识的和不认识的人——他们挡住了阳光。</p>
+<p>我知道自己命不久矣，回忆像默片一样开始播放。</p>
+<span id="more"></span>
+<p>17岁，我幡然悔悟，开始认真学习，埋头读书。</p>
+<p>18岁，高考。我考上一个普普通通的二本学校。在选专业时，我和家人产生分歧。“金融、计算机、会计，这才是最吃香的。” 我喜欢当医生，但我最终选择了金融。</p>
+<p>22岁，大学毕业。我回到自己出生的那个小县城，在一家公司工作。</p>
+<p>27岁，家里人开始着急地催婚。我相了许多次亲，总觉得她不如初恋。</p>
+<p>30岁，我累了。有一天，等公交时，我遇到她。我问她年龄，她说二十九。相亲结束后，我又问她：“你觉得可以吗？”她没有任何表情，只是点了点头。</p>
+<p>31岁，我结婚了，没有想象中的爱情，也没有想象中的激情。我们不吵架，平平淡淡。</p>
+<p>32岁，她怀孕了，辞职在家。我每天很早去上班，中午回家做饭，晚上出去兼职。她提一些要求，我也不敢说什么，只是一直努力为孩子赚奶粉钱。孩子生下来了。我妈来帮我们照顾孩子。因为婆媳矛盾，我们第一次吵架。</p>
+<p>38岁，孩子上小学。我因为学区房的事和媳妇吵架。</p>
+<p>50岁，孩子高考。他比我强，考上了一本，但选了一个冷门专业。我为此和他大吵一架。他说：“我自己的人生，凭什么让你来决定！”后来，我拍着他的肩膀，对他说，选什么专业都无所谓，只是以后不要留下遗憾就好。”他最终还是选择了那个冷门专业。</p>
+<p>61岁，父亲走了。</p>
+<p>63岁，母亲走了。</p>
+<p>77岁，我躺在病床上，身上插满大大小小蛇一样的管子。向上看是白色，周围站了一圈认识的和不认识的人——他们挡住了阳光。</p>
+<p>我想起小学的时候，我和好朋友一起爬树，一起踩井盖，一起骑车穿过许多小巷。</p>
+<p>我又想起中学的时候，我和同学们一起踏春，一起参加唱歌比赛，一起打水战。</p>
+<p>我想起我的初恋，想必她也已是白发苍苍。</p>
+<p>七十年了，记忆里的楼房、课桌和一花一草，早已无存。</p>
+<p>原来，我一生中最快乐的时候，竟是我想睡、想吃、想看天上的白云的少年时代。我也叫它……黄金时代。</p>
+<p><img src="https://pic3.zhimg.com/v2-aa95804c811a7c3536ba84baf3c7fc67_r.jpg?source=1940ef5c" alt=""></p>
 ]]></content>
       <categories>
-        <category>家乡</category>
+        <category>随笔</category>
       </categories>
-      <tags>
-        <tag>家乡</tag>
-      </tags>
   </entry>
   <entry>
     <title>手滑妙方</title>
@@ -347,6 +327,44 @@ abbrlink: 30719</h2>
       </tags>
   </entry>
   <entry>
+    <title>声控CD4017跑马灯</title>
+    <url>/2022/01/02/%E5%A3%B0%E6%8E%A7CD4017%E8%B7%91%E9%A9%AC%E7%81%AF/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="声控CD4017跑马灯"><a class="header-anchor" href="#声控CD4017跑马灯">¶</a>声控CD4017跑马灯</h3>
+<p>前日联欢，表演光剑。剑借同桌，不慎损坏。友人无然，我心甚愧。遂成此物，薄言谢之。<br>
+电路图与实物图：</p>
+<table>
+    <tbody><tr>
+        <td><center><img src="https://s4.ax1x.com/2022/01/02/ToILUs.png"></center></td>
+        <td><center><img src="https://s4.ax1x.com/2022/01/02/ToIO5n.jpg"></center></td>
+    </tr>
+</tbody></table>
+还有一个小时出发，茫茫然无所事事……⌚
+]]></content>
+      <categories>
+        <category>天工开物</category>
+      </categories>
+      <tags>
+        <tag>艺</tag>
+        <tag>电子制作</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>城</title>
+    <url>/2021/04/04/%E5%9F%8E/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><img src="https://i.loli.net/2021/04/04/ewdPqm79kr4o6hp.jpg" alt="秀容古城"></p>
+<p>年代：东汉</p>
+<p>称号：“南绛北代，忻州不赖”</p>
+<p>​		    “文集九原，雅出秀容”</p>
+<p>​            “晋北锁钥，三关总要”</p>
+]]></content>
+      <categories>
+        <category>家乡</category>
+      </categories>
+      <tags>
+        <tag>家乡</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>声控小灯</title>
     <url>/2021/09/11/%E5%A3%B0%E6%8E%A7%E7%81%AF/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>材料：</p>
@@ -370,58 +388,6 @@ abbrlink: 30719</h2>
       <tags>
         <tag>艺</tag>
         <tag>电子制作</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>声控CD4017跑马灯</title>
-    <url>/2022/01/02/%E5%A3%B0%E6%8E%A7CD4017%E8%B7%91%E9%A9%AC%E7%81%AF/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="声控CD4017跑马灯"><a class="header-anchor" href="#声控CD4017跑马灯">¶</a>声控CD4017跑马灯</h3>
-<p>前日联欢，表演光剑。剑借同桌，不慎损坏。友人无然，我心甚愧。遂成此物，薄言谢之。<br>
-电路图与实物图：</p>
-<table>
-    <tbody><tr>
-        <td><center><img src="https://s4.ax1x.com/2022/01/02/ToILUs.png"></center></td>
-        <td><center><img src="https://s4.ax1x.com/2022/01/02/ToIO5n.jpg"></center></td>
-    </tr>
-</tbody></table>
-还有一个小时出发，茫茫然无所事事……⌚
-]]></content>
-      <categories>
-        <category>天工开物</category>
-      </categories>
-      <tags>
-        <tag>艺</tag>
-        <tag>电子制作</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>女曰鸡鸣</title>
-    <url>/2021/05/01/%E5%A5%B3%E6%9B%B0%E9%B8%A1%E9%B8%A3/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
-<p>女曰：“鸡鸣。“</p>
-<p>士曰：“昧旦。”</p>
-<p>“子兴视夜，明星有烂。”</p>
-<p>“将翱将翔，弋凫与雁。”</p>
-<p>“弋言加之，与子宜之。</p>
-<p>宜言饮酒，与子偕老。</p>
-<p>琴瑟在御，莫不静好。”</p>
-<p>知子之来之，杂佩以赠之。</p>
-<p>知子之顺之，杂佩以问之。</p>
-<p>知子之好之，杂佩以报之。</p>
-</blockquote>
-<p>这正是我向往的未来生活啊！</p>
-<p>比起闻一多先生说是新婚，我更希望是日常。</p>
-<p>人生要进取，但生活还是平淡些好。</p>
-<p>尤喜首段。</p>
-<p><img src="https://i.loli.net/2021/05/01/tTHgdf4GLncAXoF.jpg" alt=""></p>
-<p>​                                                                                                       <em>4月19日于校</em></p>
-]]></content>
-      <categories>
-        <category>随记</category>
-      </categories>
-      <tags>
-        <tag>诗词</tag>
-        <tag>古剑</tag>
       </tags>
   </entry>
   <entry>
@@ -505,25 +471,33 @@ abbrlink: 30719</h2>
       </tags>
   </entry>
   <entry>
-    <title>小城街角</title>
-    <url>/2021/06/21/%E5%B0%8F%E5%9F%8E%E8%A1%97%E8%A7%92/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><a href="https://imgtu.com/i/RkRt0S"><img src="https://z3.ax1x.com/2021/06/21/RkRt0S.jpg" alt="RkRt0S.jpg"></a></p>
-<p>小城街角——这是个视频。</p>
-<p>APLAYER标签的使用还是不太熟练，坑太大，只好再放链接。</p>
-<p><a href="https://v.youku.com/v_show/id_XNTE3MTc5NTA1Ng==.html">小城街角——原平-旅游-高清完整正版视频在线观看-优酷 (youku.com)</a></p>
-<p>或者油管</p>
-<p><a href="https://www.youtube.com/watch?v=KPDaogWnmWk&amp;list=PL--rccqF0WMXhyxIFKYZqnZuZoXkLLukY&amp;index=3">https://www.youtube.com/watch?v=KPDaogWnmWk&amp;list=PL--rccqF0WMXhyxIFKYZqnZuZoXkLLukY&amp;index=3</a></p>
-<p>Thanks to Brandon Li from YouTuBe.</p>
-<p>这个视频成功验证了我的项目式学习法，以后再说吧。</p>
+    <title>女曰鸡鸣</title>
+    <url>/2021/05/01/%E5%A5%B3%E6%9B%B0%E9%B8%A1%E9%B8%A3/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
+<p>女曰：“鸡鸣。“</p>
+<p>士曰：“昧旦。”</p>
+<p>“子兴视夜，明星有烂。”</p>
+<p>“将翱将翔，弋凫与雁。”</p>
+<p>“弋言加之，与子宜之。</p>
+<p>宜言饮酒，与子偕老。</p>
+<p>琴瑟在御，莫不静好。”</p>
+<p>知子之来之，杂佩以赠之。</p>
+<p>知子之顺之，杂佩以问之。</p>
+<p>知子之好之，杂佩以报之。</p>
+</blockquote>
+<p>这正是我向往的未来生活啊！</p>
+<p>比起闻一多先生说是新婚，我更希望是日常。</p>
+<p>人生要进取，但生活还是平淡些好。</p>
+<p>尤喜首段。</p>
+<p><img src="https://i.loli.net/2021/05/01/tTHgdf4GLncAXoF.jpg" alt=""></p>
+<p>​                                                                                                       <em>4月19日于校</em></p>
 ]]></content>
       <categories>
-        <category>家乡</category>
+        <category>随记</category>
       </categories>
       <tags>
-        <tag>艺</tag>
-        <tag>家乡</tag>
-        <tag>媒体</tag>
-        <tag>回忆</tag>
+        <tag>诗词</tag>
+        <tag>古剑</tag>
       </tags>
   </entry>
   <entry>
@@ -557,47 +531,6 @@ abbrlink: 30719</h2>
       <tags>
         <tag>诗词</tag>
         <tag>笑话</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>一些有趣的密码</title>
-    <url>/2021/06/20/%E5%AF%86%E7%A0%81%E5%A4%A7%E5%85%A8/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>密码：ppnn13%dkstFeb.1st，<br>
-解释：娉娉袅袅十三余，豆蔻梢头二月初</p>
-<p>密码：Tree_0f0=sprintf(“2_Bird_ff0/a”)<br>
-解释：两个黄鹂鸣翠柳</p>
-<p>密码：csbt34.ydhl12s<br>
-解释：池上碧苔三四点，叶底黄鹂一两声</p>
-<p>密码：for_$n(@RenSheng)_$n+=“die”<br>
-解释：人生自古谁无死</p>
-<p>密码：while(1)Ape1Cry&amp;&amp;Ape2Cry<br>
-解释：两岸猿声啼不住</p>
-<p>密码：FLZX3000cY4yhx9day<br>
-解释：飞流直下三千尺，疑似银河下九天</p>
-<p>密码：hanshansi.location()!∈[gusucity]<br>
-解释：姑苏城外寒山寺</p>
-<p>密码：hold?fish:palm<br>
-解释：鱼和熊掌不可兼得</p>
-<p>密码：doWhile(1{LeavesFly();YangtzeRiverFlows();<br>
-解释：无边落木萧萧下，不尽长江滚滚来</p>
-<p>密码：tcmlflw,syred&gt;febhua]<br>
-解释：停车坐爱枫林晚，霜叶红于二月花</p>
-<p>密码：dig?F*ckDang5<br>
-解释:锄禾日当午</p>
-<p>密码： 1dcypsz1/2jss1/2j#f00<br>
-解释：一道残阳铺水中，半江瑟瑟半江红</p>
-<p>非古诗，俗语：<br>
-密码：ps!see(5tl)shit!say(man)<br>
-解释：平生不看武腾兰，便称男人也枉然</p>
-<p>密码：sky#0ff=Ayu2I@=U<br>
-解释：天青色等烟雨，而我在等你。</p>
-]]></content>
-      <categories>
-        <category>转载</category>
-      </categories>
-      <tags>
-        <tag>笑话</tag>
-        <tag>非己</tag>
       </tags>
   </entry>
   <entry>
@@ -650,6 +583,47 @@ abbrlink: 30719</h2>
 ]]></content>
   </entry>
   <entry>
+    <title>一些有趣的密码</title>
+    <url>/2021/06/20/%E5%AF%86%E7%A0%81%E5%A4%A7%E5%85%A8/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>密码：ppnn13%dkstFeb.1st，<br>
+解释：娉娉袅袅十三余，豆蔻梢头二月初</p>
+<p>密码：Tree_0f0=sprintf(“2_Bird_ff0/a”)<br>
+解释：两个黄鹂鸣翠柳</p>
+<p>密码：csbt34.ydhl12s<br>
+解释：池上碧苔三四点，叶底黄鹂一两声</p>
+<p>密码：for_$n(@RenSheng)_$n+=“die”<br>
+解释：人生自古谁无死</p>
+<p>密码：while(1)Ape1Cry&amp;&amp;Ape2Cry<br>
+解释：两岸猿声啼不住</p>
+<p>密码：FLZX3000cY4yhx9day<br>
+解释：飞流直下三千尺，疑似银河下九天</p>
+<p>密码：hanshansi.location()!∈[gusucity]<br>
+解释：姑苏城外寒山寺</p>
+<p>密码：hold?fish:palm<br>
+解释：鱼和熊掌不可兼得</p>
+<p>密码：doWhile(1{LeavesFly();YangtzeRiverFlows();<br>
+解释：无边落木萧萧下，不尽长江滚滚来</p>
+<p>密码：tcmlflw,syred&gt;febhua]<br>
+解释：停车坐爱枫林晚，霜叶红于二月花</p>
+<p>密码：dig?F*ckDang5<br>
+解释:锄禾日当午</p>
+<p>密码： 1dcypsz1/2jss1/2j#f00<br>
+解释：一道残阳铺水中，半江瑟瑟半江红</p>
+<p>非古诗，俗语：<br>
+密码：ps!see(5tl)shit!say(man)<br>
+解释：平生不看武腾兰，便称男人也枉然</p>
+<p>密码：sky#0ff=Ayu2I@=U<br>
+解释：天青色等烟雨，而我在等你。</p>
+]]></content>
+      <categories>
+        <category>转载</category>
+      </categories>
+      <tags>
+        <tag>笑话</tag>
+        <tag>非己</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>无聊</title>
     <url>/2021/07/14/%E6%97%A0%E8%81%8A/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>刚刚在十字路口拍街景，在安全区域架了三脚架做延时摄影，截图如下：</p>
@@ -660,6 +634,56 @@ abbrlink: 30719</h2>
       <categories>
         <category>随记</category>
       </categories>
+  </entry>
+  <entry>
+    <title>小城街角</title>
+    <url>/2021/06/21/%E5%B0%8F%E5%9F%8E%E8%A1%97%E8%A7%92/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><a href="https://imgtu.com/i/RkRt0S"><img src="https://z3.ax1x.com/2021/06/21/RkRt0S.jpg" alt="RkRt0S.jpg"></a></p>
+<p>小城街角——这是个视频。</p>
+<p>APLAYER标签的使用还是不太熟练，坑太大，只好再放链接。</p>
+<p><a href="https://v.youku.com/v_show/id_XNTE3MTc5NTA1Ng==.html">小城街角——原平-旅游-高清完整正版视频在线观看-优酷 (youku.com)</a></p>
+<p>或者油管</p>
+<p><a href="https://www.youtube.com/watch?v=KPDaogWnmWk&amp;list=PL--rccqF0WMXhyxIFKYZqnZuZoXkLLukY&amp;index=3">https://www.youtube.com/watch?v=KPDaogWnmWk&amp;list=PL--rccqF0WMXhyxIFKYZqnZuZoXkLLukY&amp;index=3</a></p>
+<p>Thanks to Brandon Li from YouTuBe.</p>
+<p>这个视频成功验证了我的项目式学习法，以后再说吧。</p>
+]]></content>
+      <categories>
+        <category>家乡</category>
+      </categories>
+      <tags>
+        <tag>艺</tag>
+        <tag>家乡</tag>
+        <tag>媒体</tag>
+        <tag>回忆</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>枕边方便灯</title>
+    <url>/2021/09/11/%E6%9E%95%E8%BE%B9%E6%96%B9%E4%BE%BF%E7%81%AF/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>材料:</p>
+<p>电阻：56k（绿蓝橙）一个，10k（棕黑橙）一个，330（橙橙棕）一个</p>
+<p>三极管：9014一个、9012一个</p>
+<p>开关：一个</p>
+<p>LED：一个</p>
+<p>电路图：<img src="http://img.mp.itc.cn/upload/20160816/2225c9cd42234f6cae0f394581da0a12_th.jpeg" alt=""></p>
+<p>实物图：</p>
+<span id="more"></span>
+<p><a href="https://imgtu.com/i/hxTPVP"><img src="https://z3.ax1x.com/2021/09/11/hxTPVP.jpg" alt=""></a></p>
+<p>实际上，由于元件不足，Q1的偏置电阻我用的100k。电容原来用的470μ，因为测试延时时间太长，有点耗电，便用了47μ。</p>
+<p>VCC为3V，那么电容电荷量	Q=1.47*10^(-6)C.</p>
+<p>放电时，有Q=I·t……</p>
+<p>等等，放电时C的电压一直在变。既然R1不变，那么I不可能不变。如此一来，就无法用这个公式算时间。</p>
+<p>而电容放电时间公式我还没学……</p>
+<p>好吧，只好实测t≈32s。有点长，但足够在宿舍使用了，而且体积小…🤐</p>
+<p>另外，焊接的时候才明白，要想把挂在烙铁头上的锡焊上去，关键必须使被焊部分达到与烙铁头相同的温度才行。</p>
+]]></content>
+      <categories>
+        <category>天工开物</category>
+      </categories>
+      <tags>
+        <tag>艺</tag>
+        <tag>电子制作</tag>
+      </tags>
   </entry>
   <entry>
     <title>有感于抖音扭曲的价值观</title>
@@ -737,34 +761,6 @@ abbrlink: 30719</h2>
       </tags>
   </entry>
   <entry>
-    <title>枕边方便灯</title>
-    <url>/2021/09/11/%E6%9E%95%E8%BE%B9%E6%96%B9%E4%BE%BF%E7%81%AF/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>材料:</p>
-<p>电阻：56k（绿蓝橙）一个，10k（棕黑橙）一个，330（橙橙棕）一个</p>
-<p>三极管：9014一个、9012一个</p>
-<p>开关：一个</p>
-<p>LED：一个</p>
-<p>电路图：<img src="http://img.mp.itc.cn/upload/20160816/2225c9cd42234f6cae0f394581da0a12_th.jpeg" alt=""></p>
-<p>实物图：</p>
-<span id="more"></span>
-<p><a href="https://imgtu.com/i/hxTPVP"><img src="https://z3.ax1x.com/2021/09/11/hxTPVP.jpg" alt=""></a></p>
-<p>实际上，由于元件不足，Q1的偏置电阻我用的100k。电容原来用的470μ，因为测试延时时间太长，有点耗电，便用了47μ。</p>
-<p>VCC为3V，那么电容电荷量	Q=1.47*10^(-6)C.</p>
-<p>放电时，有Q=I·t……</p>
-<p>等等，放电时C的电压一直在变。既然R1不变，那么I不可能不变。如此一来，就无法用这个公式算时间。</p>
-<p>而电容放电时间公式我还没学……</p>
-<p>好吧，只好实测t≈32s。有点长，但足够在宿舍使用了，而且体积小…🤐</p>
-<p>另外，焊接的时候才明白，要想把挂在烙铁头上的锡焊上去，关键必须使被焊部分达到与烙铁头相同的温度才行。</p>
-]]></content>
-      <categories>
-        <category>天工开物</category>
-      </categories>
-      <tags>
-        <tag>艺</tag>
-        <tag>电子制作</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>张若虚&amp;谢衣</title>
     <url>/2021/05/01/%E6%AD%A4%E6%97%B6%E7%9B%B8%E6%9C%9B%E4%B8%8D%E7%9B%B8%E9%97%BB%EF%BC%8C%E6%84%BF%E9%80%90%E6%9C%88%E5%8D%8E%E6%B5%81%E7%85%A7%E5%90%9B/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><strong>此时相望不相闻，愿逐月华流照君</strong></p>
@@ -799,6 +795,24 @@ abbrlink: 30719</h2>
       </tags>
   </entry>
   <entry>
+    <title>毽飞刘琦赋</title>
+    <url>/2022/01/22/%E6%AF%BD%E9%A3%9E%E5%88%98%E7%90%A6%E8%B5%8B/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>##毽飞刘琦赋##<br>
+<em>毽子飞自刘琦</em></p>
+<p>茫茫草野，浩浩平原。牛羊闲步，飞鸟暂歇。挥长鞭而牧人心悦，放雄鹰而猎者悠闲。砾石微震，风呼渐急。日月不明，飞沙卷泰山之石；乾坤复倒，共工触不周之山。牛羊惊散，飞鸟无踪。牧者抬首，穿墨空似有微明；猎人回望，尽乌蒙如见弱光。忽闻鹤唳，一毽当空。燃天明黄沙尽褪，耀空亮双日复出。千里雨霁，万里云销。天狼何见，毽飞刘琦耳！</p>
+<p>时维三月，序数八九。冰湖动而草木兴，百花笑而万鸟吟。携毽球于阡陌，访胜地于碧海。登石垂草，眺远望天。风抚四面，曦临八方。屈壮臂则跃跃欲试，催强腱而蠢蠢将动。</p>
+<p>举柔羽，提彩旃，响金音，坠毽球。聚天地之灵气，旋施其上；汇日月之精华，俱融厥中。及至近地，轻巧巧其宛腿；待往中毽，速灵灵其欲飞。目光所望，毽之所向。卷沙飞石，席暗囊光。穿重云势不可挡，破浓雾速非能及。冲利剑鸡鸣山颠，发强弩鹤唳深渊。夜茫茫耀空飞陨，天沉沉炫目流光。折天柱泰山如毁，绝地维黄河将摧。乾坤易位，赤县震动。四渎倒流，万民稽首。毽飞牧野，附飞石轩辕车裂；羽至扶桑，顺劲风嫘祖丝断。越祝融榣山琴停，飞共工龙冢石震。日神羲和之车，摇摇欲坠；月仙望舒之船，危危将倾。潮汐齐天，沉雷轰地，火覆昆山，电掣极南。望西天五百罗汉，无壁可扶；看上清三大天尊，拂尘莫寻。</p>
+<p>盛极必衰，泰极否来。渐行渐缓，徐飞徐坠。径三江三江欲躲，越五岳五岳如避。泰山石重，不及万分之一；举国聚鼎，莫比毽之一羽。虎狼凶兽，四散奔逃，雕鹰飞禽，早已无踪。轰然入地，百重沙遮天蔽日；积波推势，千卷浪啸海万丈。炫光渐暗，流火无存。山外九鼎，万民伏地。</p>
+<p>伏更腊易，雪落枫生，三年尘静，五年方寒。彩旃犹在，片金尚存。万丈之渊，不测之谷。百里无骨，千里无生。磐石之上，一毽三羽。如凤始驻，似凰方歇。无非他物，毽飞刘琦耳！</p>
+]]></content>
+      <categories>
+        <category>随笔</category>
+      </categories>
+      <tags>
+        <tag>艺</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>王兄之作</title>
     <url>/2021/04/04/%E7%8E%8B%E5%85%84%E4%B9%8B%E4%BD%9C/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><img src="https://i.loli.net/2021/04/04/4AWdZ2btEHXhzuj.jpg" alt=""></p>
@@ -812,40 +826,6 @@ abbrlink: 30719</h2>
       </categories>
       <tags>
         <tag>非己</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>中秋Vlog</title>
-    <url>/2021/09/21/%E7%94%B5%E5%AD%90%E5%88%B6%E4%BD%9C%E5%A4%A7%E8%B5%8F/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>昨日回家，在火车站等车时，用上次做的声控灯聆听地面的声音，实验现象如下：</p>
-<p>在火车未来时，灯闪得频率低、无规律。</p>
-<p>在火车进站到停车时，灯开始有规律地闪，并且频率越来越高。</p>
-<p>在火车上时，无论是加速出站还是正常行驶，灯都无规律地以相对中等的频率闪。</p>
-<p>这是我昨天下午做的一大堆东西……算是个vlog吧。</p>
-<p><a href="https://v.youku.com/v_show/id_XNTgwNzkxNDM0OA==.html">理科生的中秋假期vlog-生活-高清完整正版视频在线观看-优酷 (youku.com)</a></p>
-]]></content>
-      <categories>
-        <category>天工开物</category>
-      </categories>
-      <tags>
-        <tag>艺</tag>
-        <tag>电子制作</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>相册</title>
-    <url>/2021/06/07/%E7%9B%B8%E5%86%8C/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>重新鼓捣了相册，主要还是图床的后顾之忧。</p>
-<p><a href="http://xn--sm-fu4d268m.ms">感谢sm.ms</a>！感谢路过！</p>
-<p>多亏了这段代码。</p>
-<figure class="highlight django"><table><tbody><tr><td class="code"><pre><span class="line"><span class="template-tag">{% <span class="name">gp</span> i-j %}</span><span class="template-tag">{% <span class="name">endgp</span> %}</span></span><br></pre></td></tr></tbody></table></figure>
-]]></content>
-      <categories>
-        <category>随记</category>
-      </categories>
-      <tags>
-        <tag>媒体</tag>
-        <tag>古剑</tag>
       </tags>
   </entry>
   <entry>
@@ -900,6 +880,40 @@ abbrlink: 30719</h2>
       </tags>
   </entry>
   <entry>
+    <title>中秋Vlog</title>
+    <url>/2021/09/21/%E7%94%B5%E5%AD%90%E5%88%B6%E4%BD%9C%E5%A4%A7%E8%B5%8F/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>昨日回家，在火车站等车时，用上次做的声控灯聆听地面的声音，实验现象如下：</p>
+<p>在火车未来时，灯闪得频率低、无规律。</p>
+<p>在火车进站到停车时，灯开始有规律地闪，并且频率越来越高。</p>
+<p>在火车上时，无论是加速出站还是正常行驶，灯都无规律地以相对中等的频率闪。</p>
+<p>这是我昨天下午做的一大堆东西……算是个vlog吧。</p>
+<p><a href="https://v.youku.com/v_show/id_XNTgwNzkxNDM0OA==.html">理科生的中秋假期vlog-生活-高清完整正版视频在线观看-优酷 (youku.com)</a></p>
+]]></content>
+      <categories>
+        <category>天工开物</category>
+      </categories>
+      <tags>
+        <tag>艺</tag>
+        <tag>电子制作</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>相册</title>
+    <url>/2021/06/07/%E7%9B%B8%E5%86%8C/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>重新鼓捣了相册，主要还是图床的后顾之忧。</p>
+<p><a href="http://xn--sm-fu4d268m.ms">感谢sm.ms</a>！感谢路过！</p>
+<p>多亏了这段代码。</p>
+<figure class="highlight django"><table><tbody><tr><td class="code"><pre><span class="line"><span class="template-tag">{% <span class="name">gp</span> i-j %}</span><span class="template-tag">{% <span class="name">endgp</span> %}</span></span><br></pre></td></tr></tbody></table></figure>
+]]></content>
+      <categories>
+        <category>随记</category>
+      </categories>
+      <tags>
+        <tag>媒体</tag>
+        <tag>古剑</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>小城街角升级版</title>
     <url>/2021/07/18/%E7%B1%BB%E6%97%85%E6%8B%8D%E8%A7%86%E9%A2%91/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><a href="https://v.youku.com/v_show/id_XNTE4MzExMTQxMg==.html?spm=a2hcb.profile.app.5~5!2~5~5!3~5!2~5~5~A!2">类旅拍视频——原平-旅游-高清完整正版视频在线观看-优酷 (youku.com)</a></p>
@@ -919,19 +933,6 @@ abbrlink: 30719</h2>
       </tags>
   </entry>
   <entry>
-    <title>老友记</title>
-    <url>/2021/07/25/%E8%80%81%E5%8F%8B%E8%AE%B0%20-%20%E5%89%AF%E6%9C%AC/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><a href="https://imgtu.com/i/W2DSPI"><img src="https://z3.ax1x.com/2021/07/25/W2DSPI.jpg" alt=""></a></p>
-<p>旧友重逢:happy:</p>
-]]></content>
-      <categories>
-        <category>随记</category>
-      </categories>
-      <tags>
-        <tag>回忆</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>终于找到了Bug</title>
     <url>/2021/06/08/%E7%BB%88%E4%BA%8E%E6%89%BE%E5%88%B0%E4%BA%86bug/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><figure class="highlight vim"><table><tbody><tr><td class="code"><pre><span class="line">{</span><br><span class="line">         name: <span class="string">'劫尽吟·变调'</span>,</span><br><span class="line">         artis<span class="variable">t:</span> <span class="string">'骆集益'</span>,</span><br><span class="line">         ur<span class="variable">l:</span> <span class="string">'http://music.163.com/song/media/outer/url?id=26344044.mp3'</span>，</span><br><span class="line">         cover: <span class="string">'images/晴雪苏苏.png'</span>,</span><br><span class="line">         theme: <span class="string">'#ebd0c2'</span></span><br><span class="line">     },</span><br><span class="line">     {</span><br><span class="line">         name: <span class="string">'凤鸣榣山'</span>，</span><br><span class="line">         ur<span class="variable">l:</span> <span class="string">'http://music.163.com/song/media/outer/url?id=26344015.mp3'</span>，</span><br><span class="line">         artis<span class="variable">t:</span> <span class="string">'骆集益'</span>,</span><br><span class="line">         cover: <span class="string">'images/晴雪苏苏.png'</span>,</span><br><span class="line">         theme: <span class="string">'#ebd0c2'</span></span><br><span class="line">     }</span><br></pre></td></tr></tbody></table></figure>
@@ -942,6 +943,19 @@ abbrlink: 30719</h2>
       </categories>
       <tags>
         <tag>笑话</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>老友记</title>
+    <url>/2021/07/25/%E8%80%81%E5%8F%8B%E8%AE%B0%20-%20%E5%89%AF%E6%9C%AC/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><a href="https://imgtu.com/i/W2DSPI"><img src="https://z3.ax1x.com/2021/07/25/W2DSPI.jpg" alt=""></a></p>
+<p>旧友重逢:happy:</p>
+]]></content>
+      <categories>
+        <category>随记</category>
+      </categories>
+      <tags>
+        <tag>回忆</tag>
       </tags>
   </entry>
   <entry>
@@ -1088,6 +1102,19 @@ abbrlink: 30719</h2>
       </tags>
   </entry>
   <entry>
+    <title>备忘</title>
+    <url>/2021/05/15/%E8%BF%87%E6%95%8F%E6%80%A7%E7%BB%93%E8%86%9C%E7%82%8E/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>记录：每年5月的前两个星期要结膜炎过敏。</p>
+]]></content>
+      <categories>
+        <category>备忘录</category>
+      </categories>
+      <tags>
+        <tag>备忘</tag>
+        <tag>疾病</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>重游古剑</title>
     <url>/2021/06/06/%E9%87%8D%E6%B8%B8%E5%8F%A4%E5%89%91/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><img src="https://th.bing.com/th/id/R3a666766da5b4ceb8d58051955037d0a?rik=z2NYtgOfOm026g&amp;riu=http%3a%2f%2fi0.gbimg.cn%2f2010%2f04%2f06%2f20100406163409877.jpg&amp;ehk=BFWM%2bIxVDw96mF356y4ozCUxVCEYRhT0olxmy8idqvM%3d&amp;risl=&amp;pid=ImgRaw" alt=""></p>
@@ -1188,19 +1215,6 @@ abbrlink: 30719</h2>
       </categories>
       <tags>
         <tag>回忆 - 水乡</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>备忘</title>
-    <url>/2021/05/15/%E8%BF%87%E6%95%8F%E6%80%A7%E7%BB%93%E8%86%9C%E7%82%8E/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>记录：每年5月的前两个星期要结膜炎过敏。</p>
-]]></content>
-      <categories>
-        <category>备忘录</category>
-      </categories>
-      <tags>
-        <tag>备忘</tag>
-        <tag>疾病</tag>
       </tags>
   </entry>
   <entry>
