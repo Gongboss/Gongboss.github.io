@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-01-24T12:31:38.101Z</updated>
+  <updated>2022-01-24T12:35:38.070Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://example.com/2022/01/24/app%E5%BC%80%E5%8F%91/"/>
     <id>http://example.com/2022/01/24/app%E5%BC%80%E5%8F%91/</id>
     <published>2022-01-24T07:53:05.432Z</published>
-    <updated>2022-01-24T12:31:38.101Z</updated>
+    <updated>2022-01-24T12:35:38.070Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>#Appmaker#<br>作为一名业余编程爱好者，鄙人曾使用易安卓制作过粗糙的软件。由于鄙人学的是C，易安卓代码中文的外衣、JAVA的内核让人很不舒服。这次，我决定换一款软件——appmaker。</p><p>另外，制作时必须的PS技能，鄙人也不能再无视了（不过，我还是喜欢用AE）。</p><p>找了半天破解版，才发现破解版和试用版的区别只在于水印，只好如此开工。</p><p>大致步骤：<br>从网上找图片→<br>PS修改→<br>appmakr应用→<br>return</p><p>然后……最重要的是非商用声明，我放在了起始页。</p><p>辛辛苦苦做了几个小时，没想到发布要注册，注册还失败，失败还不给错误代号！</p><p>也算是个教训，下次一定要先进行试生成。<br><img src="https://s4.ax1x.com/2022/01/24/7TKsDU.png" alt=""><br>此实我心头一恨也！</p><p>#易安卓#<br>新东西不靠谱，只能回老本行，但我估计E4A也不大靠谱。<br>阅读了一些代码实例，大体语法如此：</p><pre><code>事件 函数()    函数结束 如果 逻辑判断表达式 则函数否则事件结束 如果 </code></pre><p>其数据类型：文本型、整数型、逻辑型。<br>我需要用到的函数：</p><pre><code>切换窗口(读取窗口("窗口名称"))弹出提示("提示内容")</code></pre><p>淦！项目暂时搁置！居然不能导入超过500kb的图片！&amp;~%·&amp;$#</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="Appmaker"><a class="header-anchor" href="#Appmaker">¶</a>Appmaker</h2><p>作为一名业余编程爱好者，鄙人曾使用易安卓制作过粗糙的软件。由于鄙人学的是C，易安卓代码中文的外衣、JAVA的内核让人很不舒服。这次，我决定换一款软件——appmaker。</p><p>另外，制作时必须的PS技能，鄙人也不能再无视了（不过，我还是喜欢用AE）。</p><p>找了半天破解版，才发现破解版和试用版的区别只在于水印，只好如此开工。</p><p>大致步骤：<br>从网上找图片→<br>PS修改→<br>appmakr应用→<br>return</p><p>然后……最重要的是非商用声明，我放在了起始页。</p><p>辛辛苦苦做了几个小时，没想到发布要注册，注册还失败，失败还不给错误代号！</p><p>也算是个教训，下次一定要先进行试生成。<br><img src="https://s4.ax1x.com/2022/01/24/7TKsDU.png" alt=""><br>此实我心头一恨也！</p><h2 id="易安卓"><a class="header-anchor" href="#易安卓">¶</a>易安卓</h2><p>新东西不靠谱，只能回老本行，但我估计E4A也不大靠谱。<br>阅读了一些代码实例，大体语法如此：</p><pre><code>事件 函数()    函数结束 如果 逻辑判断表达式 则函数否则事件结束 如果 </code></pre><p>其数据类型：文本型、整数型、逻辑型。<br>我需要用到的函数：</p><pre><code>切换窗口(读取窗口("窗口名称"))弹出提示("提示内容")</code></pre><p>淦！项目暂时搁置！居然不能导入超过500kb的图片！&amp;~%·&amp;$#</p>]]></content>
     
     
       
