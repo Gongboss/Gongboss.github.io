@@ -216,6 +216,153 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/10/01/%E7%94%B5%E6%BA%90%E7%94%B5%E8%B7%AF/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="弓之剑者">
+      <meta itemprop="description" content="心之所向，无惧无悔，愿求仁得仁，复无怨怼。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="落秋阁">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/10/01/%E7%94%B5%E6%BA%90%E7%94%B5%E8%B7%AF/" class="post-title-link" itemprop="url">电源电路</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2021-10-01 07:04:52" itemprop="dateCreated datePublished" datetime="2021-10-01T07:04:52+08:00">2021-10-01</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-12-25 09:39:58" itemprop="dateModified" datetime="2021-12-25T09:39:58+08:00">2021-12-25</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%A4%A9%E5%B7%A5%E5%BC%80%E7%89%A9/" itemprop="url" rel="index"><span itemprop="name">天工开物</span></a>
+                </span>
+            </span>
+
+          
+            <span id="/2021/10/01/%E7%94%B5%E6%BA%90%E7%94%B5%E8%B7%AF/" class="post-meta-item leancloud_visitors" data-flag-title="电源电路" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2021/10/01/%E7%94%B5%E6%BA%90%E7%94%B5%E8%B7%AF/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2021/10/01/%E7%94%B5%E6%BA%90%E7%94%B5%E8%B7%AF/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>608</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>1 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1>日志</h1>
+<p>设计一个稳压电源：</p>
+<h3 id="降压"><a class="header-anchor" href="#降压">¶</a>降压</h3>
+<p>找了找，手头现有一个小功率变压器，输入200V/50Hz,输出18V/300mA,肯定不行。</p>
+<p>还有一个很重的变压器，但不知参数。</p>
+<p>又找到一个红白变压器，接到家用电源上，输出电压7.61V<sub>7.65V，频率49.94Hz</sub>49.96Hz。</p>
+<p>就选它了！</p>
+<p>好险！没处理裸露铜导线直接按按钮，直接跳闸，蹦出好大一火花！</p>
+<p>下次一定要先做好绝缘措施！</p>
+<h3 id="整流"><a class="header-anchor" href="#整流">¶</a>整流</h3>
+<p>采用全波桥式整流。</p>
+<p>整流后电压变为6.61V~6.66V。</p>
+<h3 id="滤波"><a class="header-anchor" href="#滤波">¶</a>滤波</h3>
+<p>条件有限，用了一个470μF的电容滤，暂未加电阻。</p>
+<p>电压达到了9.2V左右。</p>
+<h3 id="稳压"><a class="header-anchor" href="#稳压">¶</a>稳压</h3>
+<p>用了一个稳压二极管（5V3），一个9013外加电阻、电容稳压，电压稳到了4.83V左右。</p>
+<p>但是连了一个LED与1k电阻后，输出骤降为2V左右。</p>
+<p>于是乎各位点重测：</p>
+<p>输入：49.95Hz,0.340V（奇怪）</p>
+<p>变压器输出：0.353V</p>
+<p>桥式整流输出：8.25V</p>
+<p>测到这里，有万用表损坏可能。</p>
+<p>于是重测：</p>
+<p>输入电压：220~224V</p>
+<p>变压器输出：7.31V</p>
+<p>桥式整流输出：8.45V，四个二极管电压均为3.6~3.7V</p>
+<p>三极管BC间电阻电压：8.49V</p>
+<p>稳压二极管：5.21V</p>
+<p>三极管EC间电压：6.88V</p>
+<p>输出：2.226V</p>
+<p>有点迷……</p>
+<p>看来是三极管的问题，现在来研究一下9013：</p>
+<h4 id="S9013-H-331"><a class="header-anchor" href="#S9013-H-331">¶</a>S9013 H 331</h4>
+<p>电源电压：4.5V,实测4.73V</p>
+<p>发射结反偏、集电结反偏时：</p>
+<p>各电流均为0。</p>
+<p>发射结正偏，偏置电阻4.7Ω，集电结反偏：</p>
+<p>偏置电阻电流68mA，电阻发烫。</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://example.com/2021/09/21/%E7%94%B5%E5%AD%90%E5%88%B6%E4%BD%9C%E5%A4%A7%E8%B5%8F/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -657,128 +804,6 @@
   
   
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/08/21/%E6%9C%89%E6%84%9F%E4%BA%8E%E6%8A%96%E9%9F%B3%E6%89%AD%E6%9B%B2%E7%9A%84%E4%BB%B7%E5%80%BC%E8%A7%82/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.png">
-      <meta itemprop="name" content="弓之剑者">
-      <meta itemprop="description" content="心之所向，无惧无悔，愿求仁得仁，复无怨怼。">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="落秋阁">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/08/21/%E6%9C%89%E6%84%9F%E4%BA%8E%E6%8A%96%E9%9F%B3%E6%89%AD%E6%9B%B2%E7%9A%84%E4%BB%B7%E5%80%BC%E8%A7%82/" class="post-title-link" itemprop="url">有感于抖音扭曲的价值观</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2021-08-21 23:05:21" itemprop="dateCreated datePublished" datetime="2021-08-21T23:05:21+08:00">2021-08-21</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-08-23 19:34:40" itemprop="dateModified" datetime="2021-08-23T19:34:40+08:00">2021-08-23</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E9%9A%8F%E7%AC%94/" itemprop="url" rel="index"><span itemprop="name">随笔</span></a>
-                </span>
-            </span>
-
-          
-            <span id="/2021/08/21/%E6%9C%89%E6%84%9F%E4%BA%8E%E6%8A%96%E9%9F%B3%E6%89%AD%E6%9B%B2%E7%9A%84%E4%BB%B7%E5%80%BC%E8%A7%82/" class="post-meta-item leancloud_visitors" data-flag-title="有感于抖音扭曲的价值观" title="阅读次数">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
-              </span>
-              <span class="post-meta-item-text">阅读次数：</span>
-              <span class="leancloud-visitors-count"></span>
-            </span>
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">Valine：</span>
-    
-    <a title="valine" href="/2021/08/21/%E6%9C%89%E6%84%9F%E4%BA%8E%E6%8A%96%E9%9F%B3%E6%89%AD%E6%9B%B2%E7%9A%84%E4%BB%B7%E5%80%BC%E8%A7%82/#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/2021/08/21/%E6%9C%89%E6%84%9F%E4%BA%8E%E6%8A%96%E9%9F%B3%E6%89%AD%E6%9B%B2%E7%9A%84%E4%BB%B7%E5%80%BC%E8%A7%82/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>2.7k</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>2 分钟</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>不知从什么时候起，我爸、我妈、我舅、我哥，甚至我所认识的所有人，都开始刷抖音。我顿时对这个黑色的软件起了极大的兴趣。然而，用老爸的手机刷了几个短视频后，我突然感到一种深深的恐惧，仿佛一个无底的深渊，分不清下面究竟是清清的湖水还是血盆大口。抖音所传递的价值观实在是扭曲！或者说，抖音的价值观是在<strong>迎合人性</strong>！对于一向反对性恶论的我来说，无法接受。我一直以为，人性从出生起，便处在一个善与恶的矛盾平衡点。后天性善的人，善成了矛盾的主要方面；后天性恶的人，恶成了矛盾的主要方面。呃……跑题了。</p>
-<h3 id="扭曲的价值观"><a class="header-anchor" href="#扭曲的价值观">¶</a>扭曲的价值观</h3>
-<h5 id="1-“今天的你对我爱答不理，明天的我让你高攀不起”。"><a class="header-anchor" href="#1-“今天的你对我爱答不理，明天的我让你高攀不起”。">¶</a>1.“今天的你对我爱答不理，明天的我让你高攀不起”。</h5>
-<p>这类型的剧集通常使人看了感觉十分爽，似乎讲的是“奋斗”，实质上是拜金、慕权。凭什么“高攀不起呢”？凭钱，凭权。但这类型的段子，往往得到了很高的点赞数。</p>
-<h5 id="2-人生苦短，要及时行乐。"><a class="header-anchor" href="#2-人生苦短，要及时行乐。">¶</a>2.人生苦短，要及时行乐。</h5>
-<p>我以前也很崇拜这种思想。但渐渐的，我发现这不就是为了给自己一个躺平的合理借口么？持续放纵自己，没有任何负罪感，这和废人有何区别？</p>
-<h5 id="3-性暗示。"><a class="header-anchor" href="#3-性暗示。">¶</a>3.性暗示。</h5>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2021/08/21/%E6%9C%89%E6%84%9F%E4%BA%8E%E6%8A%96%E9%9F%B3%E6%89%AD%E6%9B%B2%E7%9A%84%E4%BB%B7%E5%80%BC%E8%A7%82/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
 
   
   <nav class="pagination">
@@ -850,7 +875,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">41</span>
+          <span class="site-state-item-count">42</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>

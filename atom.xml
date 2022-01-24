@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-01-22T06:47:17.130Z</updated>
+  <updated>2022-01-24T12:21:51.704Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,31 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title></title>
+    <link href="http://example.com/2022/01/24/app%E5%BC%80%E5%8F%91/"/>
+    <id>http://example.com/2022/01/24/app%E5%BC%80%E5%8F%91/</id>
+    <published>2022-01-24T07:53:05.432Z</published>
+    <updated>2022-01-24T12:21:51.704Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>##Appmaker##<br>作为一名业余编程爱好者，鄙人曾使用易安卓制作过粗糙的软件。由于鄙人学的是C，易安卓代码中文的外衣、JAVA的内核让人很不舒服。这次，我决定换一款软件——appmaker。</p><p>另外，制作时必须的PS技能，鄙人也不能再无视了（不过，我还是喜欢用AE）。</p><p>找了半天破解版，才发现破解版和试用版的区别只在于水印，只好如此开工。</p><p>大致步骤：<br>从网上找图片→<br>PS修改→<br>appmakr应用→<br>return</p><p>然后……最重要的是非商用声明，我放在了起始页。</p><p>辛辛苦苦做了几个小时，没想到发布要注册，注册还失败，失败还不给错误代号！</p><p>也算是个教训，下次一定要先进行试生成。<br><img src="https://s4.ax1x.com/2022/01/24/7TKsDU.png" alt=""><br>此实我心头一恨也！</p><p>##易安卓##<br>新东西不靠谱，只能回老本行，但我估计E4A也不大靠谱。<br>阅读了一些代码实例，大体语法如此：</p><pre><code>事件 函数()    函数结束 如果 逻辑判断表达式 则函数否则事件结束 如果 </code></pre><p>其数据类型：文本型、整数型、逻辑型。<br>我需要用到的函数：</p><pre><code>切换窗口(读取窗口("窗口名称"))弹出提示("提示内容")</code></pre><p>淦！项目暂时搁置！居然不能导入超过500kb的图片！&amp;~%·&amp;$#</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>毽飞刘琦赋</title>
     <link href="http://example.com/2022/01/22/%E6%AF%BD%E9%A3%9E%E5%88%98%E7%90%A6%E8%B5%8B/"/>
     <id>http://example.com/2022/01/22/%E6%AF%BD%E9%A3%9E%E5%88%98%E7%90%A6%E8%B5%8B/</id>
     <published>2022-01-22T06:16:16.436Z</published>
-    <updated>2022-01-22T06:47:17.130Z</updated>
+    <updated>2022-01-22T06:48:17.151Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>##毽飞刘琦赋##<br><em>毽子飞自刘琦</em></p><p>茫茫草野，浩浩平原。牛羊闲步，飞鸟暂歇。挥长鞭而牧人心悦，放雄鹰而猎者悠闲。砾石微震，风呼渐急。日月不明，飞沙卷泰山之石；乾坤复倒，共工触不周之山。牛羊惊散，飞鸟无踪。牧者抬首，穿墨空似有微明；猎人回望，尽乌蒙如见弱光。忽闻鹤唳，一毽当空。燃天明黄沙尽褪，耀空亮双日复出。千里雨霁，万里云销。天狼何见，毽飞刘琦耳！</p><p>时维三月，序数八九。冰湖动而草木兴，百花笑而万鸟吟。携毽球于阡陌，访胜地于碧海。登石垂草，眺远望天。风抚四面，曦临八方。屈壮臂则跃跃欲试，催强腱而蠢蠢将动。</p><p>举柔羽，提彩旃，响金音，坠毽球。聚天地之灵气，旋施其上；汇日月之精华，俱融厥中。及至近地，轻巧巧其宛腿；待往中毽，速灵灵其欲飞。目光所望，毽之所向。卷沙飞石，席暗囊光。穿重云势不可挡，破浓雾速非能及。冲利剑鸡鸣山颠，发强弩鹤唳深渊。夜茫茫耀空飞陨，天沉沉炫目流光。折天柱泰山如毁，绝地维黄河将摧。乾坤易位，赤县震动。四渎倒流，万民稽首。毽飞牧野，附飞石轩辕车裂；羽至扶桑，顺劲风嫘祖丝断。越祝融榣山琴停，飞共工龙冢石震。日神羲和之车，摇摇欲坠；月仙望舒之船，危危将倾。潮汐齐天，沉雷轰地，火覆昆山，电掣极南。望西天五百罗汉，无壁可扶；看上清三大天尊，拂尘莫寻。</p><p>盛极必衰，泰极否来。渐行渐缓，徐飞徐坠。径三江三江欲躲，越五岳五岳如避。泰山石重，不及万分之一；举国聚鼎，莫比毽之一羽。虎狼凶兽，四散奔逃，雕鹰飞禽，早已无踪。轰然入地，百重沙遮天蔽日；积波推势，千卷浪啸海万丈。炫光渐暗，流火无存。山外九鼎，万民伏地。</p><p>伏更腊易，雪落枫生，三年尘静，五年方寒。彩旃犹在，片金尚存。万丈之渊，不测之谷。百里无骨，千里无生。磐石之上，一毽三羽。如凤始驻，似凰方歇。无非他物，毽飞刘琦耳！</p>]]></content>
     
@@ -515,26 +535,6 @@
     
     
     <category term="随记" scheme="http://example.com/categories/%E9%9A%8F%E8%AE%B0/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>To Do and to See</title>
-    <link href="http://example.com/2021/06/28/%E6%89%93%E5%8D%A1/"/>
-    <id>http://example.com/2021/06/28/%E6%89%93%E5%8D%A1/</id>
-    <published>2021-06-28T14:49:15.666Z</published>
-    <updated>2021-06-28T14:54:35.916Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><ul><li><p>《飞雪玉花》</p></li><li><p>《多宝塔碑》</p></li><li><p>运镜</p></li><li><p>肌</p></li></ul><ol><li>学习为主</li><li>“先做自己应该做的事，再做自己喜欢做的事”</li><li>贪多嚼不烂</li></ol>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
-      
-    
-    
     
     
   </entry>
