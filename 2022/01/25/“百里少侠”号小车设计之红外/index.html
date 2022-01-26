@@ -23,17 +23,28 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":true,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"manual","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="心之所向，无惧无悔，愿求仁得仁，复无怨怼。">
-<meta property="og:type" content="website">
-<meta property="og:title" content="落秋阁">
-<meta property="og:url" content="http://example.com/categories/%E5%A4%87%E5%BF%98%E5%BD%95/index.html">
+  <meta name="description" content="void ReadIr() interrupt 0 { 	u8 j,k; 	u16 err; 	Time&#x3D;0;					  	delay(700);	&#x2F;&#x2F;7ms 	if(IRIN&#x3D;&#x3D;0)		&#x2F;&#x2F;确认是否真的接收到正确的信号 	{	  		 		err&#x3D;1000;				&#x2F;&#x2F;1000*10us&#x3D;10ms,超过说明接收到错误的信号 		&#x2F;*当两个条件都为真是循环，如果有一个条件为假的时候跳出循环，免得">
+<meta property="og:type" content="article">
+<meta property="og:title" content="“百里少侠”号小车设计之红外">
+<meta property="og:url" content="http://example.com/2022/01/25/%E2%80%9C%E7%99%BE%E9%87%8C%E5%B0%91%E4%BE%A0%E2%80%9D%E5%8F%B7%E5%B0%8F%E8%BD%A6%E8%AE%BE%E8%AE%A1%E4%B9%8B%E7%BA%A2%E5%A4%96/index.html">
 <meta property="og:site_name" content="落秋阁">
-<meta property="og:description" content="心之所向，无惧无悔，愿求仁得仁，复无怨怼。">
+<meta property="og:description" content="void ReadIr() interrupt 0 { 	u8 j,k; 	u16 err; 	Time&#x3D;0;					  	delay(700);	&#x2F;&#x2F;7ms 	if(IRIN&#x3D;&#x3D;0)		&#x2F;&#x2F;确认是否真的接收到正确的信号 	{	  		 		err&#x3D;1000;				&#x2F;&#x2F;1000*10us&#x3D;10ms,超过说明接收到错误的信号 		&#x2F;*当两个条件都为真是循环，如果有一个条件为假的时候跳出循环，免得">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://s4.ax1x.com/2022/01/25/7HjPWd.png">
+<meta property="og:image" content="https://s4.ax1x.com/2022/01/25/7HjCJH.png">
+<meta property="og:image" content="https://s4.ax1x.com/2022/01/25/7HjCJH.png">
+<meta property="og:image" content="https://s4.ax1x.com/2022/01/25/7HjPWd.png">
+<meta property="article:published_time" content="2022-01-25T11:20:01.118Z">
+<meta property="article:modified_time" content="2022-01-26T01:55:42.620Z">
 <meta property="article:author" content="弓之剑者">
+<meta property="article:tag" content="编程">
+<meta property="article:tag" content="单片机">
+<meta property="article:tag" content="电子制作">
+<meta property="article:tag" content="C语言">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://s4.ax1x.com/2022/01/25/7HjPWd.png">
 
-<link rel="canonical" href="http://example.com/categories/%E5%A4%87%E5%BF%98%E5%BD%95/">
+<link rel="canonical" href="http://example.com/2022/01/25/%E2%80%9C%E7%99%BE%E9%87%8C%E5%B0%91%E4%BE%A0%E2%80%9D%E5%8F%B7%E5%B0%8F%E8%BD%A6%E8%AE%BE%E8%AE%A1%E4%B9%8B%E7%BA%A2%E5%A4%96/">
 
 
 <script id="page-configurations">
@@ -41,12 +52,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>分类: 备忘录 | 落秋阁</title>
+  <title>“百里少侠”号小车设计之红外 | 落秋阁</title>
   
 
 
@@ -210,57 +221,354 @@
         <div class="content-wrap">
           
 
-          <div class="content category">
+          <div class="content post posts-expand">
             
 
+    
   
   
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/01/25/%E2%80%9C%E7%99%BE%E9%87%8C%E5%B0%91%E4%BE%A0%E2%80%9D%E5%8F%B7%E5%B0%8F%E8%BD%A6%E8%AE%BE%E8%AE%A1%E4%B9%8B%E7%BA%A2%E5%A4%96/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="弓之剑者">
+      <meta itemprop="description" content="心之所向，无惧无悔，愿求仁得仁，复无怨怼。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="落秋阁">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          “百里少侠”号小车设计之红外
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2022-01-25 19:20:01" itemprop="dateCreated datePublished" datetime="2022-01-25T19:20:01+08:00">2022-01-25</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2022-01-26 09:55:42" itemprop="dateModified" datetime="2022-01-26T09:55:42+08:00">2022-01-26</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%A4%A9%E5%B7%A5%E5%BC%80%E7%89%A9/" itemprop="url" rel="index"><span itemprop="name">天工开物</span></a>
+                </span>
+            </span>
+
+          
+            <span id="/2022/01/25/%E2%80%9C%E7%99%BE%E9%87%8C%E5%B0%91%E4%BE%A0%E2%80%9D%E5%8F%B7%E5%B0%8F%E8%BD%A6%E8%AE%BE%E8%AE%A1%E4%B9%8B%E7%BA%A2%E5%A4%96/" class="post-meta-item leancloud_visitors" data-flag-title="“百里少侠”号小车设计之红外" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
   
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        <h2 class="collection-header">备忘录
-          <small>分类</small>
-        </h2>
-      </div>
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2022/01/25/%E2%80%9C%E7%99%BE%E9%87%8C%E5%B0%91%E4%BE%A0%E2%80%9D%E5%8F%B7%E5%B0%8F%E8%BD%A6%E8%AE%BE%E8%AE%A1%E4%B9%8B%E7%BA%A2%E5%A4%96/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2022/01/25/%E2%80%9C%E7%99%BE%E9%87%8C%E5%B0%91%E4%BE%A0%E2%80%9D%E5%8F%B7%E5%B0%8F%E8%BD%A6%E8%AE%BE%E8%AE%A1%E4%B9%8B%E7%BA%A2%E5%A4%96/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>2.4k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>2 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    <div class="collection-year">
-      <span class="collection-header">2021</span>
+        <pre><code>void ReadIr() interrupt 0
+{
+	u8 j,k;
+	u16 err;
+	Time=0;					 
+	delay(700);	//7ms
+	if(IRIN==0)		//确认是否真的接收到正确的信号
+	{	 
+		
+		err=1000;				//1000*10us=10ms,超过说明接收到错误的信号
+		/*当两个条件都为真是循环，如果有一个条件为假的时候跳出循环，免得程序出错的时
+		侯，程序死在这里*/	
+		while((IRIN==0)&amp;&amp;(err&gt;0))	//等待前面9ms的低电平过去  		
+		{			
+			delay(1);
+			err--;
+		} 
+		if(IRIN==1)			//如果正确等到9ms低电平
+		{
+			err=500;
+			while((IRIN==1)&amp;&amp;(err&gt;0))		 //等待4.5ms的起始高电平过去
+			{
+				delay(1);
+				err--;
+			}
+			for(k=0;k&lt;4;k++)		//共有4组数据
+			{				
+				for(j=0;j&lt;8;j++)	//接收一组数据
+				{
+
+					err=60;		
+					while((IRIN==0)&amp;&amp;(err&gt;0))//等待信号前面的560us低电平过去
+					{
+						delay(1);
+						err--;
+					}
+					err=500;
+					while((IRIN==1)&amp;&amp;(err&gt;0))	 //计算高电平的时间长度。
+					{
+						delay(10);	 //0.1ms
+						Time++;
+						err--;
+						if(Time&gt;30)
+						{
+							return;
+						}
+					}
+					IrValue[k]&gt;&gt;=1;	 //k表示第几组数据
+					if(Time&gt;=8)			//如果高电平出现大于565us，那么是1
+					{
+						IrValue[k]|=0x80;
+					}
+					Time=0;		//用完时间要重新赋值							
+				}
+			}
+		}
+		if(IrValue[2]!=~IrValue[3])
+		{
+			return;
+		}
+	}			
+}
+</code></pre>
+<p>接下来，就是进一步解析了~</p>
+<p><img src="https://s4.ax1x.com/2022/01/25/7HjPWd.png" alt=""></p>
+<h3 id="起始码识别"><a class="header-anchor" href="#起始码识别">¶</a>起始码识别</h3>
+<p>首先延时7ms,接近低电平转高电平的界值。</p>
+<pre><code>delay(700);
+</code></pre>
+<p>然后开始逼近，使用的变量为err:</p>
+<pre><code>while((IRIN==0)&amp;&amp;(err&gt;0))
+{
+	delay(1);
+	err--;
+}
+</code></pre>
+<p>从7ms到9ms的过程，信号都是低电平，因此有IRIN==0。若IRIN非0，则证明已经进入4.5ms的高电平阶段。同时，若信号非指定信号，10ms内便不会有高电平出现，err自减为0，则跳出循环。</p>
+<p>当接收到高电平信号后，跳出此循环，进入下一循环：</p>
+<pre><code>if(IRIN==1)
+{
+	err=500;
+	while(IRIN==0)&amp;&amp;(err&gt;0))
+	{
+		delay(1);
+		err--;
+	}
+</code></pre>
+<p>与上一阶段基本类似，在等待4.5ms高电平阶段。信号错误、4.5ms过去均可跳出循环，防止程序死在这儿。</p>
+<h3 id="数据读取之识别高低电平"><a class="header-anchor" href="#数据读取之识别高低电平">¶</a>数据读取之识别高低电平</h3>
+<p><img src="https://s4.ax1x.com/2022/01/25/7HjCJH.png" alt=""><br>
+原理如图<br>
+先等0.56ms过去，取60：</p>
+<pre><code>err=60;
+while(IRIN==0&amp;&amp;err&gt;0)
+{
+	delay(1);
+	err--;
+}
+</code></pre>
+<p>接着定一个笼统的范围并识别：</p>
+<pre><code>err=500;
+while((IRIN==1)&amp;&amp;(err&gt;0))
+	{
+		delay(10);
+		Time++;
+		err--;
+		if(Time&gt;30)
+		{
+			return;
+		}
+	}
+</code></pre>
+<p>这里的5ms是确保程序不卡死的。每循环一次，延时0.1ms。time&gt;30,也就是时间超过了3ms，这个信号就是错的，直接退出函数。<br>
+接下来识别，再放图：<br>
+<img src="https://s4.ax1x.com/2022/01/25/7HjCJH.png" alt=""><br>
+判断高电平平均长度，采取中间值比较法。中间值就好比统一的度量衡，大于此值为高电平，小于此值为低电平。</p>
+<p>0位高电平时间：1.125ms-0.56ms=0.565ms。<br>
+1位高电平时间：2.250ms-0.56ms=1.690ms。<br>
+取平均值约为0.8ms，是80个10μs,算上循环里的delay(10),则time大于等于8为高电平，time小于8为低电平。</p>
+<pre><code>if(Time&gt;=8)
+{
+	IrValue[k]=0x80;
+}
+</code></pre>
+<p>80的二进制为1000 0000。这样先置高位为1，是因为要让新来的数据将这一位向右“挤”。这样最终得到这组数据时，从右向左读数，顺序恰为从先接受到的数据读起。每组数据有8位，则每收到一位，都要往后移一位，用右移运算符，同时自移，包括在一个八位循环内：</p>
+<pre><code>for(j=0;j&lt;8;j++)	//接收一组数据
+{
+
+	err=60;		
+	while((IRIN==0)&amp;&amp;(err&gt;0))//等待信号前面的560us低电平过去
+	{
+		delay(1);
+		err--;
+	}
+	err=500;
+	while((IRIN==1)&amp;&amp;(err&gt;0))	 //计算高电平的时间长度。
+	{
+		delay(10);	 //0.1ms
+		Time++;
+		err--;
+		if(Time&gt;30)
+		{
+			return;
+		}
+	}
+	IrValue[k]&gt;&gt;=1;	 //k表示第几组数据
+	if(Time&gt;=8)			//如果高电平出现大于565us，那么是1
+	{
+		IrValue[k]|=0x80;
+	}
+	Time=0;		//用完时间要重新赋值							
+}
+</code></pre>
+<p>那个	“|=”是位运算符之一，a|=b，即a=a|b,ab取并且将值赋给a。<br>
+<img src="https://s4.ax1x.com/2022/01/25/7HjPWd.png" alt=""><br>
+共四组码，则外加大循环	：</p>
+<pre><code>for(k=0;k&lt;4;k++)
+</code></pre>
+<p>最后通过数据码与数据反码效验：</p>
+<pre><code>if(IrValue[2]!=~Irvalue[3])
+{
+	return;
+}
+</code></pre>
+<p>从而保证了数据的准确性。</p>
+<p>（奇怪，当时听这节课时我明明是睡着的，怎会记得如此清楚？）</p>
+
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+    
+    
+    
+        
 
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2021-05-15T20:33:18+08:00"
-              content="2021-05-15">
-          05-15
-        </time>
-      </div>
+  <div class="followme">
+    <p>欢迎关注我的其它发布渠道</p>
 
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/05/15/%E8%BF%87%E6%95%8F%E6%80%A7%E7%BB%93%E8%86%9C%E7%82%8E/" itemprop="url">
-            <span itemprop="name">备忘</span>
+    <div class="social-list">
+
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="https://twitter.com/username">
+            <span class="icon">
+              <i class="fab fa-twitter"></i>
+            </span>
+
+            <span class="label">Twitter</span>
           </a>
-      </div>
+        </div>
 
-    </header>
-  </article>
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="https://t.me/channel_name">
+            <span class="icon">
+              <i class="fab fa-telegram"></i>
+            </span>
 
+            <span class="label">Telegram</span>
+          </a>
+        </div>
+
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="/images/wechat_channel.jpg">
+            <span class="icon">
+              <i class="fab fa-weixin"></i>
+            </span>
+
+            <span class="label">WeChat</span>
+          </a>
+        </div>
+
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="/atom.xml">
+            <span class="icon">
+              <i class="fa fa-rss"></i>
+            </span>
+
+            <span class="label">RSS</span>
+          </a>
+        </div>
     </div>
   </div>
-  
-  
-  
 
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E7%BC%96%E7%A8%8B/" rel="tag"># 编程</a>
+              <a href="/tags/%E5%8D%95%E7%89%87%E6%9C%BA/" rel="tag"># 单片机</a>
+              <a href="/tags/%E7%94%B5%E5%AD%90%E5%88%B6%E4%BD%9C/" rel="tag"># 电子制作</a>
+              <a href="/tags/C%E8%AF%AD%E8%A8%80/" rel="tag"># C语言</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2022/01/24/app%E5%BC%80%E5%8F%91/" rel="prev" title="App开发研究">
+      <i class="fa fa-chevron-left"></i> App开发研究
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
   
 
 
 
           </div>
           
+    <div class="comments" id="valine-comments"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -307,6 +615,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%B5%B7%E5%A7%8B%E7%A0%81%E8%AF%86%E5%88%AB"><span class="nav-number">1.</span> <span class="nav-text">起始码识别</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%95%B0%E6%8D%AE%E8%AF%BB%E5%8F%96%E4%B9%8B%E8%AF%86%E5%88%AB%E9%AB%98%E4%BD%8E%E7%94%B5%E5%B9%B3"><span class="nav-number">2.</span> <span class="nav-text">数据读取之识别高低电平</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
