@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-01-26T01:55:42.620Z</updated>
+  <updated>2022-01-26T02:11:21.849Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,15 +21,86 @@
     <link href="http://example.com/2022/01/25/%E2%80%9C%E7%99%BE%E9%87%8C%E5%B0%91%E4%BE%A0%E2%80%9D%E5%8F%B7%E5%B0%8F%E8%BD%A6%E8%AE%BE%E8%AE%A1%E4%B9%8B%E7%BA%A2%E5%A4%96/"/>
     <id>http://example.com/2022/01/25/%E2%80%9C%E7%99%BE%E9%87%8C%E5%B0%91%E4%BE%A0%E2%80%9D%E5%8F%B7%E5%B0%8F%E8%BD%A6%E8%AE%BE%E8%AE%A1%E4%B9%8B%E7%BA%A2%E5%A4%96/</id>
     <published>2022-01-25T11:20:01.118Z</published>
-    <updated>2022-01-26T01:55:42.620Z</updated>
+    <updated>2022-01-26T02:11:21.849Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><pre><code>void ReadIr() interrupt 0{u8 j,k;u16 err;Time=0; delay(700);//7msif(IRIN==0)//确认是否真的接收到正确的信号{ err=1000;//1000*10us=10ms,超过说明接收到错误的信号/*当两个条件都为真是循环，如果有一个条件为假的时候跳出循环，免得程序出错的时侯，程序死在这里*/while((IRIN==0)&amp;&amp;(err&gt;0))//等待前面9ms的低电平过去  {delay(1);err--;} if(IRIN==1)//如果正确等到9ms低电平{err=500;while((IRIN==1)&amp;&amp;(err&gt;0)) //等待4.5ms的起始高电平过去{delay(1);err--;}for(k=0;k&lt;4;k++)//共有4组数据{for(j=0;j&lt;8;j++)//接收一组数据{err=60;while((IRIN==0)&amp;&amp;(err&gt;0))//等待信号前面的560us低电平过去{delay(1);err--;}err=500;while((IRIN==1)&amp;&amp;(err&gt;0)) //计算高电平的时间长度。{delay(10); //0.1msTime++;err--;if(Time&gt;30){return;}}IrValue[k]&gt;&gt;=1; //k表示第几组数据if(Time&gt;=8)//如果高电平出现大于565us，那么是1{IrValue[k]|=0x80;}Time=0;//用完时间要重新赋值}}}if(IrValue[2]!=~IrValue[3]){return;}}}</code></pre><p>接下来，就是进一步解析了~</p><p><img src="https://s4.ax1x.com/2022/01/25/7HjPWd.png" alt=""></p><h3 id="起始码识别"><a class="header-anchor" href="#起始码识别">¶</a>起始码识别</h3><p>首先延时7ms,接近低电平转高电平的界值。</p><pre><code>delay(700);</code></pre><p>然后开始逼近，使用的变量为err:</p><pre><code>while((IRIN==0)&amp;&amp;(err&gt;0)){delay(1);err--;}</code></pre><p>从7ms到9ms的过程，信号都是低电平，因此有IRIN==0。若IRIN非0，则证明已经进入4.5ms的高电平阶段。同时，若信号非指定信号，10ms内便不会有高电平出现，err自减为0，则跳出循环。</p><p>当接收到高电平信号后，跳出此循环，进入下一循环：</p><pre><code>if(IRIN==1){err=500;while(IRIN==0)&amp;&amp;(err&gt;0)){delay(1);err--;}</code></pre><p>与上一阶段基本类似，在等待4.5ms高电平阶段。信号错误、4.5ms过去均可跳出循环，防止程序死在这儿。</p><h3 id="数据读取之识别高低电平"><a class="header-anchor" href="#数据读取之识别高低电平">¶</a>数据读取之识别高低电平</h3><p><img src="https://s4.ax1x.com/2022/01/25/7HjCJH.png" alt=""><br>原理如图<br>先等0.56ms过去，取60：</p><pre><code>err=60;while(IRIN==0&amp;&amp;err&gt;0){delay(1);err--;}</code></pre><p>接着定一个笼统的范围并识别：</p><pre><code>err=500;while((IRIN==1)&amp;&amp;(err&gt;0)){delay(10);Time++;err--;if(Time&gt;30){return;}}</code></pre><p>这里的5ms是确保程序不卡死的。每循环一次，延时0.1ms。time&gt;30,也就是时间超过了3ms，这个信号就是错的，直接退出函数。<br>接下来识别，再放图：<br><img src="https://s4.ax1x.com/2022/01/25/7HjCJH.png" alt=""><br>判断高电平平均长度，采取中间值比较法。中间值就好比统一的度量衡，大于此值为高电平，小于此值为低电平。</p><p>0位高电平时间：1.125ms-0.56ms=0.565ms。<br>1位高电平时间：2.250ms-0.56ms=1.690ms。<br>取平均值约为0.8ms，是80个10μs,算上循环里的delay(10),则time大于等于8为高电平，time小于8为低电平。</p><pre><code>if(Time&gt;=8){IrValue[k]=0x80;}</code></pre><p>80的二进制为1000 0000。这样先置高位为1，是因为要让新来的数据将这一位向右“挤”。这样最终得到这组数据时，从右向左读数，顺序恰为从先接受到的数据读起。每组数据有8位，则每收到一位，都要往后移一位，用右移运算符，同时自移，包括在一个八位循环内：</p><pre><code>for(j=0;j&lt;8;j++)//接收一组数据{err=60;while((IRIN==0)&amp;&amp;(err&gt;0))//等待信号前面的560us低电平过去{delay(1);err--;}err=500;while((IRIN==1)&amp;&amp;(err&gt;0)) //计算高电平的时间长度。{delay(10); //0.1msTime++;err--;if(Time&gt;30){return;}}IrValue[k]&gt;&gt;=1; //k表示第几组数据if(Time&gt;=8)//如果高电平出现大于565us，那么是1{IrValue[k]|=0x80;}Time=0;//用完时间要重新赋值}</code></pre><p>那个“|=”是位运算符之一，a|=b，即a=a|b,ab取并且将值赋给a。<br><img src="https://s4.ax1x.com/2022/01/25/7HjPWd.png" alt=""><br>共四组码，则外加大循环：</p><pre><code>for(k=0;k&lt;4;k++)</code></pre><p>最后通过数据码与数据反码效验：</p><pre><code>if(IrValue[2]!=~Irvalue[3]){return;}</code></pre><p>从而保证了数据的准确性。</p><p>（奇怪，当时听这节课时我明明是睡着的，怎会记得如此清楚？）</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><details><summary><font size="4" color="orange">显示代码</font></summary><pre><code class="language-cpp">void ReadIr() interrupt 0{u8 j,k;u16 err;Time=0; delay(700);//7msif(IRIN==0)//确认是否真的接收到正确的信号{ err=1000;//1000*10us=10ms,超过说明接收到错误的信号/*当两个条件都为真是循环，如果有一个条件为假的时候跳出循环，免得程序出错的时侯，程序死在这里*/while((IRIN==0)&amp;&amp;(err&gt;0))//等待前面9ms的低电平过去  {delay(1);err--;} if(IRIN==1)//如果正确等到9ms低电平{err=500;while((IRIN==1)&amp;&amp;(err&gt;0)) //等待4.5ms的起始高电平过去{delay(1);err--;}for(k=0;k&lt;4;k++)//共有4组数据{for(j=0;j&lt;8;j++)//接收一组数据{err=60;while((IRIN==0)&amp;&amp;(err&gt;0))//等待信号前面的560us低电平过去{delay(1);err--;}err=500;while((IRIN==1)&amp;&amp;(err&gt;0)) //计算高电平的时间长度。{delay(10); //0.1msTime++;err--;if(Time&gt;30){return;}}IrValue[k]&gt;&gt;=1; //k表示第几组数据if(Time&gt;=8)//如果高电平出现大于565us，那么是1{IrValue[k]|=0x80;}Time=0;//用完时间要重新赋值}}}if(IrValue[2]!=~IrValue[3]){return;}}}</code></pre> </details><p>接下来，就是进一步解析了~</p><p><img src="https://s4.ax1x.com/2022/01/25/7HjPWd.png" alt=""></p><h3 id="起始码识别"><a class="header-anchor" href="#起始码识别">¶</a>起始码识别</h3><p>首先延时7ms,接近低电平转高电平的界值。</p><pre><code>delay(700);</code></pre><p>然后开始逼近，使用的变量为err:</p><pre><code>while((IRIN==0)&amp;&amp;(err&gt;0)){delay(1);err--;}</code></pre><p>从7ms到9ms的过程，信号都是低电平，因此有IRIN==0。若IRIN非0，则证明已经进入4.5ms的高电平阶段。同时，若信号非指定信号，10ms内便不会有高电平出现，err自减为0，则跳出循环。</p><span id="more"></span><p>当接收到高电平信号后，跳出此循环，进入下一循环：</p><pre><code>if(IRIN==1){err=500;while(IRIN==0)&amp;&amp;(err&gt;0)){delay(1);err--;}</code></pre><p>与上一阶段基本类似，在等待4.5ms高电平阶段。信号错误、4.5ms过去均可跳出循环，防止程序死在这儿。</p><h3 id="数据读取之识别高低电平"><a class="header-anchor" href="#数据读取之识别高低电平">¶</a>数据读取之识别高低电平</h3><p><img src="https://s4.ax1x.com/2022/01/25/7HjCJH.png" alt=""><br>原理如图<br>先等0.56ms过去，取60：</p><pre><code>err=60;while(IRIN==0&amp;&amp;err&gt;0){delay(1);err--;}</code></pre><p>接着定一个笼统的范围并识别：</p><pre><code>err=500;while((IRIN==1)&amp;&amp;(err&gt;0)){delay(10);Time++;err--;if(Time&gt;30){return;}}</code></pre><p>这里的5ms是确保程序不卡死的。每循环一次，延时0.1ms。time&gt;30,也就是时间超过了3ms，这个信号就是错的，直接退出函数。<br>接下来识别，再放图：<br><img src="https://s4.ax1x.com/2022/01/25/7HjCJH.png" alt=""><br>判断高电平平均长度，采取中间值比较法。中间值就好比统一的度量衡，大于此值为高电平，小于此值为低电平。</p><p>0位高电平时间：1.125ms-0.56ms=0.565ms。<br>1位高电平时间：2.250ms-0.56ms=1.690ms。<br>取平均值约为0.8ms，是80个10μs,算上循环里的delay(10),则time大于等于8为高电平，time小于8为低电平。</p><pre><code>if(Time&gt;=8){IrValue[k]=0x80;}</code></pre><p>80的二进制为1000 0000。这样先置高位为1，是因为要让新来的数据将这一位向右“挤”。这样最终得到这组数据时，从右向左读数，顺序恰为从先接受到的数据读起。每组数据有8位，则每收到一位，都要往后移一位，用右移运算符，同时自移，包括在一个八位循环内：</p><pre><code>for(j=0;j&lt;8;j++)//接收一组数据{err=60;while((IRIN==0)&amp;&amp;(err&gt;0))//等待信号前面的560us低电平过去{delay(1);err--;}err=500;while((IRIN==1)&amp;&amp;(err&gt;0)) //计算高电平的时间长度。{delay(10); //0.1msTime++;err--;if(Time&gt;30){return;}}IrValue[k]&gt;&gt;=1; //k表示第几组数据if(Time&gt;=8)//如果高电平出现大于565us，那么是1{IrValue[k]|=0x80;}Time=0;//用完时间要重新赋值}</code></pre><p>那个“|=”是位运算符之一，a|=b，即a=a|b,ab取并且将值赋给a。<br><img src="https://s4.ax1x.com/2022/01/25/7HjPWd.png" alt=""><br>共四组码，则外加大循环：</p><pre><code>for(k=0;k&lt;4;k++)</code></pre><p>最后通过数据码与数据反码效验：</p><pre><code>if(IrValue[2]!=~Irvalue[3]){return;}</code></pre><p>从而保证了数据的准确性。</p><p>（奇怪，当时听这节课时我明明是睡着的，怎会记得如此清楚？）</p>]]></content>
     
     
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
-      
+    <summary type="html">&lt;details&gt;&lt;summary&gt;&lt;font size=&quot;4&quot; color=&quot;orange&quot;&gt;显示代码&lt;/font&gt;&lt;/summary&gt;&lt;pre&gt;&lt;code class=&quot;language-cpp&quot;&gt;void ReadIr() interrupt 0
+	{
+		u8 j,k;
+		u16 err;
+		Time=0;					 
+		delay(700);	//7ms
+		if(IRIN==0)		//确认是否真的接收到正确的信号
+		{	 
+			err=1000;				//1000*10us=10ms,超过说明接收到错误的信号
+			/*当两个条件都为真是循环，如果有一个条件为假的时候跳出循环，免得程序出错的时
+			侯，程序死在这里*/	
+			while((IRIN==0)&amp;amp;&amp;amp;(err&amp;gt;0))	//等待前面9ms的低电平过去  		
+			{			
+				delay(1);
+				err--;
+			} 
+			if(IRIN==1)			//如果正确等到9ms低电平
+			{
+				err=500;
+				while((IRIN==1)&amp;amp;&amp;amp;(err&amp;gt;0))		 //等待4.5ms的起始高电平过去
+				{
+					delay(1);
+					err--;
+				}
+				for(k=0;k&amp;lt;4;k++)		//共有4组数据
+				{				
+					for(j=0;j&amp;lt;8;j++)	//接收一组数据
+					{
+						err=60;		
+						while((IRIN==0)&amp;amp;&amp;amp;(err&amp;gt;0))//等待信号前面的560us低电平过去
+						{
+							delay(1);
+							err--;
+						}
+						err=500;
+						while((IRIN==1)&amp;amp;&amp;amp;(err&amp;gt;0))	 //计算高电平的时间长度。
+						{
+							delay(10);	 //0.1ms
+							Time++;
+							err--;
+							if(Time&amp;gt;30)
+							{
+								return;
+							}
+						}
+						IrValue[k]&amp;gt;&amp;gt;=1;	 //k表示第几组数据
+						if(Time&amp;gt;=8)			//如果高电平出现大于565us，那么是1
+						{
+							IrValue[k]|=0x80;
+						}
+						Time=0;		//用完时间要重新赋值							
+					}
+				}
+			}
+			if(IrValue[2]!=~IrValue[3])
+			{
+				return;
+			}
+		}			
+	}&lt;/code&gt;
+&lt;/pre&gt; &lt;/details&gt;
+&lt;p&gt;接下来，就是进一步解析了~&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://s4.ax1x.com/2022/01/25/7HjPWd.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;起始码识别&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#起始码识别&quot;&gt;¶&lt;/a&gt;起始码识别&lt;/h3&gt;
+&lt;p&gt;首先延时7ms,接近低电平转高电平的界值。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;delay(700);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;然后开始逼近，使用的变量为err:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;while((IRIN==0)&amp;amp;&amp;amp;(err&amp;gt;0))
+{
+	delay(1);
+	err--;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;从7ms到9ms的过程，信号都是低电平，因此有IRIN==0。若IRIN非0，则证明已经进入4.5ms的高电平阶段。同时，若信号非指定信号，10ms内便不会有高电平出现，err自减为0，则跳出循环。&lt;/p&gt;</summary>
     
     
     
@@ -223,9 +294,9 @@
     <link href="http://example.com/2021/09/11/%E9%97%AA%E7%83%81%EF%BC%9ANE555%E4%B8%8ECD4017%E5%A4%A7%E8%81%94%E5%8A%A8/"/>
     <id>http://example.com/2021/09/11/%E9%97%AA%E7%83%81%EF%BC%9ANE555%E4%B8%8ECD4017%E5%A4%A7%E8%81%94%E5%8A%A8/</id>
     <published>2021-09-11T09:35:58.407Z</published>
-    <updated>2021-09-11T13:40:35.701Z</updated>
+    <updated>2022-01-26T02:06:01.113Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>材料：NE555一块</p><p>CD4017一块</p><p>10电阻8个</p><p>1μ电容一只</p><p>0.1μ电容一枚</p><p>47k（黄紫橙）、2.2k（三红）电阻各一个</p><p>洞洞板布线设计图：</p><span id="more"></span><p><a href="https://imgtu.com/i/hzzRYj"><img src="https://z3.ax1x.com/2021/09/11/hzzRYj.png" alt=""></a><br>电路图：</p><!-- more --><p><a href="https://imgtu.com/i/hzzWfs"><img src="https://z3.ax1x.com/2021/09/11/hzzWfs.png" alt=""></a><br>实物图：<a href="https://imgtu.com/i/hzz2kQ"><img src="https://z3.ax1x.com/2021/09/11/hzz2kQ.jpg" alt=""></a></p><p>太激动了！从初二到上一秒，多少次因元件短缺和经验不够，只能对这幅电路图望而生畏。如今终于做成功了，算是实现了一个梦想😭</p><p>之所以称之为“凌乱的跑马灯”，有两点：</p><ol><li>没想到CD4017有这么反人类的引脚顺序，加上我未上拉导线，以致不能实现流水灯。</li><li>对LED分压电阻的计算不熟，以致无法安装其他颜色的灯，不能达到绚丽的效果。</li></ol><p>哈呼😮‍💨静待明日开学。</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>材料：NE555一块</p><p>CD4017一块</p><p>10电阻8个</p><p>1μ电容一只</p><p>0.1μ电容一枚</p><p>47k（黄紫橙）、2.2k（三红）电阻各一个</p><p>洞洞板布线设计图：</p><p><a href="https://imgtu.com/i/hzzRYj"><img src="https://z3.ax1x.com/2021/09/11/hzzRYj.png" alt=""></a><br>电路图：</p><span id="more"></span><p><a href="https://imgtu.com/i/hzzWfs"><img src="https://z3.ax1x.com/2021/09/11/hzzWfs.png" alt=""></a><br>实物图：<a href="https://imgtu.com/i/hzz2kQ"><img src="https://z3.ax1x.com/2021/09/11/hzz2kQ.jpg" alt=""></a></p><p>太激动了！从初二到上一秒，多少次因元件短缺和经验不够，只能对这幅电路图望而生畏。如今终于做成功了，算是实现了一个梦想😭</p><p>之所以称之为“凌乱的跑马灯”，有两点：</p><ol><li>没想到CD4017有这么反人类的引脚顺序，加上我未上拉导线，以致不能实现流水灯。</li><li>对LED分压电阻的计算不熟，以致无法安装其他颜色的灯，不能达到绚丽的效果。</li></ol><p>哈呼😮‍💨静待明日开学。</p>]]></content>
     
     
     <summary type="html">&lt;p&gt;材料：NE555一块&lt;/p&gt;
@@ -234,7 +305,9 @@
 &lt;p&gt;1μ电容一只&lt;/p&gt;
 &lt;p&gt;0.1μ电容一枚&lt;/p&gt;
 &lt;p&gt;47k（黄紫橙）、2.2k（三红）电阻各一个&lt;/p&gt;
-&lt;p&gt;洞洞板布线设计图：&lt;/p&gt;</summary>
+&lt;p&gt;洞洞板布线设计图：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://imgtu.com/i/hzzRYj&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/09/11/hzzRYj.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;br&gt;
+电路图：&lt;/p&gt;</summary>
     
     
     
