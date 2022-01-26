@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-01-26T02:11:21.849Z</updated>
+  <updated>2022-01-26T09:01:18.528Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,60 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>“百里少侠”号小车设计之数据</title>
+    <link href="http://example.com/2022/01/26/%E2%80%9C%E7%99%BE%E9%87%8C%E5%B0%91%E4%BE%A0%E2%80%9D%E5%8F%B7%E5%B0%8F%E8%BD%A6%E8%AE%BE%E8%AE%A1%E4%B9%8B%E6%95%B0%E6%8D%AE/"/>
+    <id>http://example.com/2022/01/26/%E2%80%9C%E7%99%BE%E9%87%8C%E5%B0%91%E4%BE%A0%E2%80%9D%E5%8F%B7%E5%B0%8F%E8%BD%A6%E8%AE%BE%E8%AE%A1%E4%B9%8B%E6%95%B0%E6%8D%AE/</id>
+    <published>2022-01-26T04:32:28.058Z</published>
+    <updated>2022-01-26T09:01:18.528Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>接下来就是数据了。<br><img src="https://s4.ax1x.com/2022/01/26/7q1z6J.png" alt=""><br>👆138译码器<br><img src="https://s4.ax1x.com/2022/01/26/7q3SX9.png" alt=""><br>👆译码表<br><img src="https://s4.ax1x.com/2022/01/26/7q39mR.png" alt=""><br>👆数码管<br>循环显示，辉光效应：</p><pre><code>u8 i;for(i=0;i&lt;=7;i++){switch(i){case(0): LSA = 0; LSB = 0; LSC = 0; break;case(1): LSA = 1; LSB = 0; LSC = 0; break;case(2): LSA = 0; LSB = 1; LSC = 0; break;case(3): LSA = 1; LSB = 1; LSC = 0; break;case(4): LSA = 0; LSB = 0; LSC = 1; break;case(5): LSA = 1; LSB = 0; LSC = 1; break;case(6): LSA = 0; LSB = 1; LSC = 1; break;case(7): LSA = 1; LSB = 1; LSC = 1; break;}P0=DisplayData[i];//发送数据delay(100); //间隔一段时间扫描P0=0x00;//消隐}</code></pre><p>关于显示的部分，我想要它直接把二进制显示出来。用python的交互试了一下，然后用C写出来。算法：<span id="more"></span><br><img src="https://s4.ax1x.com/2022/01/26/7qgpGD.png" alt="7qgpGD.png"><br>dc是1101 1100。</p><p>所以……先写了一堆代码，废了好大一番周折，才得到正确的程序。感谢宇哥！学到了检查程序错误的时候，可以根据代码推结果，也可以根据结果推代码，逐个排查，最终写出正确程序：</p><pre><code>void main(){   u8 q, c, r, j = 0x01;u8 e[8];IrInit();while(1){r = IrValue[2];j = 0x01;for(q=0; q&lt;=7; q++){c = (char)(r&amp;j);if(c==0){e[q] = 0;}else{e[q] = 1;}j &lt;&lt;= 1;DisplayData[q] = smgduan[e[q]];}    DigDisplay();}}</code></pre><hr><p><img src="https://s4.ax1x.com/2022/01/26/7LrTqx.jpg" alt=""><br>测得的数据如上（部分数据有误，采取标准程序双重验证）<br>于是得到<br>45 46 47</p><p>44 40 43</p><p>07 15 09</p><p>16 19 0d</p><p>0c 18 5e</p><p>08 1c 43</p><p>42 52 4a</p><p>校验后，“VOL-”键应为00010101</p><p>标准程序检验，“6”应为5a,重验结果为01011010，确乎5a。</p><p>标准数据<br><img src="https://s4.ax1x.com/2022/01/26/7L62If.png" alt=""><br>即<br>45 46 47</p><p>44 40 43</p><p>07 15 09</p><p>16 19 0d</p><p>0c 18 5e</p><p>08 1c 5a</p><p>42 52 4a</p><p>Success!🏳️‍🌈</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;接下来就是数据了。&lt;br&gt;
+&lt;img src=&quot;https://s4.ax1x.com/2022/01/26/7q1z6J.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;
+👆138译码器&lt;br&gt;
+&lt;img src=&quot;https://s4.ax1x.com/2022/01/26/7q3SX9.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;
+👆译码表&lt;br&gt;
+&lt;img src=&quot;https://s4.ax1x.com/2022/01/26/7q39mR.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;
+👆数码管&lt;br&gt;
+循环显示，辉光效应：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;u8 i;
+for(i=0;i&amp;lt;=7;i++)
+{
+	switch(i)
+	{
+		case(0): LSA = 0; LSB = 0; LSC = 0; break;
+		case(1): LSA = 1; LSB = 0; LSC = 0; break;
+		case(2): LSA = 0; LSB = 1; LSC = 0; break;
+		case(3): LSA = 1; LSB = 1; LSC = 0; break;
+		case(4): LSA = 0; LSB = 0; LSC = 1; break;
+		case(5): LSA = 1; LSB = 0; LSC = 1; break;
+		case(6): LSA = 0; LSB = 1; LSC = 1; break;
+		case(7): LSA = 1; LSB = 1; LSC = 1; break;
+	}
+	P0=DisplayData[i];//发送数据
+	delay(100); //间隔一段时间扫描	
+	P0=0x00;//消隐
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;关于显示的部分，我想要它直接把二进制显示出来。用python的交互试了一下，然后用C写出来。算法：&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="天工开物" scheme="http://example.com/categories/%E5%A4%A9%E5%B7%A5%E5%BC%80%E7%89%A9/"/>
+    
+    
+    <category term="编程" scheme="http://example.com/tags/%E7%BC%96%E7%A8%8B/"/>
+    
+    <category term="单片机" scheme="http://example.com/tags/%E5%8D%95%E7%89%87%E6%9C%BA/"/>
+    
+    <category term="电子制作" scheme="http://example.com/tags/%E7%94%B5%E5%AD%90%E5%88%B6%E4%BD%9C/"/>
+    
+    <category term="C语言" scheme="http://example.com/tags/C%E8%AF%AD%E8%A8%80/"/>
+    
+  </entry>
   
   <entry>
     <title>“百里少侠”号小车设计之红外</title>
@@ -602,28 +656,6 @@
     <category term="非己" scheme="http://example.com/tags/%E9%9D%9E%E5%B7%B1/"/>
     
     <category term="水乡" scheme="http://example.com/tags/%E6%B0%B4%E4%B9%A1/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>BORED</title>
-    <link href="http://example.com/2021/07/13/Boring/"/>
-    <id>http://example.com/2021/07/13/Boring/</id>
-    <published>2021-07-13T13:25:26.375Z</published>
-    <updated>2021-07-13T13:38:12.337Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>无聊</p><p>I want to be on fire!!!</p><p><img src="https://tse1-mm.cn.bing.net/th/id/R-C.cf232713df0dd7a7a2e593c567cc6a3b?rik=Yb6QGgoJqPqIFA&amp;riu=http%3a%2f%2fimg3.cache.netease.com%2fphoto%2f0003%2f2012-06-30%2f858UKJ0M51HP0003.jpg&amp;ehk=thlyiR1mHLOdY%2f%2fXcAH0fKr0BDxqRRR8QoHhR%2b9Y6w4%3d&amp;risl=&amp;pid=ImgRaw" alt=""></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
-    <category term="随记" scheme="http://example.com/categories/%E9%9A%8F%E8%AE%B0/"/>
-    
     
   </entry>
   
