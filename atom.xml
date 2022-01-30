@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-01-26T09:01:18.528Z</updated>
+  <updated>2022-01-28T07:57:53.603Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,64 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title></title>
+    <link href="http://example.com/2022/01/28/%E6%96%B0%E6%96%87%E6%A1%A3/"/>
+    <id>http://example.com/2022/01/28/%E6%96%B0%E6%96%87%E6%A1%A3/</id>
+    <published>2022-01-28T07:57:53.602Z</published>
+    <updated>2022-01-28T07:57:53.603Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>地球的夜晚》<br>《生命之色》<br>《人类星球》<br>《宁静的世界</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>灯塔之广州塔</title>
+    <link href="http://example.com/2022/01/26/%E7%81%AF%E5%A1%94/"/>
+    <id>http://example.com/2022/01/26/%E7%81%AF%E5%A1%94/</id>
+    <published>2022-01-26T09:36:34.310Z</published>
+    <updated>2022-01-30T11:10:37.318Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>打算用NE555和CD4017做个灯塔，我想想……一圈6个LED，做7圈，起码需要14个圆环……有了！用铜丝！</p><p>所以，圆环的直径都是4cm，而仿广州塔的造型就要靠焊接时的引脚了。<br>那么……开工！</p><p>C=2πr=12.6cm</p><p>为了追求高电导率用粗铜丝，结果现在满手铜味……</p><p>给铜上锡的时候有点费助焊剂……</p><p>铜的热导率好高，有被冒犯到😢</p><p>再次吐槽，好快的热传导速度。</p><p>哇，这热导率竟恐怖如斯！整个铜圈都达到了将近400℃，一点铜圈把之前焊好的都融化了。只好采用上下圈交错间焊的办法提高效率，但难度大大提高。好在成功了。</p><p>明天继续……<br><img src="https://s4.ax1x.com/2022/01/27/7OHZFg.jpg" alt=""></p><span id="more"></span><p>做成了！效果良好。</p><p>特地再NE555 2与6、7间加了一个电位器，可以调节频率。但缺点是圈数太多，而且调到两端时不知道有没有到头。</p><p>现已将其送予一位友人。</p><p><a href="https://v.youku.com/v_show/id_XNTgzODg3MDM0NA==.html" title="“广州塔”">https://v.youku.com/v_show/id_XNTgzODg3MDM0NA==.html</a></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;打算用NE555和CD4017做个灯塔，我想想……一圈6个LED，做7圈，起码需要14个圆环……有了！用铜丝！&lt;/p&gt;
+&lt;p&gt;所以，圆环的直径都是4cm，而仿广州塔的造型就要靠焊接时的引脚了。&lt;br&gt;
+那么……开工！&lt;/p&gt;
+&lt;p&gt;C=2πr=12.6cm&lt;/p&gt;
+&lt;p&gt;为了追求高电导率用粗铜丝，结果现在满手铜味……&lt;/p&gt;
+&lt;p&gt;给铜上锡的时候有点费助焊剂……&lt;/p&gt;
+&lt;p&gt;铜的热导率好高，有被冒犯到😢&lt;/p&gt;
+&lt;p&gt;再次吐槽，好快的热传导速度。&lt;/p&gt;
+&lt;p&gt;哇，这热导率竟恐怖如斯！整个铜圈都达到了将近400℃，一点铜圈把之前焊好的都融化了。只好采用上下圈交错间焊的办法提高效率，但难度大大提高。好在成功了。&lt;/p&gt;
+&lt;p&gt;明天继续……&lt;br&gt;
+&lt;img src=&quot;https://s4.ax1x.com/2022/01/27/7OHZFg.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="天工开物" scheme="http://example.com/categories/%E5%A4%A9%E5%B7%A5%E5%BC%80%E7%89%A9/"/>
+    
+    
+    <category term="电子制作" scheme="http://example.com/tags/%E7%94%B5%E5%AD%90%E5%88%B6%E4%BD%9C/"/>
+    
+    <category term="艺" scheme="http://example.com/tags/%E8%89%BA/"/>
+    
+  </entry>
+  
+  <entry>
     <title>“百里少侠”号小车设计之数据</title>
     <link href="http://example.com/2022/01/26/%E2%80%9C%E7%99%BE%E9%87%8C%E5%B0%91%E4%BE%A0%E2%80%9D%E5%8F%B7%E5%B0%8F%E8%BD%A6%E8%AE%BE%E8%AE%A1%E4%B9%8B%E6%95%B0%E6%8D%AE/"/>
     <id>http://example.com/2022/01/26/%E2%80%9C%E7%99%BE%E9%87%8C%E5%B0%91%E4%BE%A0%E2%80%9D%E5%8F%B7%E5%B0%8F%E8%BD%A6%E8%AE%BE%E8%AE%A1%E4%B9%8B%E6%95%B0%E6%8D%AE/</id>
     <published>2022-01-26T04:32:28.058Z</published>
-    <updated>2022-01-26T09:01:18.528Z</updated>
+    <updated>2022-01-26T09:02:00.237Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>接下来就是数据了。<br><img src="https://s4.ax1x.com/2022/01/26/7q1z6J.png" alt=""><br>👆138译码器<br><img src="https://s4.ax1x.com/2022/01/26/7q3SX9.png" alt=""><br>👆译码表<br><img src="https://s4.ax1x.com/2022/01/26/7q39mR.png" alt=""><br>👆数码管<br>循环显示，辉光效应：</p><pre><code>u8 i;for(i=0;i&lt;=7;i++){switch(i){case(0): LSA = 0; LSB = 0; LSC = 0; break;case(1): LSA = 1; LSB = 0; LSC = 0; break;case(2): LSA = 0; LSB = 1; LSC = 0; break;case(3): LSA = 1; LSB = 1; LSC = 0; break;case(4): LSA = 0; LSB = 0; LSC = 1; break;case(5): LSA = 1; LSB = 0; LSC = 1; break;case(6): LSA = 0; LSB = 1; LSC = 1; break;case(7): LSA = 1; LSB = 1; LSC = 1; break;}P0=DisplayData[i];//发送数据delay(100); //间隔一段时间扫描P0=0x00;//消隐}</code></pre><p>关于显示的部分，我想要它直接把二进制显示出来。用python的交互试了一下，然后用C写出来。算法：<span id="more"></span><br><img src="https://s4.ax1x.com/2022/01/26/7qgpGD.png" alt="7qgpGD.png"><br>dc是1101 1100。</p><p>所以……先写了一堆代码，废了好大一番周折，才得到正确的程序。感谢宇哥！学到了检查程序错误的时候，可以根据代码推结果，也可以根据结果推代码，逐个排查，最终写出正确程序：</p><pre><code>void main(){   u8 q, c, r, j = 0x01;u8 e[8];IrInit();while(1){r = IrValue[2];j = 0x01;for(q=0; q&lt;=7; q++){c = (char)(r&amp;j);if(c==0){e[q] = 0;}else{e[q] = 1;}j &lt;&lt;= 1;DisplayData[q] = smgduan[e[q]];}    DigDisplay();}}</code></pre><hr><p><img src="https://s4.ax1x.com/2022/01/26/7LrTqx.jpg" alt=""><br>测得的数据如上（部分数据有误，采取标准程序双重验证）<br>于是得到<br>45 46 47</p><p>44 40 43</p><p>07 15 09</p><p>16 19 0d</p><p>0c 18 5e</p><p>08 1c 43</p><p>42 52 4a</p><p>校验后，“VOL-”键应为00010101</p><p>标准程序检验，“6”应为5a,重验结果为01011010，确乎5a。</p><p>标准数据<br><img src="https://s4.ax1x.com/2022/01/26/7L62If.png" alt=""><br>即<br>45 46 47</p><p>44 40 43</p><p>07 15 09</p><p>16 19 0d</p><p>0c 18 5e</p><p>08 1c 5a</p><p>42 52 4a</p><p>Success!🏳️‍🌈</p>]]></content>
     
@@ -608,54 +661,6 @@ for(i=0;i&amp;lt;=7;i++)
     <category term="媒体" scheme="http://example.com/tags/%E5%AA%92%E4%BD%93/"/>
     
     <category term="回忆" scheme="http://example.com/tags/%E5%9B%9E%E5%BF%86/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>无聊</title>
-    <link href="http://example.com/2021/07/14/%E6%97%A0%E8%81%8A/"/>
-    <id>http://example.com/2021/07/14/%E6%97%A0%E8%81%8A/</id>
-    <published>2021-07-14T12:35:42.124Z</published>
-    <updated>2021-07-14T12:37:10.328Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>刚刚在十字路口拍街景，在安全区域架了三脚架做延时摄影，截图如下：</p><p><a href="https://imgtu.com/i/WenTqH"><img src="https://z3.ax1x.com/2021/07/14/WenTqH.jpg" alt=""></a></p><p>延时共10min，等待的时候无聊，看路上车水马龙，看熙熙攘攘的行人。</p><p>无聊无聊无聊无聊ingingignignigningingingingingignignignignignignigningingnginginigingnig………………………………………………😐😑😶😒😒😣😣😤🤬👺👻🖕🖕🖕</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
-    <category term="随记" scheme="http://example.com/categories/%E9%9A%8F%E8%AE%B0/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>江南水乡</title>
-    <link href="http://example.com/2021/07/13/%E6%B0%B4%E4%B9%A1/"/>
-    <id>http://example.com/2021/07/13/%E6%B0%B4%E4%B9%A1/</id>
-    <published>2021-07-13T14:11:12.180Z</published>
-    <updated>2021-07-13T14:15:40.232Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>爱了爱了❤️<br><a href="https://www.bilibili.com/video/BV1tT4y1j7a9/?spm_id_from=333.788.videocard.2">https://www.bilibili.com/video/BV1tT4y1j7a9/?spm_id_from=333.788.videocard.2</a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
-    <category term="转载" scheme="http://example.com/categories/%E8%BD%AC%E8%BD%BD/"/>
-    
-    
-    <category term="非己" scheme="http://example.com/tags/%E9%9D%9E%E5%B7%B1/"/>
-    
-    <category term="水乡" scheme="http://example.com/tags/%E6%B0%B4%E4%B9%A1/"/>
     
   </entry>
   
