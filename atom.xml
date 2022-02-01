@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-01-31T07:44:35.395Z</updated>
+  <updated>2022-02-01T06:21:39.184Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>App开发研究2</title>
+    <link href="http://example.com/2022/02/01/app%E5%BC%80%E5%8F%912/"/>
+    <id>http://example.com/2022/02/01/app%E5%BC%80%E5%8F%912/</id>
+    <published>2022-02-01T03:49:20.375Z</published>
+    <updated>2022-02-01T06:21:39.184Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>我需要用到的函数：<br>切换窗口(读取窗口(“窗口名称”))<br>弹出提示(“提示内容”)<br>哈！缩小了图片，成功啦！</p><table>    <tbody><tr>        <td><center><img src="https://s4.ax1x.com/2022/02/01/HFwEwD.jpg"></center></td>        <td><center><img src="https://s4.ax1x.com/2022/02/01/HFwVTe.jpg"></center></td>    </tr></tbody></table>还有两个窗口，不好截图……还放了段音乐，梦璃的主题曲《织梦行云》。<span id="more"></span>主窗口代码：<pre><code>    变量 时钟周期 为 长整数型    变量 启动时间 为 长整数型事件 主窗口.创建完毕()    时钟1.时钟周期 = 3000    播放音乐("music.mp3")    保存窗口("主窗口",本对象)    保存窗口("窗口1",创建 窗口1)    保存窗口("窗口2",创建 窗口2)结束 事件事件 时钟1.周期事件()    图片框1.开启特效(3, 3000, 真)    图片框1.销毁()    时钟1.时钟周期 = 0结束 事件事件 想.被单击()    切换窗口(读取窗口("窗口1"))结束 事件事件 不想.被单击()    切换窗口(读取窗口("窗口2"))结束 事件事件 主窗口.按下某键(键代码 为 整数型,传址 屏蔽 为 逻辑型)    如果 键代码 = 返回键 则    如果 取启动时间() - 启动时间 &gt;2000 则    弹出提示("再按一次退出程序")    启动时间 = 取启动时间()    否则     结束程序()    结束 如果    结束 如果结束 事件</code></pre><p>窗口1代码</p><pre><code>    变量 启动时间 为 长整数型事件 窗口1.切换完毕()    图片框1.移动特效(0, -1430, 0, 0, 10000, 真)结束 事件事件 窗口1.按下某键(键代码 为 整数型,传址 屏蔽 为 逻辑型)    如果 键代码 = 返回键 则    切换窗口(读取窗口("主窗口"))    结束 如果结束 事件</code></pre><p>窗口二代码</p><pre><code>事件 窗口2.切换完毕()    图片框1.旋转特效(0.0, 360.0,500,真)    弹出提示("懒婆娘的裹脚布,又臭又长~")结束 事件事件 图片框1.被单击()    图片框1.旋转特效(0.0, 360.0,500,真)    弹出提示("懒婆娘的裹脚布,又臭又长~")结束 事件事件 窗口2.按下某键(键代码 为 整数型,传址 屏蔽 为 逻辑型)    如果 键代码 = 返回键 则    切换窗口(读取窗口("主窗口"))    结束 如果结束 事件</code></pre>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;我需要用到的函数：&lt;br&gt;
+切换窗口(读取窗口(“窗口名称”))&lt;br&gt;
+弹出提示(“提示内容”)&lt;br&gt;
+哈！缩小了图片，成功啦！&lt;/p&gt;
+&lt;table&gt;
+    &lt;tbody&gt;&lt;tr&gt;
+        &lt;td&gt;&lt;center&gt;&lt;img src=&quot;https://s4.ax1x.com/2022/02/01/HFwEwD.jpg&quot;&gt;&lt;/center&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;center&gt;&lt;img src=&quot;https://s4.ax1x.com/2022/02/01/HFwVTe.jpg&quot;&gt;&lt;/center&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+还有两个窗口，不好截图……
+还放了段音乐，梦璃的主题曲《织梦行云》。</summary>
+    
+    
+    
+    <category term="学习" scheme="http://example.com/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="编程" scheme="http://example.com/tags/%E7%BC%96%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>除夕随笔</title>
@@ -633,36 +665,6 @@ for(i=0;i&amp;lt;=7;i++)
     
     <category term="随笔" scheme="http://example.com/categories/%E9%9A%8F%E7%AC%94/"/>
     
-    
-  </entry>
-  
-  <entry>
-    <title>小城街角升级版</title>
-    <link href="http://example.com/2021/07/18/%E7%B1%BB%E6%97%85%E6%8B%8D%E8%A7%86%E9%A2%91/"/>
-    <id>http://example.com/2021/07/18/%E7%B1%BB%E6%97%85%E6%8B%8D%E8%A7%86%E9%A2%91/</id>
-    <published>2021-07-18T12:21:37.148Z</published>
-    <updated>2021-07-18T12:23:43.281Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><a href="https://v.youku.com/v_show/id_XNTE4MzExMTQxMg==.html?spm=a2hcb.profile.app.5~5!2~5~5!3~5!2~5~5~A!2">类旅拍视频——原平-旅游-高清完整正版视频在线观看-优酷 (youku.com)</a></p><p>好吧，这又是一个视频。</p><p>自从被美术老师安利了《神探夏洛克》，我便彻底地沉入了。所以，这个视频的后期剪辑很多借鉴了其手法。</p><p>当然，也充斥着Brandon Li风格（仅是模仿，未得精髓）。</p><p>总之，心满意足哦，打发了无聊时间。😁😁😁</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
-    <category term="家乡" scheme="http://example.com/categories/%E5%AE%B6%E4%B9%A1/"/>
-    
-    
-    <category term="艺" scheme="http://example.com/tags/%E8%89%BA/"/>
-    
-    <category term="家乡" scheme="http://example.com/tags/%E5%AE%B6%E4%B9%A1/"/>
-    
-    <category term="媒体" scheme="http://example.com/tags/%E5%AA%92%E4%BD%93/"/>
-    
-    <category term="回忆" scheme="http://example.com/tags/%E5%9B%9E%E5%BF%86/"/>
     
   </entry>
   
