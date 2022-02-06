@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-02-01T06:21:39.184Z</updated>
+  <updated>2022-02-06T07:07:06.122Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,41 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>“百里少侠”号小车设计之初步功能设计</title>
+    <link href="http://example.com/2022/02/03/%E2%80%9C%E7%99%BE%E9%87%8C%E5%B0%91%E4%BE%A0%E2%80%9D%E5%8F%B7%E5%B0%8F%E8%BD%A6%E8%AE%BE%E8%AE%A1%E4%B9%8B%E5%8A%9F%E8%83%BD%E8%AE%BE%E8%AE%A1/"/>
+    <id>http://example.com/2022/02/03/%E2%80%9C%E7%99%BE%E9%87%8C%E5%B0%91%E4%BE%A0%E2%80%9D%E5%8F%B7%E5%B0%8F%E8%BD%A6%E8%AE%BE%E8%AE%A1%E4%B9%8B%E5%8A%9F%E8%83%BD%E8%AE%BE%E8%AE%A1/</id>
+    <published>2022-02-03T01:39:17.603Z</published>
+    <updated>2022-02-06T07:07:06.122Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="简单测试"><a class="header-anchor" href="#简单测试">¶</a>简单测试</h3><p>0x06,即0110，左转</p><p>0x09,即1001，右转</p><p>那么……</p><p>0x0a,即1010，为后退</p><p>0x05,即0101，为前进</p><p>😈</p><p>于是，继续解决红外问题：关键是switch分支与break的问题。</p><h3 id="switch中的break"><a class="header-anchor" href="#switch中的break">¶</a>switch中的break</h3><p>如果加break,在执行完此次case后，便会跳出switch。</p><p>而不加switch，从上往下case判断，一旦遇到合适的，便开始执行此次case，尔后非但不跳出，还把下面的所有case都执行一遍（好反人类）。之前小车老是不成功，就是中了无break的毒，每次按完按键，都停留在最后一个0x00上，这样怎会发动小车呢？</p><h3 id="想要实现的功能"><a class="header-anchor" href="#想要实现的功能">¶</a>想要实现的功能</h3><ol><li>挡位，即通过delay步进来调整电机速度。</li><li>液晶显示，起码能显示个"百里少侠"。</li><li>default显示无状态，让程序更完善。</li><li>转弯（稍后细说）。</li></ol><h3 id="转弯"><a class="header-anchor" href="#转弯">¶</a>转弯</h3><p>目前一共有三种转弯方式：（以左转为例）</p><ol><li>左轮全速减速，右轮全速加速</li><li>左轮不动，右轮加速</li><li>右轮不动，左轮加速</li><li>左右轮均加速，且左轮转速小于右轮</li><li>左右轮均减速，且左轮转速大于右轮</li></ol><h3 id="下一步"><a class="header-anchor" href="#下一步">¶</a>下一步</h3><ol><li>通过程序及测试进一步写出前三种转弯方式moto二进制代码。</li><li>通过程序测验步进调速是否能成功，并尽量多分出挡位</li><li>一次就好，尽量减少烧录次数。</li></ol><p><em>一次就好，我带你去看天荒地老~~~</em></p><p><em>在阳光灿烂的日子里开怀大笑……</em></p><p><em>在无忧无虑的世界里吵吵闹闹</em></p><p><em>你可知道，我唯一的想要……</em></p><p>睡觉睡觉！明天再研究！</p><h3 id="初代码"><a class="header-anchor" href="#初代码">¶</a>初代码</h3><pre><code>switch(x){case(0x45): moto = 0x0a;break;case(0x46): moto = 0x05;break;case(0x47): moto = 0x00;break;case(0x44): moto = 0x06;break;//原地左转case(0x43): moto = 0x09;break;//原地右转case(0x07): moto = 0x02;break;//左转case(0x09): moto = 0x01;break;//右转case(0x16): moto = 0x04;break;//左转case(0x0d): moto = 0x08;break;//右转case(0x40): go(10);break;case(0x15): go(100);break;case(0x19): go(500);break;case(0x18): go(1000);break;default: moto = 0x00;break;}</code></pre><p>还有：</p><pre><code>void go(u16 i){while(1){moto = 0x05;delay(i);}}</code></pre><p>为了测试，不得不建立一个专供单片机的独立供电系统，用三节纽扣电池加一个二极管足矣。</p><h3 id="初代码bug"><a class="header-anchor" href="#初代码bug">¶</a>初代码bug</h3><p>一旦进入go(i)里的循环，中断无法使跳出循环。或者说，中断执行了。但由于go(i)运行未结束，便一直卡在这里。另外，独立的供电系统也不成功，考虑去掉二极管。</p><h3 id="供电系统"><a class="header-anchor" href="#供电系统">¶</a>供电系统</h3><p>现在不得不重新谋划单片机的供电系统了。</p><p>整个装置一共应有两套各自独立的供电系统，一套供给L298N用于电机驱动，另一套供给单片机用于控制。</p><p>现在的问题是，纽扣电池不能提供足够的电流，使单片机无法正常运行。而L298N占用了所有电池匣，后续研究可能面临无匣可用的境地。</p><p>解决方案就是用9v大电池再串两个5号电池给L298N供电，用杨老师摔坏的分贝仪电池槽装3节5号电池给单片机供电。当然供的是3.3V，所以要串一个二极管。</p><p>刚刚查到资料，9V电池电流小，几十毫安，无法驱动电机。开来，是时候祭出能装6节电池的大电池匣了！也是为了可持续发展嘛！</p><p>不对！此电池匣有3对是并联，输出电压只能是4.5V！</p><p>看来，得制作一个电池匣了。当然，下下策还是用掉那么多匣。</p><p>电池匣做不成，电焊技术又不到家，只好用下下策了😭</p><p>可惜啊，由于情绪失控，原本已测试成功的小车，车轮被掰断了。</p><p>所以之后重购，同时购买了小车框架。</p><p>接下来，就该考虑蓝牙通信了；</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="天工开物" scheme="http://example.com/categories/%E5%A4%A9%E5%B7%A5%E5%BC%80%E7%89%A9/"/>
+    
+    
+    <category term="编程" scheme="http://example.com/tags/%E7%BC%96%E7%A8%8B/"/>
+    
+    <category term="单片机" scheme="http://example.com/tags/%E5%8D%95%E7%89%87%E6%9C%BA/"/>
+    
+    <category term="电子制作" scheme="http://example.com/tags/%E7%94%B5%E5%AD%90%E5%88%B6%E4%BD%9C/"/>
+    
+    <category term="C语言" scheme="http://example.com/tags/C%E8%AF%AD%E8%A8%80/"/>
+    
+  </entry>
+  
+  <entry>
     <title>App开发研究2</title>
     <link href="http://example.com/2022/02/01/app%E5%BC%80%E5%8F%912/"/>
     <id>http://example.com/2022/02/01/app%E5%BC%80%E5%8F%912/</id>
     <published>2022-02-01T03:49:20.375Z</published>
-    <updated>2022-02-01T06:21:39.184Z</updated>
+    <updated>2022-02-01T06:22:11.759Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>我需要用到的函数：<br>切换窗口(读取窗口(“窗口名称”))<br>弹出提示(“提示内容”)<br>哈！缩小了图片，成功啦！</p><table>    <tbody><tr>        <td><center><img src="https://s4.ax1x.com/2022/02/01/HFwEwD.jpg"></center></td>        <td><center><img src="https://s4.ax1x.com/2022/02/01/HFwVTe.jpg"></center></td>    </tr></tbody></table>还有两个窗口，不好截图……还放了段音乐，梦璃的主题曲《织梦行云》。<span id="more"></span>主窗口代码：<pre><code>    变量 时钟周期 为 长整数型    变量 启动时间 为 长整数型事件 主窗口.创建完毕()    时钟1.时钟周期 = 3000    播放音乐("music.mp3")    保存窗口("主窗口",本对象)    保存窗口("窗口1",创建 窗口1)    保存窗口("窗口2",创建 窗口2)结束 事件事件 时钟1.周期事件()    图片框1.开启特效(3, 3000, 真)    图片框1.销毁()    时钟1.时钟周期 = 0结束 事件事件 想.被单击()    切换窗口(读取窗口("窗口1"))结束 事件事件 不想.被单击()    切换窗口(读取窗口("窗口2"))结束 事件事件 主窗口.按下某键(键代码 为 整数型,传址 屏蔽 为 逻辑型)    如果 键代码 = 返回键 则    如果 取启动时间() - 启动时间 &gt;2000 则    弹出提示("再按一次退出程序")    启动时间 = 取启动时间()    否则     结束程序()    结束 如果    结束 如果结束 事件</code></pre><p>窗口1代码</p><pre><code>    变量 启动时间 为 长整数型事件 窗口1.切换完毕()    图片框1.移动特效(0, -1430, 0, 0, 10000, 真)结束 事件事件 窗口1.按下某键(键代码 为 整数型,传址 屏蔽 为 逻辑型)    如果 键代码 = 返回键 则    切换窗口(读取窗口("主窗口"))    结束 如果结束 事件</code></pre><p>窗口二代码</p><pre><code>事件 窗口2.切换完毕()    图片框1.旋转特效(0.0, 360.0,500,真)    弹出提示("懒婆娘的裹脚布,又臭又长~")结束 事件事件 图片框1.被单击()    图片框1.旋转特效(0.0, 360.0,500,真)    弹出提示("懒婆娘的裹脚布,又臭又长~")结束 事件事件 窗口2.按下某键(键代码 为 整数型,传址 屏蔽 为 逻辑型)    如果 键代码 = 返回键 则    切换窗口(读取窗口("主窗口"))    结束 如果结束 事件</code></pre>]]></content>
     
@@ -642,29 +672,6 @@ for(i=0;i&amp;lt;=7;i++)
     
     
     <category term="回忆" scheme="http://example.com/tags/%E5%9B%9E%E5%BF%86/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>忆梦</title>
-    <link href="http://example.com/2021/07/22/%E4%BA%BA%E7%94%9F%E6%81%8D%E5%A6%82%E6%A2%A6/"/>
-    <id>http://example.com/2021/07/22/%E4%BA%BA%E7%94%9F%E6%81%8D%E5%A6%82%E6%A2%A6/</id>
-    <published>2021-07-22T13:05:13.350Z</published>
-    <updated>2021-08-23T11:37:54.663Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>有时候，看着镜子里的人，常常会想，自己老了是什么样子？</p><p>银灰色的乱发似乎不愿承认衰老的事实，蜘蛛网悄悄地爬上鼻孔，千沟万壑的皮肤间恍如布满青苔。</p><p>“恍如”……哦，人生恍如梦。</p><p>躺在病床上，身上插满大大小小蛇一样的管子。向上看是白色，周围站了一圈认识的和不认识的人——他们挡住了阳光。</p><p>我知道自己命不久矣，回忆像默片一样开始播放。</p><span id="more"></span><p>17岁，我幡然悔悟，开始认真学习，埋头读书。</p><p>18岁，高考。我考上一个普普通通的二本学校。在选专业时，我和家人产生分歧。“金融、计算机、会计，这才是最吃香的。” 我喜欢当医生，但我最终选择了金融。</p><p>22岁，大学毕业。我回到自己出生的那个小县城，在一家公司工作。</p><p>27岁，家里人开始着急地催婚。我相了许多次亲，总觉得她不如初恋。</p><p>30岁，我累了。有一天，等公交时，我遇到她。我问她年龄，她说二十九。相亲结束后，我又问她：“你觉得可以吗？”她没有任何表情，只是点了点头。</p><p>31岁，我结婚了，没有想象中的爱情，也没有想象中的激情。我们不吵架，平平淡淡。</p><p>32岁，她怀孕了，辞职在家。我每天很早去上班，中午回家做饭，晚上出去兼职。她提一些要求，我也不敢说什么，只是一直努力为孩子赚奶粉钱。孩子生下来了。我妈来帮我们照顾孩子。因为婆媳矛盾，我们第一次吵架。</p><p>38岁，孩子上小学。我因为学区房的事和媳妇吵架。</p><p>50岁，孩子高考。他比我强，考上了一本，但选了一个冷门专业。我为此和他大吵一架。他说：“我自己的人生，凭什么让你来决定！”后来，我拍着他的肩膀，对他说，选什么专业都无所谓，只是以后不要留下遗憾就好。”他最终还是选择了那个冷门专业。</p><p>61岁，父亲走了。</p><p>63岁，母亲走了。</p><p>77岁，我躺在病床上，身上插满大大小小蛇一样的管子。向上看是白色，周围站了一圈认识的和不认识的人——他们挡住了阳光。</p><p>我想起小学的时候，我和好朋友一起爬树，一起踩井盖，一起骑车穿过许多小巷。</p><p>我又想起中学的时候，我和同学们一起踏春，一起参加唱歌比赛，一起打水战。</p><p>我想起我的初恋，想必她也已是白发苍苍。</p><p>七十年了，记忆里的楼房、课桌和一花一草，早已无存。</p><p>原来，我一生中最快乐的时候，竟是我想睡、想吃、想看天上的白云的少年时代。我也叫它……黄金时代。</p><p><img src="https://pic3.zhimg.com/v2-aa95804c811a7c3536ba84baf3c7fc67_r.jpg?source=1940ef5c" alt=""></p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;有时候，看着镜子里的人，常常会想，自己老了是什么样子？&lt;/p&gt;
-&lt;p&gt;银灰色的乱发似乎不愿承认衰老的事实，蜘蛛网悄悄地爬上鼻孔，千沟万壑的皮肤间恍如布满青苔。&lt;/p&gt;
-&lt;p&gt;“恍如”……哦，人生恍如梦。&lt;/p&gt;
-&lt;p&gt;躺在病床上，身上插满大大小小蛇一样的管子。向上看是白色，周围站了一圈认识的和不认识的人——他们挡住了阳光。&lt;/p&gt;
-&lt;p&gt;我知道自己命不久矣，回忆像默片一样开始播放。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="随笔" scheme="http://example.com/categories/%E9%9A%8F%E7%AC%94/"/>
-    
     
   </entry>
   
