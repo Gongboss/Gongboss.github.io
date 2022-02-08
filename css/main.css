@@ -1200,7 +1200,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #79ffff;
+  background: #0829ff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2744,7 +2744,7 @@ ul.breadcrumb li + li:last-child {
   }
 }
 body {
-  background-image: url("images123.jpg");
+  background-image: url("https://imgtu.com/i/H3qGYF");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50% 50%;
