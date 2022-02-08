@@ -31,7 +31,7 @@
 <meta property="og:description" content="¶简单测试 0x06,即0110，左转 0x09,即1001，右转 那么…… 0x0a,即1010，为后退 0x05,即0101，为前进 😈 于是，继续解决红外问题：关键是switch分支与break的问题。 ¶switch中的break 如果加break,在执行完此次case后，便会跳出switch。 而不加switch，从上往下case判断，一旦遇到合适的，便开始执行此次case，尔后非但不">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-02-03T01:39:17.603Z">
-<meta property="article:modified_time" content="2022-02-06T07:07:06.122Z">
+<meta property="article:modified_time" content="2022-02-06T08:07:13.929Z">
 <meta property="article:author" content="弓之剑者">
 <meta property="article:tag" content="编程">
 <meta property="article:tag" content="单片机">
@@ -253,7 +253,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2022-02-06 15:07:06" itemprop="dateModified" datetime="2022-02-06T15:07:06+08:00">2022-02-06</time>
+                <time title="修改时间：2022-02-06 16:07:13" itemprop="dateModified" datetime="2022-02-06T16:07:13+08:00">2022-02-06</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -330,9 +330,10 @@
 <li>转弯（稍后细说）。</li>
 </ol>
 <h3 id="转弯"><a class="header-anchor" href="#转弯">¶</a>转弯</h3>
-<p>目前一共有三种转弯方式：（以左转为例）</p>
+<p>目前一共有三种转弯方式：</p>
 <ol>
 <li>左轮全速减速，右轮全速加速</li>
+<li>右轮全速减速，左轮全速加速</li>
 <li>左轮不动，右轮加速</li>
 <li>右轮不动，左轮加速</li>
 <li>左右轮均加速，且左轮转速小于右轮</li>
@@ -466,7 +467,10 @@
     <a href="/2022/02/01/app%E5%BC%80%E5%8F%912/" rel="prev" title="App开发研究2">
       <i class="fa fa-chevron-left"></i> App开发研究2
     </a></div>
-      <div class="post-nav-item"></div>
+      <div class="post-nav-item">
+    <a href="/2022/02/08/%E6%97%A0%E8%81%8A_%E7%94%B5%E5%AD%90%E5%88%B6%E4%BD%9C/" rel="next" title="无聊_电子制作">
+      无聊_电子制作 <i class="fa fa-chevron-right"></i>
+    </a></div>
     </div>
       </footer>
     
@@ -542,7 +546,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">48</span>
+          <span class="site-state-item-count">49</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
