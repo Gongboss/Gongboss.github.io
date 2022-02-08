@@ -1200,7 +1200,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #8f7091;
+  background: #ff962f;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2744,7 +2744,7 @@ ul.breadcrumb li + li:last-child {
   }
 }
 body {
-  background-image: url("https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2Ff%2F55558b49b15dd.jpg&refer=http%3A%2F%2Fpic1.win4000.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1646926053&t=94c145badea398e73289389fc03f191b");
+  background-image: url("images123.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50% 50%;
