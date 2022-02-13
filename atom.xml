@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-02-10T02:42:41.744Z</updated>
+  <updated>2022-02-13T04:40:01.471Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,60 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>《阿甘正传》短评</title>
+    <link href="http://example.com/2022/02/13/%E3%80%8A%E9%98%BF%E7%94%98%E6%AD%A3%E4%BC%A0%E3%80%8B%E7%9F%AD%E8%AF%84/"/>
+    <id>http://example.com/2022/02/13/%E3%80%8A%E9%98%BF%E7%94%98%E6%AD%A3%E4%BC%A0%E3%80%8B%E7%9F%AD%E8%AF%84/</id>
+    <published>2022-02-13T04:38:41.894Z</published>
+    <updated>2022-02-13T04:40:01.471Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>花了一个上午的时间读完这本书，说起来，比较失望。</p><p>这本书意欲塑造一位自强不息的愚人，但是好像只有在越战、橄榄球赛时，我方读出阿甘的自强不息精神。至于他的诸多成就，更像是命运的巧克力与与生俱来的“白痴学者”造就的。到后来见总统、上太空、丛林生活，作者明显是想讽刺，我却读出了更多的荒诞成分。也许，是我不了解美国人的黑色幽默，而只钟情于姜文的黑色幽默吧。</p><p>但是，做自己认为正确的事，这是我一定要学习的！</p><p>这本书的英文原版也很有风格。作者以白痴的角度写，不仅避免了大量生词，还有意造成大量拼写错误，可惜我不懂美国文化，无法理解这样做的美妙之处。</p><p>总之，常常沉迷于快节奏生活的我确实不太能静下心来体味《阿甘正传》的反讽艺术与阿甘的进取精神，或许等人生阅历更丰富时，我才会有更多像与《百年孤独》那样的共鸣吧！<br><img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fphotocdn.sohu.com%2F20091110%2FImg268099386.jpg&amp;refer=http%3A%2F%2Fphotocdn.sohu.com&amp;app=2002&amp;size=f9999,10000&amp;q=a80&amp;n=0&amp;g=0n&amp;fmt=jpeg?sec=1647319087&amp;t=3f045679c3e10d0f853f977049455211" alt=""></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="随笔" scheme="http://example.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="书评" scheme="http://example.com/tags/%E4%B9%A6%E8%AF%84/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>“百里少侠”号小车设计之最终成果</title>
+    <link href="http://example.com/2022/02/13/%E2%80%9C%E7%99%BE%E9%87%8C%E5%B0%91%E4%BE%A0%E2%80%9D%E5%8F%B7%E5%B0%8F%E8%BD%A6%E8%AE%BE%E8%AE%A1%E4%B9%8B%E6%9C%80%E7%BB%88%E6%88%90%E6%9E%9C/"/>
+    <id>http://example.com/2022/02/13/%E2%80%9C%E7%99%BE%E9%87%8C%E5%B0%91%E4%BE%A0%E2%80%9D%E5%8F%B7%E5%B0%8F%E8%BD%A6%E8%AE%BE%E8%AE%A1%E4%B9%8B%E6%9C%80%E7%BB%88%E6%88%90%E6%9E%9C/</id>
+    <published>2022-02-13T01:40:17.188Z</published>
+    <updated>2022-02-13T01:39:41.894Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>重新进行了测试：</p><p>0101——0x05——原地左转</p><p>0110——0x06——后退</p><p>1010——0x0a——原地右转</p><p>1001——0x09——前进</p><p>0001——0x01——前进左转</p><p>1000——0x08——前进右转</p><p>成功了：视频如下：</p><p><a href="https://www.bilibili.com/video/BV1Vi4y1f7ev">https://www.bilibili.com/video/BV1Vi4y1f7ev</a></p><p>开学何茫然……</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="天工开物" scheme="http://example.com/categories/%E5%A4%A9%E5%B7%A5%E5%BC%80%E7%89%A9/"/>
+    
+    
+    <category term="编程" scheme="http://example.com/tags/%E7%BC%96%E7%A8%8B/"/>
+    
+    <category term="单片机" scheme="http://example.com/tags/%E5%8D%95%E7%89%87%E6%9C%BA/"/>
+    
+    <category term="电子制作" scheme="http://example.com/tags/%E7%94%B5%E5%AD%90%E5%88%B6%E4%BD%9C/"/>
+    
+    <category term="C语言" scheme="http://example.com/tags/C%E8%AF%AD%E8%A8%80/"/>
+    
+  </entry>
   
   <entry>
     <title>无聊_电子制作</title>
@@ -602,78 +656,6 @@ for(i=0;i&amp;lt;=7;i++)
     <category term="媒体" scheme="http://example.com/tags/%E5%AA%92%E4%BD%93/"/>
     
     <category term="乌合之众" scheme="http://example.com/tags/%E4%B9%8C%E5%90%88%E4%B9%8B%E4%BC%97/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>舆论</title>
-    <link href="http://example.com/2021/08/01/%E8%88%86%E8%AE%BA/"/>
-    <id>http://example.com/2021/08/01/%E8%88%86%E8%AE%BA/</id>
-    <published>2021-08-01T06:39:16.264Z</published>
-    <updated>2021-08-23T11:34:17.713Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="爱国"><a class="header-anchor" href="#爱国">¶</a>爱国</h3><p>鸿星尔克——消费者致使企业的产业链出现问题。大家都在赶时髦，这种时髦叫爱国。</p><blockquote><p>当一个人融入社会之中时，他便失去了自我。</p><p>专横和偏执是一切类型群体的共性。</p><p>——《乌合之众》</p></blockquote><p><strong>理性爱国，才是正解。</strong></p><p>中国想要崛起，首先要抵制___</p><p>​A.日货。B.韩货。C.美货。D.蠢货。</p><p>每次抵制的风波一过，日货又卷土重来，重新占领市场。</p><p>真正的抵制，是超越。</p><p>前段时间看到印度抵制“Made in China”时的心情，正是我们抵制耐克、乐天、日系车时外国人的心情。</p><p>对中国研究最透彻的日本，巴不得我们抵制日货呢！</p><p>以及这种“我爱中国，我不该学英语”以及“全世界都在说中国话”的言论，着实让人恼火。</p><p>一个是不听习主席教导（“国际关系和文明互动关系的主要特点变为以交流,沟通,与合作为主要内容，以达到平等、互利、双赢为最终目的。”），一个是过度自信</p><p>不过倒是应该放平心态，不该与这些人理论。</p><h3 id="舆论"><a class="header-anchor" href="#舆论">¶</a>舆论</h3><p>造成这一风气的出现，舆论不可避免地要担一部分责任。</p><p>舆论的领头人是谁？新闻媒体。</p><p>不久前，一小伙约旦被绑，出示国旗后放行。</p><p><img src="https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2021%2F0712%2F14ffb090p00qw401l0031c000fk00lem.png&amp;thumbnail=650x2147483647&amp;quality=80&amp;type=jpg" alt=""></p><span id="more"></span><p><a href="https://imgtu.com/i/WxLfn1"><img src="https://z3.ax1x.com/2021/08/01/WxLfn1.png" alt=""></a></p><p><img src="https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2021%2F0712%2F87fea9a5j00qw401l000uc000c800fwm.jpg&amp;thumbnail=650x2147483647&amp;quality=80&amp;type=jpg" alt=""></p><p>人民日报、澎湃新闻等媒体争相去报道这个事。</p><p>我第一眼看的时候也那么深刻地感受到五星红旗的力量。可越看越不对劲，去知乎一览，果然。</p><p>凡是像考古、新闻一类涉及考据学的方面，都不能违反考据的基本原则。</p><p>媒体报道小伙约旦旅行受阻，靠五星红旗脱险，这没错。</p><p>但若非要把这个事变成一个论据，这就是<strong>孤证难立</strong>！</p><blockquote><p>孤证不立是一个汉语词汇，意思是只**有一条证据支持某个结论，**那么这个结论是不可接受的。 如果只有一条证据支持某个结论，这个结论是不可接受的，在逻辑学上，称为弱命题。 孤证不立的使用范围较广，如法院审判、考古学、考据学，以及在科学研究中为证明某个结论，会从不同的角度设计实验或寻找证据证明。</p></blockquote><p>这在新闻界是常态，更是浮躁的表现。</p><p><img src="https://pic2.zhimg.com/80/v2-f8552654ec235362d8e49ccc21cd758a_720w.jpg?source=1940ef5c" alt=""></p><p>“将口罩生产的各个环节拆开对比，哗众取宠，中国作为世界工厂，生产制造能力不需要这样渲染，作为官方，诱导民众。”</p><p><img src="https://pic1.zhimg.com/80/v2-4aed9cb0c907b0ce4e9acdd265e5b6a3_720w.jpg?source=1940ef5c" alt=""></p><p>“我下意识的打开我的浏览器然后截下了这些图片。”</p><p>“绝对的自由对媒体行业来说，意味着低级趣味。”</p><p>“然而在大调整期间，甚至在大调整之后，我们都可能会看到新闻业怪相百出。俯首皆是断言式新闻、迎合式新闻。这需要大众逐渐建立起分辨新闻真实度的能力。”</p><h3 id="How-to-do"><a class="header-anchor" href="#How-to-do">¶</a>How to do?</h3><blockquote><p>第一步，识别自己所接触的是什么内容。是新闻还是宣传？还是广告?不同的信息，拥有不同的价值观和目标。不同类型的新闻，也拥有各自潜在的准则和动机。</p><p>在确定了自己接触的是什么内容之后，第二步，就是识别这篇新闻报道是否完整。什么是一篇完整的新闻报道？简单说，它应该包括五个要素：谁、何时、何地、做了什么、为什么要那样做。</p><p>第三步是评估信源。首先要明确信源是谁，其次要思考我们为什么要相信他们。例如，专家，是很多媒体喜欢采用的信源类型，但并非所有专家的话都值得采信。应该考虑到的是，他们是否有足够的资格，评论相关的新闻事件。更加需要警惕的是，他们与新闻事件本身是否利益相关，是否能够不偏不倚。不乏一些情况，专家只是被用来说服和操纵受众的工具。</p><p>评估信源之后，第四步，是评估证据。也就是说，在阅读新闻时，不仅要看到它呈现了什么样的事实，还要弄清它们提供了什么样的检验事实的证据。</p><p>第五步，判断媒体是如何处理证据的，是否存在其他可能性的解释。如果是精心挑选证据，再用它来证明预先的观点，这样的报道显然是具有倾向性的。这类报道中，经常会存在一种“恶人谬论”，他们会把某个群体描述为坏人，认为人们之所以做某些事是因为他们本质上就是坏人。而现实往往是复杂的，一篇好的新闻报道，会避免非黑即白的二元对立思维，它们关注真实具体的人，并试图呈现他们行为背后的原因。</p><p>第六步，思考我们有必要知道这些信息吗？如何找到真正重要的新闻？作者给出的建议是，发现并关注那些始终出色的、值得信任的品牌媒体和个人。</p></blockquote><p>以上就是“怀疑性认知”六步法。</p><p>以及朱光潜先生的话：“我们要能于叫嚣扰攘中：以冷静态度，灼见世弊；以深沉思考，规划方略；以坚强意志，征服障碍。总而言之，我们要自由伸张自我，不要汩没在十字街头的影响里去。”</p>]]></content>
-    
-    
-    <summary type="html">&lt;h3 id=&quot;爱国&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#爱国&quot;&gt;¶&lt;/a&gt;爱国&lt;/h3&gt;
-&lt;p&gt;鸿星尔克——消费者致使企业的产业链出现问题。大家都在赶时髦，这种时髦叫爱国。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;当一个人融入社会之中时，他便失去了自我。&lt;/p&gt;
-&lt;p&gt;专横和偏执是一切类型群体的共性。&lt;/p&gt;
-&lt;p&gt;——《乌合之众》&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;理性爱国，才是正解。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;中国想要崛起，首先要抵制___&lt;/p&gt;
-&lt;p&gt;​	A.日货。B.韩货。C.美货。D.蠢货。&lt;/p&gt;
-&lt;p&gt;每次抵制的风波一过，日货又卷土重来，重新占领市场。&lt;/p&gt;
-&lt;p&gt;真正的抵制，是超越。&lt;/p&gt;
-&lt;p&gt;前段时间看到印度抵制“Made in China”时的心情，正是我们抵制耐克、乐天、日系车时外国人的心情。&lt;/p&gt;
-&lt;p&gt;对中国研究最透彻的日本，巴不得我们抵制日货呢！&lt;/p&gt;
-&lt;p&gt;以及这种“我爱中国，我不该学英语”以及“全世界都在说中国话”的言论，着实让人恼火。&lt;/p&gt;
-&lt;p&gt;一个是不听习主席教导（“国际关系和文明互动关系的主要特点变为以交流,沟通,与合作为主要内容，以达到平等、互利、双赢为最终目的。”），一个是过度自信&lt;/p&gt;
-&lt;p&gt;不过倒是应该放平心态，不该与这些人理论。&lt;/p&gt;
-&lt;h3 id=&quot;舆论&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#舆论&quot;&gt;¶&lt;/a&gt;舆论&lt;/h3&gt;
-&lt;p&gt;造成这一风气的出现，舆论不可避免地要担一部分责任。&lt;/p&gt;
-&lt;p&gt;舆论的领头人是谁？新闻媒体。&lt;/p&gt;
-&lt;p&gt;不久前，一小伙约旦被绑，出示国旗后放行。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2021%2F0712%2F14ffb090p00qw401l0031c000fk00lem.png&amp;amp;thumbnail=650x2147483647&amp;amp;quality=80&amp;amp;type=jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="随笔" scheme="http://example.com/categories/%E9%9A%8F%E7%AC%94/"/>
-    
-    
-    <category term="乌合之众" scheme="http://example.com/tags/%E4%B9%8C%E5%90%88%E4%B9%8B%E4%BC%97/"/>
-    
-    <category term="新闻" scheme="http://example.com/tags/%E6%96%B0%E9%97%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>无叶风扇</title>
-    <link href="http://example.com/2021/07/30/%E6%97%A0%E5%8F%B6%E9%A3%8E%E6%89%87/"/>
-    <id>http://example.com/2021/07/30/%E6%97%A0%E5%8F%B6%E9%A3%8E%E6%89%87/</id>
-    <published>2021-07-30T15:25:23.605Z</published>
-    <updated>2021-08-23T11:35:01.442Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><a href="https://imgtu.com/i/WXwoAH"><img src="https://z3.ax1x.com/2021/07/30/WXwoAH.jpg" alt=""></a></p><p>这是一个无叶风扇，之前偶然从科学松鼠会上看到，便花时间做了出来。</p><p>按流体动力学大神的解释，由于出风口的缩小，其风速至少会达到原来的十五倍。我做的这个虽然没这种感觉，不过凑近去还挺清凉。</p><p>我原想将整个装置独立出来，但不会做谐振电路，怕糟蹋了这么棒的马达，便连在了单片机的直流电机模块上。</p><figure class="highlight c"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>{</span><br><span class="line">u8 i;</span><br><span class="line">moto = <span class="number">0</span>;<span class="comment">//关闭电机</span></span><br><span class="line"><span class="keyword">for</span>(i = <span class="number">0</span>; i &lt; <span class="number">100</span>; i ++)  <span class="comment">//循环100次，也就是大约5S</span></span><br><span class="line">{</span><br><span class="line">moto = <span class="number">1</span>; <span class="comment">//开启电机</span></span><br><span class="line">delay(<span class="number">5000</span>);<span class="comment">//大约延时50ms</span></span><br><span class="line">}</span><br><span class="line">moto = <span class="number">0</span>;<span class="comment">//关闭电机</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">while</span>(<span class="number">1</span>)</span><br><span class="line">{</span><br><span class="line"></span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure><p>这起码可以保证电机的寿命。</p><span id="more"></span><p>无叶风扇奇就奇在无叶上，这是它的原理图，我从网上搜的。</p><p><img src="https://www.dgzj.com/uploads/allimg/150617/0G02555R-2.jpg" alt="">)</p><p>制作时，圆环与圆柱连接部分的计算有些超纲。不过想到了这是圆的一部分在圆柱侧面上的射影，一束平行光就能解决。但最后还是用手比划，凭感觉剪裁。（其实是懒得算😜）</p><p>假期快过半了，一种紧迫感时不时袭击全身。</p><p>❤️‍🩹👇</p><p><img src="https://tse1-mm.cn.bing.net/th/id/R-C.eb140ef5cca7ba6d63b1b19df619e18b?rik=rf9um4cBBfiS4w&amp;riu=http%3a%2f%2f5b0988e595225.cdn.sohucs.com%2fimages%2f20190626%2f118b6ccaf7d44a1fac2d1f40a0829580.jpeg&amp;ehk=iC5GDrljr6IV84w7fBSMphSAO3kr%2bwTLJaUftFdSqO4%3d&amp;risl=&amp;pid=ImgRaw" alt=""></p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://imgtu.com/i/WXwoAH&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/07/30/WXwoAH.jpg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;这是一个无叶风扇，之前偶然从科学松鼠会上看到，便花时间做了出来。&lt;/p&gt;
-&lt;p&gt;按流体动力学大神的解释，由于出风口的缩小，其风速至少会达到原来的十五倍。我做的这个虽然没这种感觉，不过凑近去还挺清凉。&lt;/p&gt;
-&lt;p&gt;我原想将整个装置独立出来，但不会做谐振电路，怕糟蹋了这么棒的马达，便连在了单片机的直流电机模块上。&lt;/p&gt;
-&lt;figure class=&quot;highlight c&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;()&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;/span&gt;{	&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	u8 i;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	moto = &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;;			&lt;span class=&quot;comment&quot;&gt;//关闭电机&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;keyword&quot;&gt;for&lt;/span&gt;(i = &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;; i &amp;lt; &lt;span class=&quot;number&quot;&gt;100&lt;/span&gt;; i ++)	  &lt;span class=&quot;comment&quot;&gt;//循环100次，也就是大约5S&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	{&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		moto = &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;;			 &lt;span class=&quot;comment&quot;&gt;//开启电机&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		delay(&lt;span class=&quot;number&quot;&gt;5000&lt;/span&gt;);	&lt;span class=&quot;comment&quot;&gt;//大约延时50ms&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	}&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	moto = &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;;			&lt;span class=&quot;comment&quot;&gt;//关闭电机&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;keyword&quot;&gt;while&lt;/span&gt;(&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	{	&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;						&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	}&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;这起码可以保证电机的寿命。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="天工开物" scheme="http://example.com/categories/%E5%A4%A9%E5%B7%A5%E5%BC%80%E7%89%A9/"/>
-    
-    
-    <category term="单片机" scheme="http://example.com/tags/%E5%8D%95%E7%89%87%E6%9C%BA/"/>
-    
-    <category term="艺" scheme="http://example.com/tags/%E8%89%BA/"/>
     
   </entry>
   
