@@ -1200,7 +1200,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ff94d7;
+  background: #3cffc7;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2744,14 +2744,14 @@ ul.breadcrumb li + li:last-child {
   }
 }
 body {
-  background-image: url("https://uploadbeta.com/share-image/hp5");
+  background-image: url("https://uploadbeta.com/share-image/hpa");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50% 50%;
   background-size: cover;
 }
 .content-wrap {
-  opacity: 0.9;
+  opacity: 0.8;
 }
 ​,
 .sidebar {
