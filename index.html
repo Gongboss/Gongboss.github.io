@@ -216,6 +216,208 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/03/27/%E5%8F%91%E9%85%B5%E7%93%B6%E7%A0%94%E7%A9%B6%E6%97%A5%E5%BF%97/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="弓之剑者">
+      <meta itemprop="description" content="心之所向，无惧无悔，愿求仁得仁，复无怨怼。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="落秋阁">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2022/03/27/%E5%8F%91%E9%85%B5%E7%93%B6%E7%A0%94%E7%A9%B6%E6%97%A5%E5%BF%97/" class="post-title-link" itemprop="url">发酵瓶研究日志</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2022-03-27 12:03:30 / 修改时间：12:03:27" itemprop="dateCreated datePublished" datetime="2022-03-27T12:03:30+08:00">2022-03-27</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%A4%A9%E5%B7%A5%E5%BC%80%E7%89%A9/" itemprop="url" rel="index"><span itemprop="name">天工开物</span></a>
+                </span>
+            </span>
+
+          
+            <span id="/2022/03/27/%E5%8F%91%E9%85%B5%E7%93%B6%E7%A0%94%E7%A9%B6%E6%97%A5%E5%BF%97/" class="post-meta-item leancloud_visitors" data-flag-title="发酵瓶研究日志" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2022/03/27/%E5%8F%91%E9%85%B5%E7%93%B6%E7%A0%94%E7%A9%B6%E6%97%A5%E5%BF%97/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2022/03/27/%E5%8F%91%E9%85%B5%E7%93%B6%E7%A0%94%E7%A9%B6%E6%97%A5%E5%BF%97/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>1.8k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>2 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>制作一个发酵瓶。</p>
+<p>目前手头有一个汽车车灯，上面标有“12V 60/55W”,考虑用这个来加热。所以，第一步就是降压。</p>
+<h2 id="降压"><a class="header-anchor" href="#降压">¶</a>降压</h2>
+<p>降压最初想到的是降压电容，但功率着实太低，所以暂不考虑。</p>
+<p>可用的元件就只有变压器了。</p>
+<p>手头一共三个变压器，但只有一个知道参数，输出的是18V300MA，不合要求，最终从另外两个中选择了一个变压器。<br>
+<img src="https://s1.ax1x.com/2022/03/27/qwLdy9.jpg" alt=""></p>
+<p>这个变压器是连在一个以前做过的电路上的，效果就是通电点亮一个LED，断电后仍能显示一段时间。用了桥式整流与三极管、电容，可能是个枕边方便灯吧。</p>
+<p>先进行万用表测试，接在整流桥的输入端，读数7.56V上下波动。。应该是足够了。</p>
+<p>然后是预实验，如图，感觉良好。可以启动。<br>
+<img src="https://s1.ax1x.com/2022/03/27/qwLwLR.jpg" alt=""><br>
+##单片机供电<br>
+接了一个充电器电路板，稍稍成功。</p>
+<p>##控制电路<br>
+控制电路的核心在继电器，这里选用4098型号的，是从初中物理实验箱里找到的。<br>
+<img src="https://iknow-pic.cdn.bcebos.com/ca1349540923dd54dd0b8506d109b3de9c824867" alt=""></p>
+<p>这里选取3v、0.36W，需电流0.12A，即120mA。而单片机管脚输出电压30ma，需要用三极管放大。</p>
+<p>三极管选用NPN型，2N3904。<br>
+<img src="https://img-blog.csdn.net/20170313144530714?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbmR0aG9tZQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center" alt=""></p>
+<p>上拉电阻用100欧，再去掉图中R2，进行面包板预实验。</p>
+<p>实验发现3094不行，8050才行。</p>
+<p>用万用表检测通路，一切良好。如图<br>
+<img src="https://s1.ax1x.com/2022/03/27/qwLNz4.jpg" alt=""></p>
+<p>焊入电路板</p>
+<p>发现不能离开单片机板子，于是只好“拖家带口”了。</p>
+<p>继电器再接上加热灯，算是成功了！</p>
+<h2 id="程序"><a class="header-anchor" href="#程序">¶</a>程序</h2>
+<details><summary><font size="4" color="orange">显示代码</font></summary><pre><code class="language-cpp">#include "reg52.h"			 
+#include"temp.h"	
+<p>typedef unsigned int u16;	  //对数据类型进行声明定义<br>
+typedef unsigned char u8;</p>
+<p>sbit L=P2^2;</p>
+<p>char num=0;<br>
+void delay(u16 i)<br>
+{<br>
+while(i–);	<br>
+}</p>
+<p>void datapros(int temp) 	<br>
+{<br>
+float tp;<br>
+if(temp&lt; 0)				//当温度值为负数<br>
+{ 	  //   -<br>
+//因为读取的温度是实际温度的补码，所以减1，再取反求出原码<br>
+temp=temp-1;<br>
+temp=~temp;<br>
+tp=temp;<br>
+temp=tp<em>0.0625</em>100+0.5;	<br>
+//留两个小数点就*100，+0.5是四舍五入，因为C语言浮点数转换为整型的时候把小数点<br>
+//后面的数自动去掉，不管是否大于0.5，而+0.5之后大于0.5的就是进1了，小于0.5的就<br>
+<a target="_blank" rel="noopener" href="//xn--0-ko6ar0mr67c.5">//算加上0.5</a>，还是在小数点后面。</p>
+<pre><code>}
+else
+{			
+	tp=temp;//因为数据处理有小数点所以将温度赋给一个浮点型变量
+	//如果温度是正的那么，那么正数的原码就是补码它本身
+	temp=tp*0.0625*100+0.5;	
+	//留两个小数点就*100，+0.5是四舍五入，因为C语言浮点数转换为整型的时候把小数点
+	//后面的数自动去掉，不管是否大于0.5，而+0.5之后大于0.5的就是进1了，小于0.5的就
+	//算加上0.5，还是在小数点后面。
+}
+</code></pre>
+<p>}</p>
+<p>void DigDisplay()<br>
+{<br>
+if(temp &lt;= 27)<br>
+{L = 1;}<br>
+else if(temp &gt; 32)<br>
+{L = 0;}</p>
+<p>}</p>
+</code><p><code class="language-cpp">void main()<br>
+{	<br>
+while(1)<br>
+{<br>
+datapros(Ds18b20ReadTemp());	 //数据处理函数<br>
+DigDisplay();//数码管显示函数		<br>
+}		<br>
+}<br>
+</code><br>
+</p></pre> </details><br>
+另一个temp文件我也没理解，就不放了。<p></p>
+<p>模拟实验后发现一个大问题：如果温度介于27与32，会一直闪。</p>
+<p>于是修改了一些程序：</p>
+<pre><code>DisplayData[1] = smgduan[temp % 10000 / 1000];
+DisplayData[2] = smgduan[temp % 1000 / 100];
+DisplayData[3] = smgduan[temp %  100 / 10];
+DisplayData[4] = smgduan[temp %  10 / 1];
+if(temp % 10000 / 1000 &lt;=2 &amp;&amp; temp % 1000 / 100&lt;=7)
+{L = 1;delay(10000000);}
+else
+{L = 0;}
+</code></pre>
+<h2 id="成品"><a class="header-anchor" href="#成品">¶</a>成品</h2>
+<p><img src="https://s1.ax1x.com/2022/03/27/qwLBe1.jpg" alt=""></p>
+<p>这里一定要特别感谢展旭同志，他提出了很多富有创新性的意见，只是迫于材料缺乏、技术要求难以实现。这里务必向展旭表示抱歉🙇‍♂️🙇‍♂️🙇‍♂️<br>
+<img src="https://s1.ax1x.com/2022/03/27/qwOTBR.jpg" alt="展旭的想法"></p>
+<p>*参考文章：<br>
+<a target="_blank" rel="noopener" href="http://www.360doc.com/content/20/0108/02/29220854_884827351.shtml">http://www.360doc.com/content/20/0108/02/29220854_884827351.shtml</a></p>
+<p><a target="_blank" rel="noopener" href="https://m.elecfans.com/article/1263258.html">https://m.elecfans.com/article/1263258.html</a></p>
+<p><a target="_blank" rel="noopener" href="https://m.elecfans.com/article/898525.html">https://m.elecfans.com/article/898525.html</a><br>
+*</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://example.com/2022/02/13/%E3%80%8A%E9%98%BF%E7%94%98%E6%AD%A3%E4%BC%A0%E3%80%8B%E7%9F%AD%E8%AF%84/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -757,127 +959,6 @@
   
   
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2022/02/01/app%E5%BC%80%E5%8F%912/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.png">
-      <meta itemprop="name" content="弓之剑者">
-      <meta itemprop="description" content="心之所向，无惧无悔，愿求仁得仁，复无怨怼。">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="落秋阁">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2022/02/01/app%E5%BC%80%E5%8F%912/" class="post-title-link" itemprop="url">App开发研究2</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2022-02-01 11:49:20 / 修改时间：14:22:11" itemprop="dateCreated datePublished" datetime="2022-02-01T11:49:20+08:00">2022-02-01</time>
-            </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E5%AD%A6%E4%B9%A0/" itemprop="url" rel="index"><span itemprop="name">学习</span></a>
-                </span>
-            </span>
-
-          
-            <span id="/2022/02/01/app%E5%BC%80%E5%8F%912/" class="post-meta-item leancloud_visitors" data-flag-title="App开发研究2" title="阅读次数">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
-              </span>
-              <span class="post-meta-item-text">阅读次数：</span>
-              <span class="leancloud-visitors-count"></span>
-            </span>
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">Valine：</span>
-    
-    <a title="valine" href="/2022/02/01/app%E5%BC%80%E5%8F%912/#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/2022/02/01/app%E5%BC%80%E5%8F%912/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>860</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>我需要用到的函数：<br>
-切换窗口(读取窗口(“窗口名称”))<br>
-弹出提示(“提示内容”)<br>
-哈！缩小了图片，成功啦！</p>
-<table>
-    <tbody><tr>
-        <td><center><img src="https://s4.ax1x.com/2022/02/01/HFwEwD.jpg"></center></td>
-        <td><center><img src="https://s4.ax1x.com/2022/02/01/HFwVTe.jpg"></center></td>
-    </tr>
-</tbody></table>
-还有两个窗口，不好截图……
-还放了段音乐，梦璃的主题曲《织梦行云》。
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2022/02/01/app%E5%BC%80%E5%8F%912/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
 
   
   <nav class="pagination">
@@ -949,7 +1030,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">51</span>
+          <span class="site-state-item-count">52</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -1016,13 +1097,13 @@
       <i class="fa fa-chart-area"></i>
     </span>
       <span class="post-meta-item-text">站点总字数：</span>
-    <span title="站点总字数">142k</span>
+    <span title="站点总字数">143k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">2:09</span>
+    <span title="站点阅读时长">2:10</span>
 </div>
 
 <!--
