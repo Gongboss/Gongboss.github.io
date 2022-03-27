@@ -241,7 +241,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2022-03-27 12:03:30 / 修改时间：12:03:27" itemprop="dateCreated datePublished" datetime="2022-03-27T12:03:30+08:00">2022-03-27</time>
+              <time title="创建时间：2022-03-27 12:03:30 / 修改时间：12:08:37" itemprop="dateCreated datePublished" datetime="2022-03-27T12:03:30+08:00">2022-03-27</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -309,11 +309,11 @@
 <p>这个变压器是连在一个以前做过的电路上的，效果就是通电点亮一个LED，断电后仍能显示一段时间。用了桥式整流与三极管、电容，可能是个枕边方便灯吧。</p>
 <p>先进行万用表测试，接在整流桥的输入端，读数7.56V上下波动。。应该是足够了。</p>
 <p>然后是预实验，如图，感觉良好。可以启动。<br>
-<img src="https://s1.ax1x.com/2022/03/27/qwLwLR.jpg" alt=""><br>
-##单片机供电<br>
-接了一个充电器电路板，稍稍成功。</p>
-<p>##控制电路<br>
-控制电路的核心在继电器，这里选用4098型号的，是从初中物理实验箱里找到的。<br>
+<img src="https://s1.ax1x.com/2022/03/27/qwLwLR.jpg" alt=""></p>
+<h2 id="单片机供电"><a class="header-anchor" href="#单片机供电">¶</a>单片机供电</h2>
+<p>接了一个充电器电路板，稍稍成功。</p>
+<h2 id="控制电路"><a class="header-anchor" href="#控制电路">¶</a>控制电路</h2>
+<p>控制电路的核心在继电器，这里选用4098型号的，是从初中物理实验箱里找到的。<br>
 <img src="https://iknow-pic.cdn.bcebos.com/ca1349540923dd54dd0b8506d109b3de9c824867" alt=""></p>
 <p>这里选取3v、0.36W，需电流0.12A，即120mA。而单片机管脚输出电压30ma，需要用三极管放大。</p>
 <p>三极管选用NPN型，2N3904。<br>
