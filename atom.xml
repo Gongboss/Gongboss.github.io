@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-03-27T04:08:37.460Z</updated>
+  <updated>2022-07-03T14:50:15.367Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>放假随笔</title>
+    <link href="http://example.com/2022/07/03/JISHI/"/>
+    <id>http://example.com/2022/07/03/JISHI/</id>
+    <published>2022-07-03T14:49:22.394Z</published>
+    <updated>2022-07-03T14:50:15.367Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>阿姨今天哭了。</p><p>我看着她不住地擦眼泪，不住地控制自己的泪水。</p><p>她说，她舍不得我们。</p><p>她抱了抱我，最后嘱托了我些事。</p><p>而我呢？从头到尾只会傻傻地说：“阿姨没事，我们以后有缘一定会再见的……”</p><p>此刻，阿姨也许正看着空荡荡的楼道，默默的流泪，抑或是放声大哭……陪伴她的，没有那一张张可爱的面庞，只有一根孤零零的自拍杆……</p><hr><p>中考前，我把《百年孤独》捧在手里反复看了多遍。</p><p>什么是享受孤独？</p><p>就是你独自坐在一个角落里，听着别人的欢声笑语，沉浸在自己的世界里，安然自得。</p><p>我坚信，“人生终究是一场单人的旅行”，即便是最忠贞的爱情，也终会化为灰烬，唯有孤独永恒。</p><p>我会用自己的能力去赢得别人的尊重，而不是靠人与人之间的关系，这也是这个学期开始，我逐渐缩小朋友圈的原因。</p><hr><p>说起来，这个月发生了好多事。</p><p>先是数学老师被气哭，所以有一系列挽回的事。</p><p>然后是高考、会考，搬楼、搬宿舍……</p><p>见到了特别想见的人，此后一生都不会再见面了。有点小遗憾，但心满意足。</p><p>考试又一次拉跨……只剩这个假期了。</p><p>希望时间过得快一些，好让我见识见识生活这盒巧克力有多美味！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="随记" scheme="http://example.com/categories/%E9%9A%8F%E8%AE%B0/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>发酵瓶研究日志</title>
@@ -618,35 +640,6 @@ for(i=0;i&amp;lt;=7;i++)
 &lt;p&gt;LED一个&lt;/p&gt;
 &lt;p&gt;mic一个&lt;/p&gt;
 &lt;p&gt;电路图：&lt;img src=&quot;https://www.dgzj.com/uploads/allimg/180602/153A34222-0.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;实物图：&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="天工开物" scheme="http://example.com/categories/%E5%A4%A9%E5%B7%A5%E5%BC%80%E7%89%A9/"/>
-    
-    
-    <category term="电子制作" scheme="http://example.com/tags/%E7%94%B5%E5%AD%90%E5%88%B6%E4%BD%9C/"/>
-    
-    <category term="艺" scheme="http://example.com/tags/%E8%89%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>枕边方便灯</title>
-    <link href="http://example.com/2021/09/11/%E6%9E%95%E8%BE%B9%E6%96%B9%E4%BE%BF%E7%81%AF/"/>
-    <id>http://example.com/2021/09/11/%E6%9E%95%E8%BE%B9%E6%96%B9%E4%BE%BF%E7%81%AF/</id>
-    <published>2021-09-11T01:41:13.735Z</published>
-    <updated>2021-09-11T13:40:12.581Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>材料:</p><p>电阻：56k（绿蓝橙）一个，10k（棕黑橙）一个，330（橙橙棕）一个</p><p>三极管：9014一个、9012一个</p><p>开关：一个</p><p>LED：一个</p><p>电路图：<img src="http://img.mp.itc.cn/upload/20160816/2225c9cd42234f6cae0f394581da0a12_th.jpeg" alt=""></p><p>实物图：</p><span id="more"></span><p><a href="https://imgtu.com/i/hxTPVP"><img src="https://z3.ax1x.com/2021/09/11/hxTPVP.jpg" alt=""></a></p><p>实际上，由于元件不足，Q1的偏置电阻我用的100k。电容原来用的470μ，因为测试延时时间太长，有点耗电，便用了47μ。</p><p>VCC为3V，那么电容电荷量Q=1.47*10^(-6)C.</p><p>放电时，有Q=I·t……</p><p>等等，放电时C的电压一直在变。既然R1不变，那么I不可能不变。如此一来，就无法用这个公式算时间。</p><p>而电容放电时间公式我还没学……</p><p>好吧，只好实测t≈32s。有点长，但足够在宿舍使用了，而且体积小…🤐</p><p>另外，焊接的时候才明白，要想把挂在烙铁头上的锡焊上去，关键必须使被焊部分达到与烙铁头相同的温度才行。</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;材料:&lt;/p&gt;
-&lt;p&gt;电阻：56k（绿蓝橙）一个，10k（棕黑橙）一个，330（橙橙棕）一个&lt;/p&gt;
-&lt;p&gt;三极管：9014一个、9012一个&lt;/p&gt;
-&lt;p&gt;开关：一个&lt;/p&gt;
-&lt;p&gt;LED：一个&lt;/p&gt;
-&lt;p&gt;电路图：&lt;img src=&quot;http://img.mp.itc.cn/upload/20160816/2225c9cd42234f6cae0f394581da0a12_th.jpeg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;实物图：&lt;/p&gt;</summary>
     
     
